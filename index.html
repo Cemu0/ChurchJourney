@@ -494,40 +494,91 @@
         const auth = getAuth(app);
 
         const provider = new GoogleAuthProvider();
+    
+        // setPersistence(auth, browserLocalPersistence)
+        //     .then(() => {
+        //         // Now you can call signInWithRedirect
+        //         signInWithRedirect(auth, provider);
+        //     })
+        //     .catch((error) => {
+        //         console.error("Error setting persistence:", error);
+        //     });
+
+        // function renderGoogleSignInButton() {
+        //     const container = document.getElementById('google-signin-container');
+        //     container.innerHTML = `
+        //         <button id="google-signin-button">Sign In with Google</button>
+        //     `;
+
+        //     document.getElementById('google-signin-button').addEventListener('click', () => {
+        //         signInWithPopup(auth, provider)
+        //             .then((result) => {
+        //                 const user = result.user;
+        //                 console.log("Sign-In Successful:", user);
+        //                 document.getElementById('user-info').innerHTML = `
+        //                     <p>Signed in as: ${user.displayName} (${user.email})</p>
+        //                     <button onclick="googleSignOut()">Sign Out</button>
+        //                 `;
+
+        //                 // Show elements with the "auth-only" class
+        //                 document.querySelectorAll('.auth-only').forEach(element => {
+        //                     element.style.display = 'table-cell';
+        //                 });
+        //             })
+        //             .catch((error) => {
+        //                 console.error("Error during sign-in:", error);
+        //                 alert("Failed to sign in. Please try again.");
+        //             });
+        //     });
+        // }
+        // Initialize the sign-in button on page load
+        // document.addEventListener('DOMContentLoaded', () => {
+        //     renderGoogleSignInButton();
+        // });
 
         // Google Sign-In
         function googleSignIn() {
-            console.log("Initiating Google Sign-In with reCAPTCHA...");
-            grecaptcha.ready(() => {
-                // Execute reCAPTCHA with the "login" action
-                grecaptcha.execute('6Les8fwqAAAAAEoRBZYnnbEz7AS4X0IBaJxAjnin', { action: 'submit' })
-                    .then(token => {
-                        console.log("reCAPTCHA token:", token);
-                        // Optionally, send the token to your server for verification
-                        signInWithPopup(auth, provider)
-                                .then((result) => {
-                                    const user = result.user;
-                                    console.log("Sign-In Successful:", user);
-                                    document.getElementById('user-info').innerHTML = `
-                                        <p>Signed in as: ${user.displayName} (${user.email})</p>
-                                        <button onclick="googleSignOut()">Sign Out</button>
-                                    `;
-                                })
-                                .catch((error) => {
-                                    if (error.code === 'auth/popup-blocked') {
-                                        console.warn("Popup blocked. Falling back to redirect.");
-                                        signInWithRedirect(auth, provider);
-                                    } else {
-                                        console.error("Error during sign-in:", error);
-                                        alert("Failed to sign in. Please try again.");
-                                    }
-                                });
-                    })
-                    .catch(error => {
-                        console.error("Error executing reCAPTCHA:", error);
-                        alert("Failed to verify reCAPTCHA. Please try again.");
-                    });
+            signInWithPopup(auth, provider)
+            .then((result) => {
+                const user = result.user;
+                console.log("Sign-In Successful:", user);
+                // authWindow.close(); // Close the new tab after successful sign-in
+                document.getElementById('user-info').innerHTML = `
+                    <p>Signed in as: ${user.displayName} (${user.email})</p>
+                    <button onclick="googleSignOut()">Sign Out</button>
+                `;
+            })
+            .catch((error) => {
+                if (error.code === 'auth/popup-blocked') {
+                    console.warn("Popup blocked. Falling back to redirect.");
+                    alert("Please allow pop-ups to sign in.");
+                    // authWindow.location.href = "about:blank"; // Set the new tab to blank
+                    // signInWithRedirect(auth, provider); // Redirect in the new tab
+                } else {
+                    console.error("Error during sign-in:", error);
+                    alert("Failed to sign in. Please try again.");
+                    // authWindow.close(); // Close the tab even if there's an error
+                }
             });
+
+            // console.log("Initiating Google Sign-In with reCAPTCHA...");
+            // grecaptcha.ready(() => {
+            //     // Execute reCAPTCHA with the "login" action
+            //     grecaptcha.execute('6Les8fwqAAAAAEoRBZYnnbEz7AS4X0IBaJxAjnin', { action: 'submit' })
+            //         .then(token => {
+            //             console.log("reCAPTCHA token:", token);
+        
+            //             // Open a new tab for the redirect
+            //             // const authWindow = window.open('', '_blank'); // Open a blank tab
+        
+            //             // Use signInWithPopup first
+                        
+            //         })
+            //         .catch(error => {
+            //             console.error("Error executing reCAPTCHA:", error);
+            //             alert("Failed to verify reCAPTCHA. Please try again.");
+            //         });
+            // });
         }
         
         // Restore user session on page load
@@ -567,26 +618,24 @@
 
         // Handle redirect result
         // document.addEventListener("DOMContentLoaded", () => {
-        //     console.log("Checking for redirect result...");
-        //     getRedirectResult(auth)
-        //         .then((result) => {
-        //             if (result && result.user) {
-        //                 const user = result.user;
-        //                 console.log("Sign-In Result:", result);
-        //                 alert(`Welcome back, ${user.displayName}!`);
-        //                 document.getElementById('user-info').innerHTML = `
-        //                     <p>Signed in as: ${user.displayName} (${user.email})</p>
-        //                     <button onclick="window.googleSignOut()">Sign Out</button>
-        //                 `;
-        //                 findClosestChurches(); // Refresh the church list
-        //             } else {
-        //                 console.log("No redirect result found.");
-        //             }
-        //         })
-        //         .catch((error) => {
-        //             console.error("Error during redirect sign-in:", error);
-        //             alert("Failed to sign in. Please try again.");
-        //         });
+        // getRedirectResult(auth)
+        //     .then((result) => {
+        //         if (result && result.user) {
+        //             const user = result.user;
+        //             console.log("Sign-In Result:", result);
+        //             alert(`Welcome back, ${user.displayName}!`);
+        //             document.getElementById('user-info').innerHTML = `
+        //                 <p>Signed in as: ${user.displayName} (${user.email})</p>
+        //                 <button onclick="googleSignOut()">Sign Out</button>
+        //             `;
+        //         } else {
+        //             console.log("No redirect result found.");
+        //         }
+        //     })
+        //     .catch((error) => {
+        //         console.error("Error during redirect sign-in:", error);
+        //         alert("Failed to sign in. Please try again.");
+        //     });
         // });
     
         // Google Sign-Out
