@@ -33,7 +33,7 @@
     },
     {
         "Time": "05:00 06:30 09:30 17:00",
-        "Name": "Thánh Giuse",
+        "Name": "Thánh Giuse (Gò Vấp)",
         "Address": "36 Nguyễn Du, phường 7, quận Gò Vấp",
         "giáo hạt": "Giáo hạt Gò Vấp",
         "location": "10.82578288, 106.6859663",
@@ -129,7 +129,7 @@
     },
     {
         "Time": "\"05:00 06:30 08:00 10:00 15:30 17:00 18:30 20:00\"",
-        "Name": "Đức Mẹ Hằng Cứu Giúp",
+        "Name": "Đức Mẹ Hằng Cứu Giúp (Tân Định)",
         "Address": "38 Kỳ Đồng, phường 9, quận 3",
         "giáo hạt": "Giáo hạt Tân Định",
         "location": "10.8495083, 106.6717399",
@@ -137,7 +137,7 @@
     },
     {
         "Time": "05:00 07:30 17:30 19:00",
-        "Name": "Đức Mẹ Hằng Cứu Giúp",
+        "Name": "Đức Mẹ Hằng Cứu Giúp (Xóm Mới)",
         "Address": "5/82 Lê Đức Thọ, phường 15, quận Gò Vấp",
         "giáo hạt": "Giáo hạt Xóm Mới",
         "location": "10.8495083, 106.6717399",
@@ -145,7 +145,7 @@
     },
     {
         "Time": "05:00, 07:00 15:00 16:30 17:45",
-        "Name": "Thánh Nguyễn Duy Khang",
+        "Name": "Thánh Nguyễn Duy Khang (Bình Thạnh)",
         "Address": "195/29 Xô Viết Nghệ Tĩnh, phường 17, quận Bình Thạnh",
         "giáo hạt": "Giáo hạt Gia Định",
         "location": "10.79940376, 106.7099951",
@@ -209,7 +209,7 @@
     },
     {
         "Time": "\"05:00 07:00 17:00 19:00\"",
-        "Name": "Tân Hưng",
+        "Name": "Tân Hưng (Quận 12)",
         "Address": "1C Khu phố I, phường Tân Thới Hiệp, quận 12",
         "giáo hạt": "Giáo hạt Hóc Môn",
         "location": "10.849244, 106.6672039",
@@ -217,7 +217,7 @@
     },
     {
         "Time": "04:00, 06:00 & 16:30",
-        "Name": "Tân Hưng",
+        "Name": "Tân Hưng (Gò Vấp)",
         "Address": "2/43 Lê Đức Thọ, phường 15, quận Gò Vấp",
         "giáo hạt": "Giáo hạt Xóm Mới",
         "location": "10.849244, 106.6672039",
@@ -305,7 +305,7 @@
     },
     {
         "Time": "\"05:00 07:00 17:00\"",
-        "Name": "Hiển Linh",
+        "Name": "Hiển Linh (Bình Thạnh)",
         "Address": "5GH Ngô Tất Tố, phường 22, quận Bình Thạnh",
         "giáo hạt": "Giáo hạt Gia Định",
         "location": "10.79182225, 106.7137035",
@@ -313,7 +313,7 @@
     },
     {
         "Time": "\"06:00 08:00 16:30\"",
-        "Name": "Chúa Hiển Linh",
+        "Name": "Chúa Hiển Linh (Quận 6)",
         "Address": "38 Kinh Dương Vương, phường 13, quận 6",
         "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
         "location": "10.79182225, 106.7137035",
@@ -321,7 +321,7 @@
     },
     {
         "Time": "\"05:00 07:00 17:00\"",
-        "Name": "Hiển Linh",
+        "Name": "Hiển Linh (Thủ Đức)",
         "Address": "19 đường 5, khu phố 2, phường Linh Trung, thành phố Thủ Đức",
         "giáo hạt": "Giáo hạt Thủ Đức",
         "location": "10.8613604, 106.7633679",
@@ -369,7 +369,7 @@
     },
     {
         "Time": "\"04:30 08:00 15:00 17:00 19:00\"",
-        "Name": "Thánh Nguyễn Duy Khang",
+        "Name": "Thánh Nguyễn Duy Khang (Thủ Đức)",
         "Address": "32 đường 25, khu phố 1, phường Linh Đông, thành phố Thủ Đức",
         "giáo hạt": "Giáo hạt Thủ Đức",
         "location": "10.85783265, 106.7454417",
@@ -561,7 +561,7 @@
     },
     {
         "Time": "\"05:30 07:30 17:00 18:30\"",
-        "Name": "Mẫu Tâm",
+        "Name": "Mẫu Tâm (Tân Bình)",
         "Address": "389 Hoàng Văn Thụ, phường 2, quận Tân Bình",
         "giáo hạt": "Giáo hạt Chí Hòa",
         "location": "10.79928375, 106.6605484",
@@ -593,7 +593,7 @@
     },
     {
         "Time": "\"06:00 08:00 17:30\"",
-        "Name": "An Phú",
+        "Name": "An Phú (Quận 3)",
         "Address": "205/45 Trần Văn Đang, phường 11, quận 3",
         "giáo hạt": "Giáo hạt Tân Định",
         "location": "10.78605765, 106.6726687",
@@ -601,7 +601,7 @@
     },
     {
         "Time": "\"06:00 18:00\"",
-        "Name": "An Phú",
+        "Name": "An Phú (Quận 7)",
         "Address": "58/7 Trần Xuân Soạn, khu phố 3, phường Tân Hưng, quận 7",
         "giáo hạt": "Giáo hạt Xóm Chiếu",
         "location": "10.78605765, 106.6726687",
@@ -649,7 +649,7 @@
     },
     {
         "Time": "\"06:30 17:00\"",
-        "Name": "Mai Khôi",
+        "Name": "Mai Khôi (Quận 5)",
         "Address": "48/39 Bến Hàm Tử, phường 1, quận 5",
         "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
         "location": "10.7777234, 106.6836447",
@@ -657,7 +657,7 @@
     },
     {
         "Time": "05:30, 07:00, 08:30 (Lễ thiếu nhi), 10:30 (Lễ Tiếng Pháp), 14:30 (Lễ Tiếng Anh), 17:30, 19:00",
-        "Name": "Mai Khôi",
+        "Name": "Mai Khôi (Quận 3)",
         "Address": "44 Tú Xương, phưòng Võ Thị Sáu, quận 3",
         "giáo hạt": "Giáo hạt Tân Định",
         "location": "10.7777234, 106.6836447",
@@ -1065,7 +1065,7 @@
     },
     {
         "Time": "\"06:00 07:30\"",
-        "Name": "Thánh Giuse",
+        "Name": "Thánh Giuse (Quận 10)",
         "Address": "666/14/11 đường 3/2, phường 14, quận 10",
         "giáo hạt": "Giáo hạt Phú Thọ",
         "location": "10.76880287, 106.6613795",
@@ -1401,7 +1401,7 @@
     },
     {
         "Time": "\"05:00 07:00 15:30 17:00 18:30\"",
-        "Name": "Bình Thuận",
+        "Name": "Bình Thuận (Quận 8)",
         "Address": "3131 Phạm Thế Hiển, phường 7, quận 8",
         "giáo hạt": "Giáo hạt Bình An",
         "location": "10.79147425, 106.6041017",
@@ -1561,7 +1561,7 @@
     },
     {
         "Time": "\"05:00 07:15 17:00\"",
-        "Name": "Bình Thuận",
+        "Name": "Bình Thuận (Bình Tân)",
         "Address": "722 Tân Kỳ Tân Quý, phường Bình Hưng Hòa, quận Bình Tân",
         "giáo hạt": "Giáo hạt Tân Sơn Nhì",
         "location": "10.7138637, 106.6303915",
@@ -1625,7 +1625,7 @@
     },
     {
         "Time": "\"06:00 18:00\"",
-        "Name": "Thánh Giuse",
+        "Name": "Thánh Giuse (Xóm Chiếu)",
         "Address": "114B Ấp Trần Hưng Đạo, xã Tam Thôn Hiệp, huyện Cần Giờ",
         "giáo hạt": "Giáo hạt Xóm Chiếu",
         "location": "10.61736957, 106.8557442",
@@ -1640,7 +1640,7 @@
         "check": "FALSE"
     },
     {
-        "Time": "\"07:00\"",
+        "Time": "\"6:00 17:30\"",
         "Name": "Cần Giờ",
         "Address": "183/2 khu phố Miễu Nhì, thị trấn Cần Thạnh, huyện Cần Giờ",
         "giáo hạt": "Giáo hạt Xóm Chiếu",
