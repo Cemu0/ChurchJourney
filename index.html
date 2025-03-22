@@ -207,6 +207,8 @@
         function selectChurchOnMap(lat, lon, churchName) {
             // Center the map on the church's location
             map.setView([lat, lon], 14);
+
+            userLocation = [lat, lon]; // Set the user location to the church's location
         
             // Add or highlight a marker for the church
             const marker = L.marker([lat, lon]).addTo(map);
@@ -670,6 +672,8 @@
         window.addVisitedChurch = addVisitedChurch;
         window.auth = auth;
         window.db = db;
+        window.setDoc = setDoc;
+        window._doc = doc;
     </script>
 </body>
 </html>

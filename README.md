@@ -4,6 +4,7 @@ Church Journey is a web application designed to help users find the closest chur
 
 ## TODO:
 This is MVP,  
+0. Ađd use guide 
 1. Add severside (cost...)
 2. Translate back to VNese or add multiple language
 3. Add request edit
