@@ -1,0 +1,2092 @@
+[
+    {
+        "✓": "FALSE",
+        "Time": "05:00 07:30 16:30 19:00",
+        "Name": "Fatima Bình Triệu",
+        "Address": "58 đường 5, khu phố 2, phường Hiệp Bình Chánh, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.8291393, 106.7103839",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00 07:00 17:00 19:00",
+        "Name": "Bình Lợi",
+        "Address": "430 Bình Lợi, phường 13, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.8266615, 106.7065842",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00 07:00 17:00 19:00",
+        "Name": "Bến Hải",
+        "Address": "332/60 Dương Quảng Hàm, phường 5, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.82704546, 106.6953125",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00 06:45 08:30 15:00 17:00 19:00",
+        "Name": "Bến Cát",
+        "Address": "173/2/3 Dương Quảng Hàm, phường 5, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.82778969, 106.6907975",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00 06:30 09:30 17:00",
+        "Name": "Thánh Giuse",
+        "Address": "36 Nguyễn Du, phường 7, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.82578288, 106.6859663",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:30, 08:00 & 15:00, 16:30, 18:30",
+        "Name": "Thanh Đa",
+        "Address": "801/67 Xô Viết Nghệ Tĩnh, phường 26, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.8159164, 106.7149573",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:30, 07:30 & 18:00",
+        "Name": "Bình Hoà",
+        "Address": "93/9 Nơ Trang Long, phường 11, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.8100311, 106.6943904",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 08:30 15:30 17:45\"",
+        "Name": "Mân Côi",
+        "Address": "90 Nguyễn Thái Sơn, phường 3, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.8167268, 106.6809643",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 06:30 08:15 17:45\"",
+        "Name": "Hòa Bình",
+        "Address": "95/645 Nguyễn Kiệm, phường 3, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.8214453, 106.6777557",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 16:00 18:00\"",
+        "Name": "An Nhơn",
+        "Address": "15/173 Lê Hoàng Phái, phường 17, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8412111, 106.6753766",
+        "ngày đi": "8h 22/12/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:30 18:00\"",
+        "Name": "Bác Ái",
+        "Address": "144 Nguyễn Thượng Hiền, phường 1, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.81030641, 106.6839682",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:30 16:30 18:00\"",
+        "Name": "Xóm Thuốc",
+        "Address": "213 Quang Trung, phường 10, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.8290789, 106.6726567",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00, 06:15, 07:30 & 15:00, 16:30, 18:00.",
+        "Name": "Hàng Xanh\n (Hàng Sanh)",
+        "Address": "76 Bạch Đằng, phường 24, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.8030956, 106.7067035",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "05:00 06:30 08:00 16:30",
+        "Name": "Thánh Tịnh",
+        "Address": "47/57 Nguyễn Văn Đậu, phường 6, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.80797424, 106.6858042",
+        "ngày đi": "8h 15/12/2024",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:15 07:30 08:45 15:30 16:45 18:30\"",
+        "Name": "Gia Định",
+        "Address": "280 Bùi Hữu Nghĩa, phường 2, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.80000075, 106.7000638",
+        "ngày đi": "7h15 25/12/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "05:00 07:15 17:00",
+        "Name": "Đức Tin",
+        "Address": "112/11 Phan Văn Trị, phường 10, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.8334601, 106.6687779",
+        "ngày đi": "19h 29/9/2024",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:30 08:00 10:00 15:30 17:00 18:30 20:00\"",
+        "Name": "Đức Mẹ Hằng Cứu Giúp",
+        "Address": "38 Kỳ Đồng, phường 9, quận 3",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.8495083, 106.6717399",
+        "ngày đi": "20h 13/9/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00 07:30 17:30 19:00",
+        "Name": "Đức Mẹ Hằng Cứu Giúp",
+        "Address": "5/82 Lê Đức Thọ, phường 15, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8495083, 106.6717399",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "",
+        "Name": "Thánh Nguyễn Duy Khang",
+        "Address": "195/29 Xô Viết Nghệ Tĩnh, phường 17, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.79940376, 106.7099951",
+        "ngày đi": "17h45 9/12/2024",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 15:30 17:00 18:30\"",
+        "Name": "Phú Hạnh",
+        "Address": "121 Phan Đăng Lưu, phường 7, quận Phú Nhuận",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "location": "10.8033028, 106.6849668",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 08:15 17:30\"",
+        "Name": "Chính Lộ",
+        "Address": "45/4N Điện Biên Phủ, phường 15, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.7970526, 106.701594",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 08:00 18:00\"",
+        "Name": "Mông Triệu",
+        "Address": "11E Phạm Thế Hiển, phường 3, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.79687185, 106.7057979",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "06:00, 07:30 & 15:30, 17:30",
+        "Name": "Mông Triệu, Quận Bình Thạnh",
+        "Address": "78 Nguyễn Cửu Vân, phường 17, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.79687185, 106.7057979",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "05:00, 07:30 & 17:30 ",
+        "Name": "Phú Hiền",
+        "Address": "214/57bis Vạn Kiếp, phường 3, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.7982098, 106.6929665",
+        "ngày đi": "18h 5/3/2024",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "04:30 07:00 09:30 15:30 17:00 19:00",
+        "Name": "Hoàng Mai",
+        "Address": "18/368 Lê Đức Thọ, phường 15, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8490079, 106.6678272",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00, 07:00 & 17:00, 19:00",
+        "Name": "Thánh Martin de Porres",
+        "Address": "153 Xô Viết Nghệ Tĩnh, phường 17, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.79622269, 106.7098727",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:00 19:00\"",
+        "Name": "Tân Hưng",
+        "Address": "1C Khu phố I, phường Tân Thới Hiệp, quận 12",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.849244, 106.6672039",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "04:00, 06:00 & 16:30",
+        "Name": "Tân Hưng",
+        "Address": "2/43 Lê Đức Thọ, phường 15, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.849244, 106.6672039",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00, 06:30, 08:00 & 15:00, 17:00.",
+        "Name": "Phát Diệm",
+        "Address": "485 Nguyễn Kiệm, phường 9, quận Phú Nhuận",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "location": "10.80312607, 106.6787238",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:00 06:00 16:30\"",
+        "Name": "Trung Bắc",
+        "Address": "20/358 Lê Đức Thọ, phường 15, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8491315, 106.666056",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:30 08:00 15:00 16:30 18:00\"",
+        "Name": "Thị Nghè",
+        "Address": "22B Xô Viết Nghệ Tĩnh, phường 19, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.7937049, 106.7081372",
+        "ngày đi": "19/05/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 17:00 19:00\"",
+        "Name": "Hà Đông",
+        "Address": "530 Thống Nhất, phường 16, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.84859905, 106.6649254",
+        "ngày đi": "7h 3/11/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:00 06:30 15:45\"",
+        "Name": "Bắc Dũng",
+        "Address": "31/330 Thống Nhất, phường 15, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.85220825, 106.6660515",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"04:15 05:45 07:00 16:30 19:00\"",
+        "Name": "Hà Nội",
+        "Address": "49/7 Thống Nhất, phường 13, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8510612, 106.665124",
+        "ngày đi": "19h 24/11/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 15:00 17:30\"",
+        "Name": "Thái Bình",
+        "Address": "48/16 Thống Nhất, phường 13, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.852738, 106.6649747",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 07:00 16:00 18:00\"",
+        "Name": "Tam Hà",
+        "Address": "66 Tam Hà, phường Tam Phú, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8547691, 106.6656908",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00 07:00 17:30",
+        "Name": "Phú Hải",
+        "Address": "69 Cô Giang, phường 1, quận Phú Nhuận",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "location": "10.7964653, 106.683623",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "06:00 08:30 17:00",
+        "Name": "Thánh Gia",
+        "Address": "18/2 Trần Quý Khoách, phường Tân Định, quận 1",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.79345877, 106.6884264",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:00\"",
+        "Name": "Hiển Linh",
+        "Address": "5GH Ngô Tất Tố, phường 22, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.79182225, 106.7137035",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"06:00 08:00 16:30\"",
+        "Name": "Chúa Hiển Linh",
+        "Address": "38 Kinh Dương Vương, phường 13, quận 6",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.79182225, 106.7137035",
+        "ngày đi": "17h 1/1/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:00\"",
+        "Name": "Hiển Linh",
+        "Address": "19 đường 5, khu phố 2, phường Linh Trung, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.8613604, 106.7633679",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:15 06:15 16:00 19:00\"",
+        "Name": "Tử Đình",
+        "Address": "20/233A Thống Nhất, phường 15, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8537943, 106.6643199",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "05:00 07:00 16:00 18:00",
+        "Name": "Hợp An",
+        "Address": "41/1 Phạm Văn Chiêu, phường 13, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "location": "10.79904265, 106.6773523",
+        "ngày đi": "16h 22/12/2024",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:30 16:00 18:00\"",
+        "Name": "Phú Nhuận",
+        "Address": "91 Hoàng Văn Thụ, phường 8, quận Phú Nhuận",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.7991413, 106.6773982",
+        "ngày đi": "16h 17/11/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:30 08:00 17:00\"",
+        "Name": "Phanxicô Đa Kao",
+        "Address": "50 Nguyễn Đình Chiểu, phường Đa Kao, quận 1",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.7895713, 106.7003064",
+        "ngày đi": "21h 24/12/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 06:00 07:30 17:00 19:00\"",
+        "Name": "Lạng Sơn",
+        "Address": "25/1 Lê Đức Thọ, phường 16, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8518637, 106.6607961",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"04:30 08:00 15:00 17:00 19:00\"",
+        "Name": "Thánh Nguyễn Duy Khang",
+        "Address": "32 đường 25, khu phố 1, phường Linh Đông, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.85783265, 106.7454417",
+        "ngày đi": "19h 26/1/2025",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:30\"",
+        "Name": "Phú Lộc",
+        "Address": "109-111-113 Duy Tân, phường 15, quận Phú Nhuận",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "location": "10.7946388, 106.6788969",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "06:30 08:00 17:30",
+        "Name": "Công Lý",
+        "Address": "62/147A Lý Chính Thắng, phường Võ Thị Sáu, quận 3",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.79200152, 106.6834109",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 06:45 17:30\"",
+        "Name": "Phú Quý",
+        "Address": "130 Cao Thắng, phường 17, quận Phú Nhuận",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "location": "10.79279772, 106.6815402",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:30 09:30 16:00 17:30 19:00\"",
+        "Name": "Hạnh Thông Tây",
+        "Address": "53/7 Quang Trung, phường 11, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.7884052, 106.690677",
+        "ngày đi": "09/06/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"07:00 (TA) 17:30\"",
+        "Name": "Mạc Ty Nho",
+        "Address": "16A Nguyễn Thị Minh Khai, phường Đa Kao, quận 1",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.78623145, 106.7010351",
+        "ngày đi": "29/06/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 17:00\"",
+        "Name": "Lam Sơn",
+        "Address": "106/1124 Lê Đức Thọ, phường 13, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8539958, 106.6586342",
+        "ngày đi": "7h 20/10/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:15 16:30 18:00\"",
+        "Name": "Châu Bình",
+        "Address": "470/17 Tỉnh lộ 43, phường Tam Phú, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.86344685, 106.7451868",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "07:00, 09:00 & 17:00",
+        "Name": "Xóm Lách",
+        "Address": "619 Hoàng Sa, phường Võ Thị Sáu, quận 3",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.789051, 106.6833409",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:15 07:30 09:00 16:00 17:30 19:00\"",
+        "Name": "Tân Định",
+        "Address": "289 Hai Bà Trưng, phường Võ Thị Sáu, quận 3",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.86193555, 106.747153",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:30 16:00 18:00\"",
+        "Name": "Ba Thôn",
+        "Address": "5/6 Hà Huy Giáp, phường Thạnh Lộc, quận 12",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8787538, 106.6787811",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "5:00 7:30 17:30",
+        "Name": "Thánh Phaolô 3",
+        "Address": "262/14 Lê Văn Sỹ, phường 14, quận 3",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.78825274, 106.6814724",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 06:00 07:30 16:00 17:30 19:00\"",
+        "Name": "Thạch Đà",
+        "Address": "1/1 Phạm Văn Chiêu, phường 9, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8507683, 106.6543077",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "07:00",
+        "Name": "Regina Mundi",
+        "Address": "228 Nam Kỳ Khởi Nghĩa, phường Võ Thị Sáu, quận 3",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.78417587, 106.6900264",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:15 07:30 09:00 10:30 (TA) 16:00 17:30 19:00\"",
+        "Name": "Đa Minh - Ba Chuông",
+        "Address": "190 Lê Văn Sỹ, phường 10, quận Phú Nhuận",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "location": "10.7938295, 106.6694209",
+        "ngày đi": "04/08/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 06:30 08:00 16:00 17:30 19:30\"",
+        "Name": "Tam Hải",
+        "Address": "180 Tam Châu, khu phố 2, phường Tam Bình, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.87196069, 106.742592",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:30 08:00 16:00 17:30 19:00\"",
+        "Name": "Vườn Xoài",
+        "Address": "413 Lê Văn Sỹ, phường 12, quận 3",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.7891775, 106.6755345",
+        "ngày đi": "16:00 22/9/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 17:00 19:00\"",
+        "Name": "Bình Chiểu",
+        "Address": "50/6 khu phố 1, phường Bình Chiểu, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.8813978, 106.7305429",
+        "ngày đi": "17h 26/11/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:00\"",
+        "Name": "Gò Vấp",
+        "Address": "45 Nguyễn Văn Bảo, phường 4, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.8572166, 106.6543567",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:45 06:15 17:15 19:00\"",
+        "Name": "Nữ Vương Hòa Bình",
+        "Address": "63/2 Lê Đức Thọ, phường 13, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "location": "10.8572166, 106.6543567",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 06:30 08:15 15:00 17:00 19:00\"",
+        "Name": "Thủ Đức",
+        "Address": "51 Võ Văn Ngân, phường Linh Chiểu, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.8516927, 106.7567478",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 16:30 18:00\"",
+        "Name": "Tân Sa Châu",
+        "Address": "387 Lê Văn Sỹ, phường 2, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.797108, 106.6638816",
+        "ngày đi": "18:00 17/11/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 08:00 09:30 16:00 17:30 19:00\"",
+        "Name": "Đức Bà Sài Gòn\n Giáo xứ chính tòa",
+        "Address": "1 Công xã Paris, phường Bến Nghé, quận 1",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.77974385, 106.6990119",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "06:00 08:00 16:00",
+        "Name": "Thánh Gioan Phaolô II",
+        "Address": "91/10-12 Trần Quang Diệu, phường 13, quận 3",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.78502389, 106.6789153",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:30 17:00 18:30\"",
+        "Name": "Mẫu Tâm",
+        "Address": "389 Hoàng Văn Thụ, phường 2, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.79928375, 106.6605484",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00\"",
+        "Name": "Thiên Thần",
+        "Address": "600 Xa lộ Hà Nội, phường An Phú, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.8072071, 106.7536959",
+        "ngày đi": "6h 12/1/2025",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": " 05:00, 06:30, 08:00, 16:00, 18:00",
+        "Name": "Bùi Phát",
+        "Address": "453/105KC Lê Văn Sỹ, phường 12, quận 3",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.788354, 106.672222",
+        "ngày đi": "8h 18/8/2024",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:30 16:30 18:00\"",
+        "Name": "Tân Hòa",
+        "Address": "525/92 Huỳnh Văn Bánh, phường 14, quận Phú Nhuận",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "location": "10.7900225, 106.668286",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 08:00 17:30\"",
+        "Name": "An Phú",
+        "Address": "205/45 Trần Văn Đang, phường 11, quận 3",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.78605765, 106.6726687",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 18:00\"",
+        "Name": "An Phú",
+        "Address": "58/7 Trần Xuân Soạn, khu phố 3, phường Tân Hưng, quận 7",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.78605765, 106.6726687",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:30 16:00 17:30\"",
+        "Name": "Tân Chí Linh",
+        "Address": "6/25 Phạm Văn Hai, phường 3, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7921293, 106.663681",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:30 08:30 17:15\"",
+        "Name": "Vinh Sơn, Ông Tạ",
+        "Address": "154/333 Phạm Văn Hai, phường 3, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.79343391, 106.6610112",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 05:45 07:15 16:00 17:00 18:15\"",
+        "Name": "An Lạc",
+        "Address": "15/2 Cách mạng Tháng Tám, phường 5, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.78961178, 106.6639625",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:30 18:00\"",
+        "Name": "Thánh Giuse Thợ",
+        "Address": "452 Xa lộ Hà Nội, phường Phước Long A, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.8289264, 106.7649269",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:30 17:00 19:00\"",
+        "Name": "Vĩnh Hiệp",
+        "Address": "52/382E Quang Trung, phường 12, quận Gò Vấp",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "location": "10.8413788, 106.6435409",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:30 17:00\"",
+        "Name": "Mai Khôi",
+        "Address": "48/39 Bến Hàm Tử, phường 1, quận 5",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.7777234, 106.6836447",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:30, 07:00, 08:30 (Lễ thiếu nhi), 10:30 (Lễ Tiếng Pháp), 14:30 (Lễ Tiếng Anh), 17:30, 19:00",
+        "Name": "Mai Khôi",
+        "Address": "44 Tú Xương, phưòng Võ Thị Sáu, quận 3",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "location": "10.7777234, 106.6836447",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "04:30 07:00 16:00 18:00",
+        "Name": "Bình Thọ",
+        "Address": "356/20 Võ Văn Ngân, khu phố 3, phường Bình Thọ, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.8475094, 106.7641104",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"04:30 07:00 16:00 18:00\"",
+        "Name": "Từ Đức",
+        "Address": "42 đường 4, khu phố 2, phường Bình Thọ, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.8475094, 106.7641104",
+        "ngày đi": "16h 8/9/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:30 08:00 15:00 17:30\"",
+        "Name": "Đức Mẹ Vô Nhiễm",
+        "Address": "4bis Hoàng Hoa Thám, phường 7, quận Bình Thạnh",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "location": "10.7736031, 106.7031442",
+        "ngày đi": "8h 11/8/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:30\"",
+        "Name": "Tân Dân",
+        "Address": "8/23 Nguyễn Đình Khơi, phường 4, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7945263, 106.6564617",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:30\"",
+        "Name": "Nam Thái",
+        "Address": "168/50 Cách mạng Tháng Tám, phường 5, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7891574, 106.661176",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 07:30 17:30 19:00\"",
+        "Name": "Thái Hòa",
+        "Address": "986/55 Cách mạng Tháng Tám, phường 5, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7909458, 106.6592041",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 08:00 15:30 17:30\"",
+        "Name": "Vườn Chuối",
+        "Address": "199/40/6 Cách mạng Tháng Tám, phường 4, quận 3",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.7752582, 106.6848223",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:30 08:00 17:30 19:00\"",
+        "Name": "Hòa Hưng",
+        "Address": "104 Tô Hiến Thành, phường 15, quận 10",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.78168815, 106.6700564",
+        "ngày đi": "17h30 15/9/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 06:30 09:00 17:00\"",
+        "Name": "Xây dựng",
+        "Address": "5/27 Bành Văn Trân, phường 6, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7881828, 106.6610786",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "05:00 07:00 17:30",
+        "Name": "Thủ Thiêm",
+        "Address": "58 khu phố 1, phường Thủ Thiêm, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.7714609, 106.7099509",
+        "ngày đi": "26/08/2024",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "07:00 17:00",
+        "Name": "Thánh Antôn",
+        "Address": "947/13/3 Cách mạng Tháng Tám, phường 7, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.78990761, 106.6581175",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:30 08:30 18:00\"",
+        "Name": "Đức Bà Hòa Bình",
+        "Address": "26A Nguyễn Thái Bình, phường Nguyễn Thái Bình, quận 1",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.77006645, 106.7003624",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00, 07:00, 16:00, 17:30",
+        "Name": "Lộc Hưng",
+        "Address": "58/6 Chấn Hưng, phường 6, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7852111, 106.6608732",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "! 05:30, 08:00 16:30, 18:30",
+        "Name": "Thánh Mẫu",
+        "Address": "3-5 Chử Đồng Tử, Phường 7, Tân Bình, Hồ Chí Minh, Vietnam",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.78802744, 106.6576303",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00, 07:30 & 17:00",
+        "Name": "Đức Mẹ Lên Trời",
+        "Address": "129 Nguyen Cong Hoan, Ward 7, Phu Nhuan District.",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "location": "10.79817554, 106.6906196",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "04:30 06:00 07:30 16:30",
+        "Name": "Nghĩa Hòa",
+        "Address": "25/18 Nghĩa Hòa, phường 6, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.78662935, 106.65904",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:00\"",
+        "Name": "Tân Châu",
+        "Address": "98/1 Trường Chinh, phường 12, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7945813, 106.6515099",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:00 18:30\"",
+        "Name": "Sao Mai",
+        "Address": "130/54 Nghĩa Phát, phường 7, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7870449, 106.6581965",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 08:00 17:00\"",
+        "Name": "Tống Viết Bường",
+        "Address": "J10 Hương Giang, phường 15, quận 10",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.78282165, 106.6629838",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:30 08:00 09:30 15:00 16:30 18:00\"",
+        "Name": "Chí Hòa",
+        "Address": "149 Bành Văn Trân, phường 7, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7883519, 106.6554828",
+        "ngày đi": "14/07/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00, 07:00 & 14:30 & 17:00",
+        "Name": "Đắc Lộ",
+        "Address": "97 Trường Chinh, phường 12, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7949985, 106.6495844",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 07:00 15:30 17:30\"",
+        "Name": "Nam Hòa",
+        "Address": "35/40/9 Đất Thánh, phường 6, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7835007, 106.6599578",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:00 17:00\"",
+        "Name": "Chợ Cầu",
+        "Address": "30/7 Nguyễn Văn Quá, phường Đông Hưng Thuận, quận 12",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.853581, 106.6386549",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:00\"",
+        "Name": "Vinh Sơn, Nghĩa Hòa",
+        "Address": "1/10/2 Nghĩa Phát, phường 6, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7853532, 106.6573705",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 07:00 16:45\"",
+        "Name": "Văn Côi",
+        "Address": "97/41 Nguyễn Tử Nha, phường 12, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7943372, 106.6489992",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:15 09:00 16:15 18:00 19:45\"",
+        "Name": "Khiết Tâm (Tan Binh District)",
+        "Address": "28 Long Hưng, phường 7, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "location": "10.7853342, 106.6556972",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"04:45 06:00 07:15 17:00\"",
+        "Name": "Khiết Tâm",
+        "Address": "15 đường 4, khu phố 4, phường Bình Chiểu, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.7853342, 106.6556972",
+        "ngày đi": "9h 1/12/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:30 07:00 17:00",
+        "Name": "Thánh Antôn, Cầu Ông Lãnh",
+        "Address": "18 Phan Văn Trường, phường Cầu Ông Lãnh, quận 1",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.7663784, 106.6968455",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 06:30 08:00 09:30 16:30 18:00 19:30\"",
+        "Name": "Huyện Sỹ\n Giáo xứ Chợ Đũi",
+        "Address": "1 Tôn Thất Tùng, phường Phạm Ngũ Lão, quận 1",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.767705, 106.6886561",
+        "ngày đi": "02/06/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 14:30 17:30\"",
+        "Name": "Tân Việt",
+        "Address": "241bis Trường Chinh, phường 12m quận Tân Bình",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7963778, 106.6460957",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:30 16:00 17:30\"",
+        "Name": "Tân Trang",
+        "Address": "32 Tân Xuân, phường 8, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.7876085, 106.6525375",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 16:30 18:00\"",
+        "Name": "Phú Trung",
+        "Address": "1434 Lạc Long Quân, phường 11, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.78855674, 106.6499596",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 07:30 16:30 18:00\"",
+        "Name": "Bàn Cờ",
+        "Address": "48 Nguyễn Thiện Thuật, phường 2, quận 3",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.76727561, 106.6813402",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:30 17:00 18:30\"",
+        "Name": "Hy Vọng",
+        "Address": "69 Phan Huy Ích, phường 15, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.8280818, 106.631976",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 17:00\"",
+        "Name": "Vinh Sơn Phaolô",
+        "Address": "423-425 đường 3/2, phường 10, quận 10",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.77028725, 106.6726393",
+        "ngày đi": "17h 15/12/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:30 15:00 17:00 19:00\"",
+        "Name": "Tân Thành",
+        "Address": "371/35B Trường Chinh, phường 14, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.796136, 106.6426725",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 06:45 18:00\"",
+        "Name": "Tân Đức",
+        "Address": "Đường Đỗ Xuân Hợp, phường Phước Bình, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.8153538, 106.77455",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:30 17:30\"",
+        "Name": "Đức Bà Fatima",
+        "Address": "212B/1A Nguyễn Trãi, phường Nguyễn Cư Trinh, quận 1",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.7648008, 106.6861908",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 15:00 17:00 19:00\"",
+        "Name": "Vĩnh Hội",
+        "Address": "158 Bến Vân Đồn, phường 6, quận 4",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.7622813, 106.6983965",
+        "ngày đi": "16/06/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 07:30 17:00 18:30\"",
+        "Name": "Đồng Tiến",
+        "Address": "54 Thành Thái, phường 12, quận 10",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.77119665, 106.6661479",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00, 07:30 & 15:00, 16:30, 18:00.",
+        "Name": "Bắc Hà",
+        "Address": "419 Lý Thái Tổ, phường 9, quận 10",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.76794618, 106.6690479",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 08:00 17:00 18:00\"",
+        "Name": "Khánh Hội",
+        "Address": "136 Tôn Đản, phường 10, quận 4",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.75925785, 106.7066614",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:45, 07:45 & 17:45",
+        "Name": "Công Thành",
+        "Address": "58 đường 27, phường Bình Trưng Tây, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.78307683, 106.7608512",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:00 18:00\"",
+        "Name": "Cầu Kho",
+        "Address": "31 Trần Đình Xu, phường Cầu Kho, quận 1",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.75972955, 106.6913071",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 06:30 08:30 16:00 18:00 19:30\"",
+        "Name": "Xuân Hiệp",
+        "Address": "54 đường 5, khu phố 4, phường Linh Xuân, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "location": "10.8802902, 106.7658734",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 06:30 08:00 15:00 17:00 19:00\"",
+        "Name": "Nhân Hòa",
+        "Address": "45 Hồ Đắc Di, phường Tây Thạnh, quận Tân Phú",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.8057333, 106.6324806",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"07:00 17:00\"",
+        "Name": "Thánh Tâm",
+        "Address": "43 Trần Hưng Đạo, khu phố 1, phường Hiệp Phú, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.7582467, 106.7091912",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 15:00 17:00 19:00\"",
+        "Name": "Đông Quang",
+        "Address": "35 KP.5, phường Đông Hưng Thuận, quận 12",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8308378, 106.626243",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 15:00 17:00 19:00\"",
+        "Name": "Thánh Linh",
+        "Address": "1/6 Đình Phong Phú, phường Tăng Nhơn Phú B, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.84356745, 106.7817914",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:30 17:00\"",
+        "Name": "Tân Quy",
+        "Address": "1/1 Bùi Công Trừng, ấp 2, xã Nhị Bình, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.9091502, 106.6840581",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 07:30\"",
+        "Name": "Thánh Giuse",
+        "Address": "666/14/11 đường 3/2, phường 14, quận 10",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.76880287, 106.6613795",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:30 17:30 19:00\"",
+        "Name": "Tân Phước",
+        "Address": "245 Nguyễn Thị Nhỏ, phường 9, quận Tân Bình",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.77427659, 106.6527148",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"04:45 06:00 07:15 16:00 17:30 19:00\"",
+        "Name": "Xóm Chiếu",
+        "Address": "92B/20 bis Tôn Thất Thuyết, phường 16, quận 4",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.7548194, 106.7103588",
+        "ngày đi": "16h 7/10/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 06:30 08:00 16:30 18:00\"",
+        "Name": "Chợ Quán",
+        "Address": "120 Trần Bình Trọng, phường 2, quận 5",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.7573127, 106.6815222",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:00 05:30 07:15 16:00 17:30 19:00\"",
+        "Name": "Tân Phú",
+        "Address": "90 Nguyễn Hậu, phường Tân Thành, quận Tân Phú",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7913648, 106.6347459",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"07:30 17:00\"",
+        "Name": "Phú Hòa",
+        "Address": "19/2 Hoàng Xuân Nhị, phường Phú Trung, quận Tân Phú",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.7769127, 106.6453746",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 08:00 17:30\"",
+        "Name": "Môi Khôi",
+        "Address": "295 Huỳnh Tấn Phát, phường Tân Thuận Đông, quận 7",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.7544764, 106.7279554",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:30 17:00\"",
+        "Name": "Thuận Phát",
+        "Address": "253 Trần Xuân Soạn, phường Tân Kiểng, quận 7",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.7517552, 106.7157006",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 16:00 18:00\"",
+        "Name": "Lạc Quang",
+        "Address": "51/5 Lạc Quang, khu phố 2, phường Tân Thới Nhất, quận 12",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.83488435, 106.6188137",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:30 17:00\"",
+        "Name": "Phú Bình",
+        "Address": "423 Lạc Long Quân, phường 5, quận 11",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.77368026, 106.6437974",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:30, 07:30 & 15:00, 17:00, 18:30",
+        "Name": "Martino",
+        "Address": "266 Độc Lập, phường Tân Thành, quận Tân Phú",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7926328, 106.628831",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 09:00\"",
+        "Name": "Thánh Jeanne d'Arc",
+        "Address": "116A Hùng Vương, phường 9, quận 5",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.75705136, 106.6671857",
+        "ngày đi": "23/06/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"06:00 07:30 17:30\"",
+        "Name": "Thăng Long",
+        "Address": "84/80 Tôn Thất Hiệp, phường 13, quận 11",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.7649056, 106.6533544",
+        "ngày đi": "21/07/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 08:00 16:30 18:00\"",
+        "Name": "Mẫu Tâm",
+        "Address": "16-18 Phan Huy Thực, phường Tân Kiểng, quận 7",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.7475503, 106.7068337",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 16:00 17:30\"",
+        "Name": "Vĩnh Hòa",
+        "Address": "86/75 Ông Ích Khiêm, phường 5, quận 11",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.7687804, 106.6461346",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:00\"",
+        "Name": "Bình Xuyên",
+        "Address": "68 Dương Bá Trạc, phường 2, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.74894965, 106.6877054",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 06:00 14:00 16:00 17:30 19:00\"",
+        "Name": "Tân Lập",
+        "Address": "460 đường 24, khu phố 2, phường Bình Trưng Đông, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.7867664, 106.7788224",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:15, 07:30 & 17:00",
+        "Name": "Mỹ Hoà (Hoc Mon)",
+        "Address": "14/4A Ấp Trung Chánh 2, xã Trung Chánh, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8610178, 106.6059976",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00, 06:45 & 17:30",
+        "Name": "Mỹ Hòa (Thu Thiem)",
+        "Address": "136 khu phố 1, phường Bình Trưng Đông, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.7848332, 106.7775575",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 06:00 08:00 15:30 17:15 19:00\"",
+        "Name": "Tân Đông",
+        "Address": "8/10A Ấp 4, xã Đông Thạnh, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.904309, 106.6495349",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 09:30 16:30 19:00\"",
+        "Name": "Tân Phú Hòa",
+        "Address": "173/45/51 Khuông Việt, phường Phú Trung, quận Tân Phú",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.7725389, 106.6403993",
+        "ngày đi": "9h30 5/1/2025",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:30\"",
+        "Name": "Tân Hương",
+        "Address": "162 Tân Hương, phường Tân Quý, quận Tân Phú",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.78994454, 106.6246887",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:30 18:30\"",
+        "Name": "Đồng Hòa",
+        "Address": "Ấp Đồng Hòa, xã Long Hòa, huyện Cần Giờ",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.88754305, 106.7780882",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 07:00 17:30\"",
+        "Name": "An Bình",
+        "Address": "4 An Bình, phường 5, quận 5",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.74963635, 106.6736094",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:30 19:00\"",
+        "Name": "Phú Thọ Hòa",
+        "Address": "39 Lương Trúc Đàm, phường Hiệp Tân, quận Tân Phú",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7829437, 106.6271809",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "05:00 07:00 16:00 18:00",
+        "Name": "Tân Thái Sơn",
+        "Address": "1 Hoàng Văn Hoè, phường Tân Quý, quận Tân Phú",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7931597, 106.6196402",
+        "ngày đi": "18h 27/10/2024",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"07:30 18:00\"",
+        "Name": "Hưng Phú",
+        "Address": "100-102 Bến Nguyễn Duy, phường 9, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.7456874, 106.6720644",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:30 07:30 16:00 18:00",
+        "Name": "Bạch Đằng",
+        "Address": "591A Nguyễn Ảnh Thủ, phường Trung Mỹ Tây, quận 12",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.857961, 106.6104468",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 08:00 17:00 19:00\"",
+        "Name": "Thiên Ân",
+        "Address": "179 Lê Niệm, phường Phú Thạnh, quận Tân Phú",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7806818, 106.6236448",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:00 08:30 16:00 17:00\"",
+        "Name": "Cha Tam\n Giáo xứ Thánh Phanxicô Xaviê",
+        "Address": "25 Học Lạc, phường 14, quận 5",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.7519741, 106.6536927",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 06:00 07:00 16:00 19:00\"",
+        "Name": "Trung Chánh",
+        "Address": "103/5 Ấp Trung Chánh 1, xã Trung Chánh, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8612577, 106.6097376",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:30 07:00 18:00\"",
+        "Name": "Bình Thới",
+        "Address": "161D/106/10 Lạc Long Quân, phường 3, quận 11",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.76224488, 106.6383588",
+        "ngày đi": "04/08/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "05:00, 07:30 & 15:00, 16:30, 19:00",
+        "Name": "Trung Mỹ Tây",
+        "Address": "40/4 Trung Mỹ Tây, xã Trung Chánh, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8659908, 106.610414",
+        "ngày đi": "15h 5/1/2025",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:00 07:00 18:00",
+        "Name": "Bình Sơn",
+        "Address": "3012 Phạm Thế Hiển, phường 7, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.92932748, 106.6811462",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 08:00 19:00\"",
+        "Name": "Tắc Rỗi",
+        "Address": "Số 1 đường số 1, khu dân cư Tân Mỹ, phường Tân Phú, quận 7",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.7369528, 106.7152242",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "06:00 08:00 18:00",
+        "Name": "Chánh Hưng",
+        "Address": "45 Hồ Biểu Chánh, phường 4, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.74090245, 106.6717174",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 18:00\"",
+        "Name": "Tân Mỹ",
+        "Address": "Khóm 18, ấp Mỹ Hòa 2, xã Xuân Thới Đông, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8574587, 106.6042149",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:30 08:00 16:00 18:00 19:30\"",
+        "Name": "Nam Hải",
+        "Address": "277 Phạm Hùng, phường 4, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.73732185, 106.671756",
+        "ngày đi": "28/07/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 06:00 07:30 15:00 16:30 18:00 19:30\"",
+        "Name": "Gò Mây",
+        "Address": "791/2 Lê Trọng Tấn, phường Bình Hưng Hòa, quận Bình Tân",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.8156721, 106.601697",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 18:00\"",
+        "Name": "Bà Điểm",
+        "Address": "10/8 Ấp Trung Lân, xã Bà Điểm, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8409708, 106.5999842",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:30 17:30\"",
+        "Name": "Phú Hữu",
+        "Address": "951 Nguyễn Duy Trinh, phường Phú Hữu, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.7918429, 106.8012589",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"04:45 07:15 17:30\"",
+        "Name": "Minh Đức",
+        "Address": "10 đường 154, ấp Cây Dầu, phường Tân Phú, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.86725085, 106.8070223",
+        "ngày đi": "17h 18/1/25",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 15:30 17:00 18:30\"",
+        "Name": "Bình Thuận",
+        "Address": "3131 Phạm Thế Hiển, phường 7, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.79147425, 106.6041017",
+        "ngày đi": "07/07/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:30 17:00 18:30\"",
+        "Name": "Thánh Cẩm",
+        "Address": "12 đường 11, ấp Chân Phúc Cẩm, phường Long Thạnh Mỹ, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.84545965, 106.8157012",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 06:00 07:30 16:00 18:00\"",
+        "Name": "Bình Thái",
+        "Address": "1755 Phạm Thế Hiển, phường 6, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.7372387, 106.6508691",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"05:00 07:00 16:00 17:30 19:00\"",
+        "Name": "Bùi Môn",
+        "Address": "4/2 Ấp Tân Tiến, xã Xuân Thới Đông, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8679325, 106.5963804",
+        "ngày đi": "19h 5/1/2025",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"07:30 16:00\"",
+        "Name": "Bình Minh",
+        "Address": "132/69B Bến Bình Đông, phường 14, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.7388217, 106.6453012",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:30 15:00 18:00\"",
+        "Name": "Bình Phước",
+        "Address": "634 Phạm Văn Chi, phường 8, quận 6",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "location": "10.74076015, 106.6389071",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"07:30 16:30\"",
+        "Name": "Bình Hưng",
+        "Address": "A24/09 Quốc lộ 50, ấp 1, xã Bình Hưng, huyện Bình Chánh",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.72771454, 106.6560776",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "06:30 , 08:30 & 16:30",
+        "Name": "Thánh Matthêu Gẫm",
+        "Address": "Đường 16, khu phố Gò Công, phường Long Thạnh Mỹ, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.8395182, 106.8231609",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "\"16:00 18:00 4:30 6:00 7:30\"",
+        "Name": "Bình An",
+        "Address": "2287 Phạm Thế Hiển, phường 6, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.733537, 106.6437955",
+        "ngày đi": "18h 22/12/2024",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 07:30 17:30 19:30\"",
+        "Name": "Hóc Môn",
+        "Address": "5/15C tổ 68, khu phố 8, thị trấn Hóc Môn, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8875642, 106.5977047",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 06:00 17:30 19:30\"",
+        "Name": "Thánh Phaolô",
+        "Address": "352 Lê Hồng Phong, phường 1, quận 10",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "location": "10.75239405, 106.6161107",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"08:00\"",
+        "Name": "Thánh Phaolô\n (Tên Lửa)",
+        "Address": "280 Vành Đai Trong, phường Bình Trị Đông B, quận Bình Tân",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.75239405, 106.6161107",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 06:15 17:00 19:00\"",
+        "Name": "Long Thạnh Mỹ",
+        "Address": "67 Phan Đạt Đức, Ấp 1, phường Long Thạnh Mỹ, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.8444324, 106.8263581",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 07:00 17:30\"",
+        "Name": "Cao Thái",
+        "Address": "34/17 Vĩnh Thuận, phường Long Bình, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.88353501, 106.8214556",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:00 17:00\"",
+        "Name": "Bình Đông",
+        "Address": "119 Bến Mễ Cốc, phường 15, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.72357049, 106.6304959",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"17:30 19:45 4:15 7:00\"",
+        "Name": "Bình An Thượng",
+        "Address": "2903 Phạm Thế Hiển, phường 7, quận 8",
+        "giáo hạt": "Giáo hạt Bình An",
+        "location": "10.71901356, 106.6337044",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 17:30\"",
+        "Name": "Châu Nam",
+        "Address": "76/8 Thống Nhất 2, xã Tân Thới Nhì, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.89297585, 106.5785978",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:00 07:00 16:30\"",
+        "Name": "Long Bình",
+        "Address": "1259 Nguyễn Xiển, phường Long Bình, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.88819561, 106.8336603",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "05:00, 07:30, 16:45, 19:00",
+        "Name": "Nam Hưng",
+        "Address": "53/7 Thống Nhất 2, xã Tân Thới Nhì, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8952781, 106.5772785",
+        "ngày đi": "16h45 5/1/2025",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:30 17:30\"",
+        "Name": "Tân Hiệp",
+        "Address": "2/1 Ấp Tân Thới 3, xã Tân Hiệp, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8992337, 106.5780624",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:15 17:00\"",
+        "Name": "Bình Thuận",
+        "Address": "722 Tân Kỳ Tân Quý, phường Bình Hưng Hòa, quận Bình Tân",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7138637, 106.6303915",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"07:00 09:00 17:30\"",
+        "Name": "Phú Xuân",
+        "Address": "6 khu phố 2, khu phố 6, đường Huỳnh Tấn Phát, huyện Nhà Bè",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.6940652, 106.7406817",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00\"",
+        "Name": "Long Đại",
+        "Address": "282P Long Đại, phường Long Phước, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.8347241, 106.8582815",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 17:00\"",
+        "Name": "Tân Thịnh",
+        "Address": "4/33A Ấp Nhị Tân 2, xã Tân Thới Nhì, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.9157585, 106.5639239",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 17:00\"",
+        "Name": "Cầu Lớn",
+        "Address": "1E Đặng Công Bỉnh, xã Xuân Thới Sơn, huyện Hóc Môn",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "location": "10.8730123, 106.5364388",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:00 07:15 15:30 17:00\"",
+        "Name": "Ninh Phát",
+        "Address": "3A 62 Ấp 3, xã Phạm Văn Hai, huyện Bình Chánh",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.7882747, 106.5173951",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"05:30 08:00 17:30\"",
+        "Name": "Bình Chánh",
+        "Address": "C5/1 Ấp 3, Trịnh Như Khuê, xã Bình Chánh, huyện Bình Chánh",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "location": "10.66089249, 106.5661811",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"07:00 17:00\"",
+        "Name": "An Thới Đông",
+        "Address": "Ấp An Hoà, xã An Thới Đông, huyện Cần Giờ",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.5914434, 106.7922045",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"06:00 18:00\"",
+        "Name": "Thánh Giuse",
+        "Address": "114B Ấp Trần Hưng Đạo, xã Tam Thôn Hiệp, huyện Cần Giờ",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.61736957, 106.8557442",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"04:30 08:00 16:30\"",
+        "Name": "Thanh Bình",
+        "Address": "Ấp Bình Khánh, phường Bình Khánh, thành phố Thủ Đức",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "location": "10.95169764, 107.0757922",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "\"07:00\"",
+        "Name": "Cần Giờ",
+        "Address": "183/2 khu phố Miễu Nhì, thị trấn Cần Thạnh, huyện Cần Giờ",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "location": "10.4143788, 106.9716664",
+        "ngày đi": "",
+        "check": "FALSE"
+    },
+    {
+        "✓": "TRUE",
+        "Time": "",
+        "Name": "Đan viện Cát Minh",
+        "Address": "33 Đ. Tôn Đức Thắng, Bến Nghé, Quận 1, Hồ Chí Minh, Vietnam",
+        "giáo hạt": "Không, cái này hơi cheat :)",
+        "location": "10.78350177, 106.7045997",
+        "ngày đi": "7h 1/10/2024",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "05:30 17:00",
+        "Name": "La San Mai Thôn",
+        "Address": "Hẻm 352 Bình Quới, Phường 28, Bình Thạnh, Hồ Chí Minh, Vietnam",
+        "giáo hạt": "???",
+        "location": "10.82251337, 106.7317125",
+        "ngày đi": "",
+        "check": "TRUE"
+    },
+    {
+        "✓": "FALSE",
+        "Time": "06:30",
+        "Name": "Nhà nguyện Đức Mẹ Mân Côi",
+        "Address": "294/134, Xô Viết Nghệ Tĩnh, Phường 19, Bình Thạnh, Hồ Chí Minh, Vietnam",
+        "giáo hạt": "",
+        "location": "10.79986706, 106.7141384",
+        "ngày đi": "",
+        "check": "TRUE"
+    }
+]

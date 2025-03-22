@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Finder</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            height: 400px;
+            margin-bottom: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .notice {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        tr.highlight {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="notice">
+            <p>This website does not collect any data. You can view the source code <a href="#" onclick="showSourceCode()">here</a>.</p>
+        </div>
+        <h1>Church Finder</h1>
+        <div id="map"></div>
+        <button onclick="useCurrentLocation()">Use Current Location</button>
+        <p>Or click on the map to select a location.</p>
+        <label for="start-time">Start Travel Time:</label>
+        <select id="start-time"></select>
+        <button onclick="findClosestChurches()">Find Closest Churches</button>
+        <h2>Closest Churches</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mass Times</th>
+                    <th>Distance (km)</th>
+                    <th>Travel Time</th>
+                    <th>✓</th>
+                    <th>Google Maps</th>
+                </tr>
+            </thead>
+            <tbody id="church-list"></tbody>
+        </table>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        let churches = [];
+        let userLocation = null;
+
+        // Fetch data from Church_list_HCM.json
+        fetch('Church_list_HCM.json')
+            .then(response => response.json())
+            .then(data => {
+                churches = data;
+            })
+            .catch(error => {
+                console.error("Error loading church data:", error);
+                alert("Failed to load church data.");
+            });
+
+        // Initialize map
+        const map = L.map('map').setView([10.8231, 106.6297], 12); // Default to Ho Chi Minh City
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19
+        }).addTo(map);
+
+        // Allow user to select location by clicking on the map
+        map.on('click', function (e) {
+            userLocation = [e.latlng.lat, e.latlng.lng];
+            L.marker(userLocation).addTo(map).bindPopup("Selected Location").openPopup();
+        });
+
+        // Use current location
+        function useCurrentLocation() {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    userLocation = [position.coords.latitude, position.coords.longitude];
+                    map.setView(userLocation, 14);
+                    L.marker(userLocation).addTo(map).bindPopup("You are here").openPopup();
+                },
+                (error) => {
+                    alert("Unable to retrieve your location. Please select a location on the map.");
+                }
+            );
+        }
+
+        // Populate the start time dropdown
+        const startTimeDropdown = document.getElementById('start-time');
+
+        // Get the current time and round it to the nearest 15 minutes
+        function getCurrentTimeRounded() {
+            const now = new Date();
+            const minutes = Math.round(now.getMinutes() / 15) * 15;
+            now.setMinutes(minutes);
+            now.setSeconds(0);
+            return now.toTimeString().slice(0, 5); // Format as HH:MM
+        }
+
+        // Populate the dropdown
+        for (let hour = 3; hour <= 22; hour++) {
+            for (let minute = 0; minute < 60; minute += 15) {
+                const time = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
+                const option = document.createElement('option');
+                option.value = time;
+                option.textContent = time;
+                startTimeDropdown.appendChild(option);
+            }
+        }
+
+        // Set the current time as the default value for the start time dropdown
+        startTimeDropdown.value = getCurrentTimeRounded();
+
+        // Calculate distance between two coordinates (Haversine formula)
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            const R = 6371; // Radius of the Earth in km
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                      Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            return R * c; // Distance in km
+        }
+
+        // Find closest churches
+        function findClosestChurches() {
+            if (!userLocation) {
+                alert("Please select a location on the map or use your current location.");
+                return;
+            }
+        
+            const startTime = startTimeDropdown.value;
+            const [userLat, userLon] = userLocation;
+        
+            const results = churches.map(church => {
+                const [lat, lon] = church.location.split(',').map(Number);
+                const distance = calculateDistance(userLat, userLon, lat, lon);
+                const travelTime = (distance / 20) * 60; // Travel time in minutes (20 km/h)
+                const massTimes = church.Time.split(' ').map(massTime => sanitizeMassTime(massTime)); // Sanitize mass times
+        
+                // Format mass times: bold potential mass times
+                const formattedMassTimes = massTimes.map(massTime => {
+                    if (isReachable(startTime, travelTime, massTime)) {
+                        return `<b>${massTime}</b>`; // Bold the potential mass time
+                    }
+                    return massTime; // Keep other times normal
+                });
+        
+                // Add "Not Check" if the "check" field is not "TRUE"
+                if (church.check !== "TRUE") {
+                    formattedMassTimes.push("Not Check");
+                }
+        
+                // Check if the church has at least one reachable mass time
+                const hasReachableMassTime = massTimes.some(massTime => isReachable(startTime, travelTime, massTime));
+        
+                const googleMapLink = `https://www.google.com/maps/place/${lat},${lon}`;
+                return { ...church, distance, travelTime, formattedMassTimes, googleMapLink, hasReachableMassTime };
+            }).sort((a, b) => {
+                // Sort by reachable mass times first, then by distance
+                if (b.hasReachableMassTime - a.hasReachableMassTime !== 0) {
+                    return b.hasReachableMassTime - a.hasReachableMassTime;
+                }
+                return a.distance - b.distance;
+            });
+        
+            // Display results
+            const churchList = document.getElementById('church-list');
+            churchList.innerHTML = '';
+            results.forEach(church => {
+                const row = document.createElement('tr');
+                if (church.hasReachableMassTime) {
+                    row.classList.add('highlight'); // Highlight in green if there are reachable mass times
+                }
+                row.innerHTML = `
+                    <td>${church.Name}</td>
+                    <td>${church.Address}</td>
+                    <td>${church.formattedMassTimes.join(', ') || 'None'}</td>
+                    <td>${church.distance.toFixed(2)} km</td>
+                    <td>${church.travelTime.toFixed(0)} min</td>
+                    <td>${church["✓"]}</td>
+                    <td><a href="${church.googleMapLink}" target="_blank">Google Maps</a></td>
+                `;
+                churchList.appendChild(row);
+            });
+        }
+        
+        // Sanitize mass time strings
+        function sanitizeMassTime(massTime) {
+            return massTime.replace(/[^0-9:]/g, '').trim(); // Remove non-time characters and trim whitespace
+        }
+        
+        // Check if the church is reachable within the selected time
+        function isReachable(startTime, travelTime, massTime) {
+            const [startHours, startMinutes] = startTime.split(':').map(Number);
+            const [massHours, massMinutes] = massTime.split(':').map(Number);
+            const startTotalMinutes = startHours * 60 + startMinutes;
+            const massTotalMinutes = massHours * 60 + massMinutes;
+            return startTotalMinutes + travelTime <= massTotalMinutes;
+        }
+
+        // Show source code
+        function showSourceCode() {
+            alert("You can view the source code directly in your browser's developer tools.");
+        }
+    </script>
+</body>
+</html>
