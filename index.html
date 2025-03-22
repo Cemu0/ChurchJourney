@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Church Finder</title>
+    <title>[BETA] Catholic HCM(VN) Church Finder</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
         body {
@@ -38,22 +38,47 @@
         tr.highlight {
             background-color: lightgreen;
         }
+        .auth-only {
+            display: none;
+        }
+        button, select {
+            appearance: none;
+            font-size: 1em;
+            padding: 5px;
+        }
     </style>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Les8fwqAAAAAEoRBZYnnbEz7AS4X0IBaJxAjnin"></script>
 </head>
 <body>
     <div class="container">
-        <div class="notice">
-            <p>This website does not collect any data. You can view the source code <a href="#" onclick="showSourceCode()">here</a>.</p>
+        <div id="user-info">
+            <button onclick="googleSignIn()">Sign In with Google (pop up)</button>
         </div>
-        <h1>Church Finder</h1>
+        <div class="notice">
+            <p>This website does not collect your location data, it should only query locally. Login function use to mark what church you visited + your note. You can view the source code <a href="https://github.com/Cemu0/ChurchJourney" onclick="showSourceCode()">here</a>.</p>
+        </div>
+        <h1>[BETA] Catholic HCM(VN) Church Finder</h1>
         <div id="map"></div>
         <button onclick="useCurrentLocation()">Use Current Location</button>
         <p>Or click on the map to select a location.</p>
         <label for="start-time">Start Travel Time:</label>
         <select id="start-time"></select>
-        <button onclick="findClosestChurches()">Find Closest Churches</button>
+        <button onclick="findClosestChurches()">Find Closest Churches Within Time</button>
         <h2>Closest Churches</h2>
-        <table>
+        <div>
+            <label for="filter-options">Filter Churches:</label>
+            <select id="filter-options" onchange="filterChurches()">
+                <option value="all">All Churches</option>
+                <option value="visited">Visited Churches</option>
+                <option value="noted">Noted Churches</option>
+                <option value="not-visited">Not Visited Churches</option>
+                <option value="not-noted">Not Noted Churches</option>
+            </select>
+        </div>
+        <div id="visited-count" style="margin-top: 20px;">
+            <p>Total Visited Churches: <span id="visited-total">0</span></p>
+        </div>
+        <table style="overflow-x: auto; min-width: 1000px">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -61,8 +86,10 @@
                     <th>Mass Times</th>
                     <th>Distance (km)</th>
                     <th>Travel Time</th>
-                    <th>✓</th>
                     <th>Google Maps</th>
+                    <th class="auth-only">Visited</th>
+                    <th class="auth-only">Note</th>
+                    <th class="auth-only">Actions</th>
                 </tr>
             </thead>
             <tbody id="church-list"></tbody>
@@ -79,6 +106,8 @@
             .then(response => response.json())
             .then(data => {
                 churches = data;
+                userLocation = [10.8231, 106.6297]; // Default to Ho Chi Minh City
+                findClosestChurches(); // Automatically show closest churches on page load
             })
             .catch(error => {
                 console.error("Error loading church data:", error);
@@ -99,6 +128,11 @@
 
         // Use current location
         function useCurrentLocation() {
+            if (!navigator.geolocation) {
+                alert("Geolocation is not supported by your browser. Please select a location on the map.");
+                return;
+            }
+        
             navigator.geolocation.getCurrentPosition(
                 (position) => {
                     userLocation = [position.coords.latitude, position.coords.longitude];
@@ -106,14 +140,27 @@
                     L.marker(userLocation).addTo(map).bindPopup("You are here").openPopup();
                 },
                 (error) => {
-                    alert("Unable to retrieve your location. Please select a location on the map.");
+                    switch (error.code) {
+                        case error.PERMISSION_DENIED:
+                            alert("Location access denied. Please enable location permissions in your browser settings.");
+                            break;
+                        case error.POSITION_UNAVAILABLE:
+                            alert("Location information is unavailable. Please try again later.");
+                            break;
+                        case error.TIMEOUT:
+                            alert("The request to get your location timed out. Please try again.");
+                            break;
+                        default:
+                            alert("Unable to retrieve your location. Please select a location on the map. Or check your settings.");
+                            break;
+                    }
                 }
             );
         }
 
         // Populate the start time dropdown
         const startTimeDropdown = document.getElementById('start-time');
-
+        
         // Get the current time and round it to the nearest 15 minutes
         function getCurrentTimeRounded() {
             const now = new Date();
@@ -122,8 +169,8 @@
             now.setSeconds(0);
             return now.toTimeString().slice(0, 5); // Format as HH:MM
         }
-
-        // Populate the dropdown
+        
+        // Populate the dropdown with times from 3:00 AM to 10:00 PM
         for (let hour = 3; hour <= 22; hour++) {
             for (let minute = 0; minute < 60; minute += 15) {
                 const time = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
@@ -133,9 +180,17 @@
                 startTimeDropdown.appendChild(option);
             }
         }
-
+        
         // Set the current time as the default value for the start time dropdown
-        startTimeDropdown.value = getCurrentTimeRounded();
+        const currentTime = getCurrentTimeRounded();
+        const defaultOption = Array.from(startTimeDropdown.options).find(option => option.value === currentTime);
+        
+        // If the current time is outside the range, set the default to the first option (3:00 AM)
+        if (defaultOption) {
+            startTimeDropdown.value = currentTime;
+        } else {
+            startTimeDropdown.value = startTimeDropdown.options[0].value;
+        }
 
         // Calculate distance between two coordinates (Haversine formula)
         function calculateDistance(lat1, lon1, lat2, lon2) {
@@ -149,12 +204,22 @@
             return R * c; // Distance in km
         }
 
+        function selectChurchOnMap(lat, lon, churchName) {
+            // Center the map on the church's location
+            map.setView([lat, lon], 14);
+        
+            // Add or highlight a marker for the church
+            const marker = L.marker([lat, lon]).addTo(map);
+            marker.bindPopup(`<b>${churchName}</b><br>Selected Church`).openPopup();
+        }
+
         // Find closest churches
-        function findClosestChurches() {
+        async function findClosestChurches() {
             if (!userLocation) {
                 alert("Please select a location on the map or use your current location.");
                 return;
             }
+            console.log("Finding closest churches...");
         
             const startTime = startTimeDropdown.value;
             const [userLat, userLon] = userLocation;
@@ -162,8 +227,11 @@
             const results = churches.map(church => {
                 const [lat, lon] = church.location.split(',').map(Number);
                 const distance = calculateDistance(userLat, userLon, lat, lon);
-                const travelTime = (distance / 20) * 60; // Travel time in minutes (20 km/h)
+                const travelTime = (distance / 10) * 60; // Travel time in minutes (7 km/h because we are flying)
                 const massTimes = church.Time.split(' ').map(massTime => sanitizeMassTime(massTime)); // Sanitize mass times
+        
+                // Check if the church has reachable mass times
+                const hasReachableMassTime = massTimes.some(massTime => isReachable(startTime, travelTime, massTime));
         
                 // Format mass times: bold potential mass times
                 const formattedMassTimes = massTimes.map(massTime => {
@@ -173,16 +241,14 @@
                     return massTime; // Keep other times normal
                 });
         
-                // Add "Not Check" if the "check" field is not "TRUE"
-                if (church.check !== "TRUE") {
+                // Add "Not Check" if the "check" field is "FALSE"
+                if (church.check === "FALSE") {
                     formattedMassTimes.push("Not Check");
                 }
         
-                // Check if the church has at least one reachable mass time
-                const hasReachableMassTime = massTimes.some(massTime => isReachable(startTime, travelTime, massTime));
-        
                 const googleMapLink = `https://www.google.com/maps/place/${lat},${lon}`;
-                return { ...church, distance, travelTime, formattedMassTimes, googleMapLink, hasReachableMassTime };
+        
+                return { ...church, distance, travelTime, formattedMassTimes, hasReachableMassTime, googleMapLink, lat, lon };
             }).sort((a, b) => {
                 // Sort by reachable mass times first, then by distance
                 if (b.hasReachableMassTime - a.hasReachableMassTime !== 0) {
@@ -200,18 +266,178 @@
                     row.classList.add('highlight'); // Highlight in green if there are reachable mass times
                 }
                 row.innerHTML = `
-                    <td>${church.Name}</td>
+                    <td><a href="#" onclick="selectChurchOnMap(${church.lat}, ${church.lon}, '${church.Name}')">${church.Name}</a></td>
                     <td>${church.Address}</td>
                     <td>${church.formattedMassTimes.join(', ') || 'None'}</td>
                     <td>${church.distance.toFixed(2)} km</td>
                     <td>${church.travelTime.toFixed(0)} min</td>
-                    <td>${church["✓"]}</td>
                     <td><a href="${church.googleMapLink}" target="_blank">Google Maps</a></td>
+                    <td class="auth-only">
+                        <button onclick="toggleVisited(this, '${church.Name}')">No</button>
+                    </td>
+                    <td class="auth-only"></td> <!-- Placeholder for the note -->
+                    <td class="auth-only">
+                        <button onclick="editNote('${church.Name}')">Add Note</button>
+                    </td>
                 `;
                 churchList.appendChild(row);
             });
-        }
         
+            // Restore auth-only elements if the user is signed in
+            if (window.auth) {
+                if (auth.currentUser) {
+                    document.querySelectorAll('.auth-only').forEach(element => {
+                        element.style.display = 'table-cell';
+                    });
+                }
+            }
+            // Update visited churches UI
+            if (window.visitedChurches) {
+                updateVisitedChurchesUI(window.visitedChurches);
+            }
+        
+            // Update the filter options
+            filterChurches();
+        }
+
+        function filterChurches() {
+            const filter = document.getElementById('filter-options').value;
+            const rows = document.querySelectorAll('#church-list tr');
+        
+            rows.forEach(row => {
+                const visitedCell = row.querySelector('.auth-only:nth-child(7)');
+                const noteCell = row.querySelector('.auth-only:nth-child(8)');
+                const isVisited = visitedCell && visitedCell.textContent.trim() === "Yes";
+                const hasNote = noteCell && noteCell.textContent.trim() !== "";
+        
+                // Show or hide rows based on the filter
+                if (filter === "all") {
+                    row.style.display = ""; // Show all rows
+                } else if (filter === "visited") {
+                    row.style.display = isVisited ? "" : "none"; // Show only visited rows
+                } else if (filter === "noted") {
+                    row.style.display = hasNote ? "" : "none"; // Show only rows with notes
+                } else if (filter === "not-visited") {
+                    row.style.display = !isVisited ? "" : "none"; // Show only not visited rows
+                } else if (filter === "not-noted") {
+                    row.style.display = !hasNote ? "" : "none"; // Show only rows without notes
+                }
+            });
+        }
+
+        function toggleVisited(button, churchName) {
+            const currentState = button.textContent;
+            const newState = currentState === "No" ? "Yes" : "No";
+            button.textContent = newState;
+        
+            const row = button.closest('tr'); // Get the row containing the button
+        
+            if (auth.currentUser) {
+                if (newState === "Yes") {
+                    // Find the row for the church and get the current note
+                    const rows = document.querySelectorAll('#church-list tr');
+                    let currentNote = "";
+                    rows.forEach(row => {
+                        if (row.cells[0].textContent === churchName) {
+                            const noteCell = row.querySelector('.auth-only:nth-child(8)');
+                            if (noteCell) {
+                                currentNote = noteCell.textContent.trim(); // Get the current note
+                            }
+                        }
+                    });
+                    
+                    // Prompt the user with the current note pre-filled
+                    const note = prompt(`Enter a note for "${churchName}":`, currentNote);
+
+                    window.addVisitedChurch(auth.currentUser.uid, churchName, note || "", true); // Mark as visited
+                    row.style.backgroundColor = "lightgray"; // Change row color to gray
+                } else {
+                    alert(`Marked "${churchName}" as not visited.`);
+                    window.addVisitedChurch(auth.currentUser.uid, churchName, "", false); // Mark as not visited
+                    row.style.backgroundColor = ""; // Reset row color
+                }
+            } else {
+                alert("You must be signed in to update the visited status.");
+            }
+        }
+
+        function editNote(churchName) {
+            // Find the row for the church and get the current note
+            const rows = document.querySelectorAll('#church-list tr');
+            let currentNote = "";
+            rows.forEach(row => {
+                if (row.cells[0].textContent === churchName) {
+                    const noteCell = row.querySelector('.auth-only:nth-child(8)');
+                    if (noteCell) {
+                        currentNote = noteCell.textContent.trim(); // Get the current note
+                    }
+                }
+            });
+        
+            // Prompt the user with the current note pre-filled
+            const note = prompt(`Enter a new note for "${churchName}":`, currentNote);
+            if (note !== null) {
+                // Update the "Note" column in the table
+                rows.forEach(row => {
+                    if (row.cells[0].textContent === churchName) {
+                        row.querySelector('.auth-only:nth-child(8)').innerHTML = `
+                            ${note}
+                            <button onclick="editNote('${churchName}')">Edit Note</button>
+                        `;
+                    }
+                });
+        
+                // Update the note in Firestore
+                if (auth.currentUser) {
+                    window.addVisitedChurch(auth.currentUser.uid, churchName, note, true); // Ensure visited is true when editing a note
+                }
+        
+                alert(`Note updated for "${churchName}".`);
+            }
+        }
+
+        function updateVisitedChurchesUI(visitedChurches) {
+            console.log("Updating UI with visited churches:", visitedChurches);
+            const rows = document.querySelectorAll('#church-list tr');
+            let visitedCount = 0;
+        
+            rows.forEach(row => {
+                const churchName = row.cells[0].textContent; // Get the church name from the first column
+                const visitedChurch = visitedChurches.find(church => church.name === churchName);
+        
+                if (visitedChurch) {
+                    // Update the "Visited" column based on the visited status
+                    const visitedCell = row.querySelector('.auth-only:nth-child(7)');
+                    if (visitedCell) {
+                        visitedCell.innerHTML = `
+                            <button onclick="toggleVisited(this, '${churchName}')">${visitedChurch.visited ? "Yes" : "No"}</button>
+                        `;
+                    }
+        
+                    // Update the "Note" column with the note
+                    const noteCell = row.querySelector('.auth-only:nth-child(8)');
+                    if (noteCell) {
+                        noteCell.textContent = visitedChurch.note || ""; // Display the note
+                    }
+
+                    // Highlight the row if the church is visited
+                    if (visitedChurch.visited) {
+                        row.style.backgroundColor = "lightgray";
+                    } else {
+                        row.style.backgroundColor = "";
+                    }
+        
+                    // Increment the visited count if the church is marked as visited
+                    if (visitedChurch.visited) {
+                        visitedCount++;
+                    }
+                }
+            });
+        
+            // Update the total visited count in the UI
+            document.getElementById('visited-total').textContent = visitedCount;
+        }
+
         // Sanitize mass time strings
         function sanitizeMassTime(massTime) {
             return massTime.replace(/[^0-9:]/g, '').trim(); // Remove non-time characters and trim whitespace
@@ -226,10 +452,224 @@
             return startTotalMinutes + travelTime <= massTotalMinutes;
         }
 
-        // Show source code
-        function showSourceCode() {
-            alert("You can view the source code directly in your browser's developer tools.");
+        function saveChurch(churchName) {
+            const note = prompt("Enter a note for this church:");
+            if (note !== null) {
+                // Find the row for the church and update the "Visited" and "Note" columns
+                const rows = document.querySelectorAll('#church-list tr');
+                rows.forEach(row => {
+                    if (row.cells[0].textContent === churchName) {
+                        row.querySelector('.auth-only:nth-child(7)').textContent = "Yes"; // Update "Visited" column
+                        row.querySelector('.auth-only:nth-child(8)').textContent = note; // Update "Note" column
+                    }
+                });
+                alert("Church saved successfully!");
+            }
         }
+
+    </script>
+    <script type="module">
+        /// LOGIN SECTION 
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
+        import { getAuth,signInWithPopup, signInWithRedirect, GoogleAuthProvider, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js";
+        import { getRedirectResult } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js";
+        import { setPersistence, browserLocalPersistence } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js";
+        
+        // Your Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBlLQPX3O9BGgOFk5BgqaCdG_baaq1yC4k",
+            authDomain: "church-journey.firebaseapp.com",
+            projectId: "church-journey",
+            storageBucket: "church-journey.firebasestorage.app",
+            messagingSenderId: "537030828263",
+            appId: "1:537030828263:web:666801501bf3b72cf98242",
+            measurementId: "G-NTS78TH6TE"
+        };
+    
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+
+        const provider = new GoogleAuthProvider();
+
+        // Google Sign-In
+        function googleSignIn() {
+            console.log("Initiating Google Sign-In with reCAPTCHA...");
+            grecaptcha.ready(() => {
+                // Execute reCAPTCHA with the "login" action
+                grecaptcha.execute('6Les8fwqAAAAAEoRBZYnnbEz7AS4X0IBaJxAjnin', { action: 'submit' })
+                    .then(token => {
+                        console.log("reCAPTCHA token:", token);
+                        // Optionally, send the token to your server for verification
+                        signInWithPopup(auth, provider)
+                                .then((result) => {
+                                    const user = result.user;
+                                    console.log("Sign-In Successful:", user);
+                                    document.getElementById('user-info').innerHTML = `
+                                        <p>Signed in as: ${user.displayName} (${user.email})</p>
+                                        <button onclick="googleSignOut()">Sign Out</button>
+                                    `;
+                                })
+                                .catch((error) => {
+                                    if (error.code === 'auth/popup-blocked') {
+                                        console.warn("Popup blocked. Falling back to redirect.");
+                                        signInWithRedirect(auth, provider);
+                                    } else {
+                                        console.error("Error during sign-in:", error);
+                                        alert("Failed to sign in. Please try again.");
+                                    }
+                                });
+                    })
+                    .catch(error => {
+                        console.error("Error executing reCAPTCHA:", error);
+                        alert("Failed to verify reCAPTCHA. Please try again.");
+                    });
+            });
+        }
+        
+        // Restore user session on page load
+        onAuthStateChanged(auth, async (user) => {
+            if (user) {
+                console.log("User is signed in:", user);
+                document.getElementById('user-info').innerHTML = `
+                    <p>Signed in as: ${user.displayName} (${user.email})</p>
+                    <button onclick="googleSignOut()">Sign Out</button>
+                `;
+        
+                // Show elements with the "auth-only" class
+                document.querySelectorAll('.auth-only').forEach(element => {
+                    element.style.display = 'table-cell'; // Make table cells visible
+                });
+        
+                // Fetch visited churches for the signed-in user
+                const visitedChurches = await fetchVisitedChurches(user.uid);
+                window.visitedChurches = visitedChurches;
+                console.log("Visited Churches:", visitedChurches);
+        
+                updateVisitedChurchesUI(visitedChurches);
+
+            } else {
+                console.log("User is signed out.");
+                document.getElementById('user-info').innerHTML = `
+                    <button onclick="googleSignIn()">Sign In with Google</button>
+                `;
+        
+                // Hide elements with the "auth-only" class
+                document.querySelectorAll('.auth-only').forEach(element => {
+                    element.style.display = 'none'; // Hide table cells
+                });
+            }
+        });
+
+
+        // Handle redirect result
+        // document.addEventListener("DOMContentLoaded", () => {
+        //     console.log("Checking for redirect result...");
+        //     getRedirectResult(auth)
+        //         .then((result) => {
+        //             if (result && result.user) {
+        //                 const user = result.user;
+        //                 console.log("Sign-In Result:", result);
+        //                 alert(`Welcome back, ${user.displayName}!`);
+        //                 document.getElementById('user-info').innerHTML = `
+        //                     <p>Signed in as: ${user.displayName} (${user.email})</p>
+        //                     <button onclick="window.googleSignOut()">Sign Out</button>
+        //                 `;
+        //                 findClosestChurches(); // Refresh the church list
+        //             } else {
+        //                 console.log("No redirect result found.");
+        //             }
+        //         })
+        //         .catch((error) => {
+        //             console.error("Error during redirect sign-in:", error);
+        //             alert("Failed to sign in. Please try again.");
+        //         });
+        // });
+    
+        // Google Sign-Out
+        function googleSignOut() {
+            signOut(auth)
+                .then(() => {
+                    alert("You have signed out.");
+                    document.getElementById('user-info').innerHTML = `
+                        <button onclick="googleSignIn()">Sign In with Google</button>
+                    `;
+                    findClosestChurches(); // Refresh the church list
+                })
+                .catch((error) => {
+                    console.error("Error during sign-out:", error);
+                    alert("Failed to sign out. Please try again.");
+                });
+        }
+    
+        // Attach functions to the global window object
+        window.googleSignIn = googleSignIn;
+        window.googleSignOut = googleSignOut;
+        // window.checkRedirectResult = checkRedirectResult;
+
+        // USER DATA
+        import { getFirestore, doc, getDoc, setDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js";
+        
+        const db = getFirestore(app);
+        
+        // Fetch visited churches for the signed-in user
+        async function fetchVisitedChurches(userId) {
+            const userDoc = doc(db, "visited_church", userId);
+            console.log(userDoc);
+            const userSnapshot = await getDoc(userDoc);
+        
+            if (userSnapshot.exists()) {
+                return userSnapshot.data().visitedChurches || [];
+            } else {
+                // If the user document doesn't exist, create it
+                await setDoc(userDoc, { visitedChurches: [] });
+                return [];
+            }
+        }
+        
+        // Add a church to the visited list
+        async function addVisitedChurch(userId, churchName, note, visited) {
+            try {
+                if (!churchName || typeof visited === 'undefined') {
+                    throw new Error("Invalid data: 'churchName' and 'visited' are required fields.");
+                }
+        
+                const userDoc = doc(db, "visited_church", userId); // Reference to the user's document
+                const userSnapshot = await getDoc(userDoc);
+        
+                let visitedChurches = [];
+                if (userSnapshot.exists()) {
+                    // If the document exists, get the current visitedChurches array
+                    visitedChurches = userSnapshot.data().visitedChurches || [];
+                }
+        
+                // Find the church in the array
+                const churchIndex = visitedChurches.findIndex(church => church.name === churchName);
+        
+                if (churchIndex !== -1) {
+                    // If the church already exists, update its note and visited status
+                    visitedChurches[churchIndex].note = note || visitedChurches[churchIndex].note || ""; // Default to an empty string if no note is provided
+                    visitedChurches[churchIndex].visited = visited;
+                } else {
+                    // If the church doesn't exist, add it to the array
+                    visitedChurches.push({ name: churchName, note: note || "", visited });
+                }
+        
+                // Update the document in Firestore
+                await setDoc(userDoc, { visitedChurches });
+                console.log(`Church "${churchName}" updated in the visited list.`);
+                updateVisitedChurchesUI(visitedChurches);
+            } catch (error) {
+                console.error("Error updating visited church:", error);
+                alert("Failed to save the visited church. Please try again.");
+            }
+        }
+
+        // Attach auth and db to the global window object
+        window.addVisitedChurch = addVisitedChurch;
+        window.auth = auth;
+        window.db = db;
     </script>
 </body>
 </html>
