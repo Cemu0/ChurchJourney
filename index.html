@@ -59,7 +59,7 @@
         </div>
         <h1>[BETA] Catholic HCM(VN) Church Finder</h1>
         <div id="map"></div>
-        <button onclick="useCurrentLocation()">Use Current Location</button>
+        <button onclick="useCurrentLocation()" aria-label="Use your current location">Use Current Location</button>
         <p>Or click on the map to select a location.</p>
         <label for="start-time">Start Travel Time:</label>
         <select id="start-time"></select>
@@ -138,6 +138,7 @@
                     userLocation = [position.coords.latitude, position.coords.longitude];
                     map.setView(userLocation, 14);
                     L.marker(userLocation).addTo(map).bindPopup("You are here").openPopup();
+                    findClosestChurches();
                 },
                 (error) => {
                     switch (error.code) {
@@ -213,6 +214,7 @@
             // Add or highlight a marker for the church
             const marker = L.marker([lat, lon]).addTo(map);
             marker.bindPopup(`<b>${churchName}</b><br>Selected Church`).openPopup();
+            findClosestChurches();
         }
 
         // Find closest churches
@@ -224,6 +226,12 @@
             console.log("Finding closest churches...");
         
             const startTime = startTimeDropdown.value;
+
+            if (!/^\d{2}:\d{2}$/.test(startTime)) {
+                alert("Invalid start time. Please select a valid time.");
+                return;
+            }
+
             const [userLat, userLon] = userLocation;
         
             const results = churches.map(church => {
@@ -242,6 +250,8 @@
                     }
                     return massTime; // Keep other times normal
                 });
+                // tr.highlight the row if the church has reachable mass times
+                const rowClass = hasReachableMassTime ? 'highlight' : '';
         
                 // Add "Not Check" if the "check" field is "FALSE"
                 if (church.check === "FALSE") {
@@ -250,7 +260,7 @@
         
                 const googleMapLink = `https://www.google.com/maps/place/${lat},${lon}`;
         
-                return { ...church, distance, travelTime, formattedMassTimes, hasReachableMassTime, googleMapLink, lat, lon };
+                return { ...church, distance, travelTime, formattedMassTimes, hasReachableMassTime, googleMapLink, lat, lon, rowClass };
             }).sort((a, b) => {
                 // Sort by reachable mass times first, then by distance
                 if (b.hasReachableMassTime - a.hasReachableMassTime !== 0) {
@@ -262,11 +272,9 @@
             // Display results
             const churchList = document.getElementById('church-list');
             churchList.innerHTML = '';
+            const fragment = document.createDocumentFragment();
             results.forEach(church => {
                 const row = document.createElement('tr');
-                if (church.hasReachableMassTime) {
-                    row.classList.add('highlight'); // Highlight in green if there are reachable mass times
-                }
                 row.innerHTML = `
                     <td><a href="#" onclick="selectChurchOnMap(${church.lat}, ${church.lon}, '${church.Name}')">${church.Name}</a></td>
                     <td>${church.Address}</td>
@@ -277,13 +285,18 @@
                     <td class="auth-only">
                         <button onclick="toggleVisited(this, '${church.Name}')">No</button>
                     </td>
-                    <td class="auth-only"></td> <!-- Placeholder for the note -->
+                    <td class="auth-only"></td>
                     <td class="auth-only">
                         <button onclick="editNote('${church.Name}')">Add Note</button>
                     </td>
                 `;
-                churchList.appendChild(row);
+                if (church.rowClass) {
+                    row.classList.add(church.rowClass); // Only add the class if it's not empty or undefined
+                }
+                fragment.appendChild(row);
             });
+            churchList.innerHTML = ''; // Clear existing rows
+            churchList.appendChild(fragment);
         
             // Restore auth-only elements if the user is signed in
             if (window.auth) {
@@ -477,68 +490,76 @@
         import { getAuth,signInWithPopup, signInWithRedirect, GoogleAuthProvider, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js";
         import { getRedirectResult } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js";
         import { setPersistence, browserLocalPersistence } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js";
+
+        async function fetchFirebaseConfig() {
+            try {
+                const response = await fetch('https://cloudflare-dns.com/dns-query?name=firebaseConfig.quocanh.net&type=TXT', {
+                    headers: { 'Accept': 'application/dns-json' }
+                });
+                const data = await response.json();
         
-        // Your Firebase configuration
-        const firebaseConfig = {
-            apiKey: "AIzaSyBlLQPX3O9BGgOFk5BgqaCdG_baaq1yC4k",
-            authDomain: "church-journey.firebaseapp.com",
-            projectId: "church-journey",
-            storageBucket: "church-journey.firebasestorage.app",
-            messagingSenderId: "537030828263",
-            appId: "1:537030828263:web:666801501bf3b72cf98242",
-            measurementId: "G-NTS78TH6TE"
-        };
+                // Find the TXT record (type 16)
+                const txtRecord = data.Answer.find(record => record.type === 16);
+                if (!txtRecord) {
+                    throw new Error("No TXT record found for firebaseConfig.quocanh.net");
+                }
+                
+                console.log("TXT Record Data:", txtRecord.data);
+        
+                // Clean up the TXT record data
+                const rawConfig = txtRecord.data
+                    .replace(/\\n/g, '') // Remove line breaks
+                    .replace(/'/g, '"') // Replace single quotes with double quotes
+                    .replace(/""/g, '') // Remove extra double quotes
+                    .replace(/^\s*"/, '') // Remove leading quote
+                    .replace(/"\s*$/, ''); // Remove trailing quote
+
+
+                // Ensure property names are quoted
+                const validJsonConfig = rawConfig.replace(/([{,])\s*([a-zA-Z0-9_]+)\s*:/g, '$1"$2":');
+                
+                console.log("Cleaned TXT Record Data:", rawConfig);
+
+                // Parse the cleaned string into a JSON object
+                const firebaseConfig = JSON.parse(rawConfig);
+
+                window.firebaseConfig = firebaseConfig;
+        
+                console.log("Firebase Config Loaded:", firebaseConfig);
+        
+                // Initialize Firebase with the fetched configuration
+                const app = initializeApp(firebaseConfig);
+                const auth = getAuth(app);
+                const db = getFirestore(app);
+        
+                // Attach Firebase objects to the global window object
+                window.auth = auth;
+                window.db = db;
+        
+                console.log("Firebase initialized successfully with dynamic config.");
+            } catch (error) {
+                console.error("Error loading Firebase config:", error);
+                alert("Failed to load Firebase configuration. Please try again later.");
+            }
+        }
+        
+        // Call the function to load Firebase config on page load
+        await fetchFirebaseConfig();
+        
+        // fetchFirebaseConfig();
+
+        // Call the function to load Firebase config on page load
+        // await loadFirebaseConfig();
     
         // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const auth = getAuth(app);
+        // const app = initializeApp(firebaseConfig);
+        // const auth = getAuth(app);
 
         const provider = new GoogleAuthProvider();
-    
-        // setPersistence(auth, browserLocalPersistence)
-        //     .then(() => {
-        //         // Now you can call signInWithRedirect
-        //         signInWithRedirect(auth, provider);
-        //     })
-        //     .catch((error) => {
-        //         console.error("Error setting persistence:", error);
-        //     });
-
-        // function renderGoogleSignInButton() {
-        //     const container = document.getElementById('google-signin-container');
-        //     container.innerHTML = `
-        //         <button id="google-signin-button">Sign In with Google</button>
-        //     `;
-
-        //     document.getElementById('google-signin-button').addEventListener('click', () => {
-        //         signInWithPopup(auth, provider)
-        //             .then((result) => {
-        //                 const user = result.user;
-        //                 console.log("Sign-In Successful:", user);
-        //                 document.getElementById('user-info').innerHTML = `
-        //                     <p>Signed in as: ${user.displayName} (${user.email})</p>
-        //                     <button onclick="googleSignOut()">Sign Out</button>
-        //                 `;
-
-        //                 // Show elements with the "auth-only" class
-        //                 document.querySelectorAll('.auth-only').forEach(element => {
-        //                     element.style.display = 'table-cell';
-        //                 });
-        //             })
-        //             .catch((error) => {
-        //                 console.error("Error during sign-in:", error);
-        //                 alert("Failed to sign in. Please try again.");
-        //             });
-        //     });
-        // }
-        // Initialize the sign-in button on page load
-        // document.addEventListener('DOMContentLoaded', () => {
-        //     renderGoogleSignInButton();
-        // });
 
         // Google Sign-In
         function googleSignIn() {
-            signInWithPopup(auth, provider)
+            signInWithPopup(window.auth, provider)
             .then((result) => {
                 const user = result.user;
                 console.log("Sign-In Successful:", user);
@@ -552,37 +573,15 @@
                 if (error.code === 'auth/popup-blocked') {
                     console.warn("Popup blocked. Falling back to redirect.");
                     alert("Please allow pop-ups to sign in.");
-                    // authWindow.location.href = "about:blank"; // Set the new tab to blank
-                    // signInWithRedirect(auth, provider); // Redirect in the new tab
                 } else {
                     console.error("Error during sign-in:", error);
                     alert("Failed to sign in. Please try again.");
-                    // authWindow.close(); // Close the tab even if there's an error
                 }
             });
-
-            // console.log("Initiating Google Sign-In with reCAPTCHA...");
-            // grecaptcha.ready(() => {
-            //     // Execute reCAPTCHA with the "login" action
-            //     grecaptcha.execute('6Les8fwqAAAAAEoRBZYnnbEz7AS4X0IBaJxAjnin', { action: 'submit' })
-            //         .then(token => {
-            //             console.log("reCAPTCHA token:", token);
-        
-            //             // Open a new tab for the redirect
-            //             // const authWindow = window.open('', '_blank'); // Open a blank tab
-        
-            //             // Use signInWithPopup first
-                        
-            //         })
-            //         .catch(error => {
-            //             console.error("Error executing reCAPTCHA:", error);
-            //             alert("Failed to verify reCAPTCHA. Please try again.");
-            //         });
-            // });
         }
         
         // Restore user session on page load
-        onAuthStateChanged(auth, async (user) => {
+        onAuthStateChanged(window.auth, async (user) => {
             if (user) {
                 console.log("User is signed in:", user);
                 document.getElementById('user-info').innerHTML = `
@@ -605,7 +604,7 @@
             } else {
                 console.log("User is signed out.");
                 document.getElementById('user-info').innerHTML = `
-                    <button onclick="googleSignIn()">Sign In with Google</button>
+                    <button onclick="googleSignIn()">Sign In with Google (Pop up)</button>
                 `;
         
                 // Hide elements with the "auth-only" class
@@ -614,33 +613,10 @@
                 });
             }
         });
-
-
-        // Handle redirect result
-        // document.addEventListener("DOMContentLoaded", () => {
-        // getRedirectResult(auth)
-        //     .then((result) => {
-        //         if (result && result.user) {
-        //             const user = result.user;
-        //             console.log("Sign-In Result:", result);
-        //             alert(`Welcome back, ${user.displayName}!`);
-        //             document.getElementById('user-info').innerHTML = `
-        //                 <p>Signed in as: ${user.displayName} (${user.email})</p>
-        //                 <button onclick="googleSignOut()">Sign Out</button>
-        //             `;
-        //         } else {
-        //             console.log("No redirect result found.");
-        //         }
-        //     })
-        //     .catch((error) => {
-        //         console.error("Error during redirect sign-in:", error);
-        //         alert("Failed to sign in. Please try again.");
-        //     });
-        // });
     
         // Google Sign-Out
         function googleSignOut() {
-            signOut(auth)
+            signOut(window.auth)
                 .then(() => {
                     alert("You have signed out.");
                     document.getElementById('user-info').innerHTML = `
@@ -662,7 +638,7 @@
         // USER DATA
         import { getFirestore, doc, getDoc, setDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js";
         
-        const db = getFirestore(app);
+        const db = getFirestore(window.app);
         
         // Fetch visited churches for the signed-in user
         async function fetchVisitedChurches(userId) {
