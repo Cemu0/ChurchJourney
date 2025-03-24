@@ -84,12 +84,12 @@
                     <th>Name</th>
                     <th>Address</th>
                     <th>Mass Times</th>
-                    <th>Distance (km)</th>
-                    <th>Travel Time</th>
-                    <th>Google Maps</th>
                     <th class="auth-only">Visited</th>
                     <th class="auth-only">Note</th>
                     <th class="auth-only">Actions</th>
+                    <th>Distance (km)</th>
+                    <th>Travel Time</th>
+                    <th>Google Maps</th>
                 </tr>
             </thead>
             <tbody id="church-list"></tbody>
@@ -279,9 +279,6 @@
                     <td><a href="#" onclick="selectChurchOnMap(${church.lat}, ${church.lon}, '${church.Name}')">${church.Name}</a></td>
                     <td>${church.Address}</td>
                     <td>${church.formattedMassTimes.join(', ') || 'None'}</td>
-                    <td>${church.distance.toFixed(2)} km</td>
-                    <td>${church.travelTime.toFixed(0)} min</td>
-                    <td><a href="${church.googleMapLink}" target="_blank">Google Maps</a></td>
                     <td class="auth-only">
                         <button onclick="toggleVisited(this, '${church.Name}')">No</button>
                     </td>
@@ -289,6 +286,9 @@
                     <td class="auth-only">
                         <button onclick="editNote('${church.Name}')">Add Note</button>
                     </td>
+                    <td>${church.distance.toFixed(2)} km</td>
+                    <td>${church.travelTime.toFixed(0)} min</td>
+                    <td><a href="${church.googleMapLink}" target="_blank">Google Maps</a></td>
                 `;
                 if (church.rowClass) {
                     row.classList.add(church.rowClass); // Only add the class if it's not empty or undefined
@@ -320,8 +320,8 @@
             const rows = document.querySelectorAll('#church-list tr');
         
             rows.forEach(row => {
-                const visitedCell = row.querySelector('.auth-only:nth-child(7)');
-                const noteCell = row.querySelector('.auth-only:nth-child(8)');
+                const visitedCell = row.querySelector('.auth-only:nth-child(4)');
+                const noteCell = row.querySelector('.auth-only:nth-child(5)');
                 const isVisited = visitedCell && visitedCell.textContent.trim() === "Yes";
                 const hasNote = noteCell && noteCell.textContent.trim() !== "";
         
@@ -354,7 +354,7 @@
                     let currentNote = "";
                     rows.forEach(row => {
                         if (row.cells[0].textContent === churchName) {
-                            const noteCell = row.querySelector('.auth-only:nth-child(8)');
+                            const noteCell = row.querySelector('.auth-only:nth-child(5)');
                             if (noteCell) {
                                 currentNote = noteCell.textContent.trim(); // Get the current note
                             }
@@ -380,9 +380,10 @@
             // Find the row for the church and get the current note
             const rows = document.querySelectorAll('#church-list tr');
             let currentNote = "";
+            let last_visited_value = "";
             rows.forEach(row => {
                 if (row.cells[0].textContent === churchName) {
-                    const noteCell = row.querySelector('.auth-only:nth-child(8)');
+                    const noteCell = row.querySelector('.auth-only:nth-child(5)');
                     if (noteCell) {
                         currentNote = noteCell.textContent.trim(); // Get the current note
                     }
@@ -395,16 +396,18 @@
                 // Update the "Note" column in the table
                 rows.forEach(row => {
                     if (row.cells[0].textContent === churchName) {
-                        row.querySelector('.auth-only:nth-child(8)').innerHTML = `
+                        row.querySelector('.auth-only:nth-child(5)').innerHTML = `
                             ${note}
                             <button onclick="editNote('${churchName}')">Edit Note</button>
                         `;
+                        last_visited_value = row.querySelector('.auth-only:nth-child(4)').textContent.trim();
                     }
                 });
-        
+                console.log(last_visited_value);
+
                 // Update the note in Firestore
                 if (auth.currentUser) {
-                    window.addVisitedChurch(auth.currentUser.uid, churchName, note, true); // Ensure visited is true when editing a note
+                    window.addVisitedChurch(auth.currentUser.uid, churchName, note, last_visited_value=="Yes");
                 }
         
                 alert(`Note updated for "${churchName}".`);
@@ -422,7 +425,7 @@
         
                 if (visitedChurch) {
                     // Update the "Visited" column based on the visited status
-                    const visitedCell = row.querySelector('.auth-only:nth-child(7)');
+                    const visitedCell = row.querySelector('.auth-only:nth-child(4)');
                     if (visitedCell) {
                         visitedCell.innerHTML = `
                             <button onclick="toggleVisited(this, '${churchName}')">${visitedChurch.visited ? "Yes" : "No"}</button>
@@ -430,16 +433,21 @@
                     }
         
                     // Update the "Note" column with the note
-                    const noteCell = row.querySelector('.auth-only:nth-child(8)');
+                    const noteCell = row.querySelector('.auth-only:nth-child(5)');
                     if (noteCell) {
                         noteCell.textContent = visitedChurch.note || ""; // Display the note
+                    }
+
+                    // Highlight the note cell if the church has a note
+                    if (visitedChurch.note) {
+                        row.style.backgroundColor = "lightyellow";
+                    } else {
+                        row.style.backgroundColor = "";
                     }
 
                     // Highlight the row if the church is visited
                     if (visitedChurch.visited) {
                         row.style.backgroundColor = "lightgray";
-                    } else {
-                        row.style.backgroundColor = "";
                     }
         
                     // Increment the visited count if the church is marked as visited
@@ -465,21 +473,6 @@
             const startTotalMinutes = startHours * 60 + startMinutes;
             const massTotalMinutes = massHours * 60 + massMinutes;
             return startTotalMinutes + travelTime <= massTotalMinutes;
-        }
-
-        function saveChurch(churchName) {
-            const note = prompt("Enter a note for this church:");
-            if (note !== null) {
-                // Find the row for the church and update the "Visited" and "Note" columns
-                const rows = document.querySelectorAll('#church-list tr');
-                rows.forEach(row => {
-                    if (row.cells[0].textContent === churchName) {
-                        row.querySelector('.auth-only:nth-child(7)').textContent = "Yes"; // Update "Visited" column
-                        row.querySelector('.auth-only:nth-child(8)').textContent = note; // Update "Note" column
-                    }
-                });
-                alert("Church saved successfully!");
-            }
         }
 
     </script>
