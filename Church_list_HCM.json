@@ -56,12 +56,13 @@
         "check": "TRUE"
     },
     {
-        "Time": "\"05:00 07:00 08:30 15:30 17:45\"",
+        "Time": "05:00, 06:45, 08:30 & 15:30, 17:45",
+        "Normal": "04:45 & 17:45",
         "Name": "Mân Côi",
         "Address": "90 Nguyễn Thái Sơn, phường 3, quận Gò Vấp",
         "giáo hạt": "Giáo hạt Gò Vấp",
         "location": "10.8167268, 106.6809643",
-        "check": "FALSE"
+        "check": "TRUE"
     },
     {
         "Time": "\"05:00 06:30 08:15 17:45\"",
@@ -152,12 +153,14 @@
         "check": "FALSE"
     },
     {
-        "Time": "\"05:00 07:00 15:30 17:00 18:30\"",
+        "Time": "05:00, 07:00 & 15:30, 17:00, 18:30",
+        "Sat": "(Sun)17h30",
+        "Normal": "05h & 17h30",
         "Name": "Phú Hạnh",
         "Address": "121 Phan Đăng Lưu, phường 7, quận Phú Nhuận",
         "giáo hạt": "Giáo hạt Phú Nhuận",
         "location": "10.8033028, 106.6849668",
-        "check": "FALSE"
+        "check": "TRUE"
     },
     {
         "Time": "\"05:00 08:15 17:30\"",
@@ -298,6 +301,8 @@
     {
         "Time": "06:00 08:30 17:00",
         "Name": "Thánh Gia",
+        "Sat": "(Sun)17h30",
+        "Normal": "17:30",
         "Address": "18/2 Trần Quý Khoách, phường Tân Định, quận 1",
         "giáo hạt": "Giáo hạt Tân Định",
         "location": "10.79345877, 106.6884264",
@@ -616,12 +621,13 @@
         "check": "FALSE"
     },
     {
-        "Time": "\"06:30 08:30 17:15\"",
+        "Time": "05:00, 07:30 & 17:00, 18:30",
+        "Normal": "05:00 & 17:00",
         "Name": "Vinh Sơn, Ông Tạ",
         "Address": "154/333 Phạm Văn Hai, phường 3, quận Tân Bình",
         "giáo hạt": "Giáo hạt Chí Hòa",
         "location": "10.79343391, 106.6610112",
-        "check": "FALSE"
+        "check": "TRUE"
     },
     {
         "Time": "\"04:30 05:45 07:15 16:00 17:00 18:15\"",
