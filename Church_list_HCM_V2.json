@@ -1,0 +1,3204 @@
+[
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 15:00 17:00 19:00",
+            "Normal": "05:00 17:00",
+            "Saturday": "17:00(Lễ CN) 19:00(Lễ CN)"
+        },
+        "Name": "Fatima Bình Triệu",
+        "Name_new": "Nhà Thờ Fatima Bình Triệu",
+        "Address": "58 đường 5, khu phố 2, phường Hiệp Bình Chánh, thành phố Thủ Đức",
+        "Address_new": "58 đường số 5 , P. Hiệp Bình Chánh , Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.8291393, 106.7103839",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1958 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Bình Lợi",
+        "Name_new": "Nhà Thờ Bình Lợi",
+        "Address": "430 Bình Lợi, phường 13, quận Bình Thạnh",
+        "Address_new": "430 Nơ Trang Long , P.13 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.8266615, 106.7065842",
+        "useful_info": "Mẹ Thiên Chúa .;   Được thiết lập năm 1960 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00 19:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Bến Hải",
+        "Name_new": "Nhà Thờ Giáo Xứ Bến Hải",
+        "Address": "332/60 Dương Quảng Hàm, phường 5, quận Gò Vấp",
+        "Address_new": "332/60 Dương Quảng Hàm , P.5 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "hạt Gò Vấp , GP SaiGon",
+        "location": "10.82704546, 106.6953125",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1956 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:45 08:30 15:00 17:00 19:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Bến Cát",
+        "Name_new": "Nhà Thờ Giáo Xứ Bến Cát",
+        "Address": "173/2/3 Dương Quảng Hàm, phường 5, quận Gò Vấp",
+        "Address_new": "220 Dương Quảng Hàm , P.5 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "hạt Gò Vấp , GP SaiGon",
+        "location": "10.82778969, 106.6907975",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1963 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:30 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Thánh Giuse (Gò Vấp)",
+        "Name_new": "Giáo xứ Thánh Giuse (Gò Vấp)",
+        "Address": "36 Nguyễn Du, phường 7, quận Gò Vấp",
+        "Address_new": "36 Nguyễn Du , P.7 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "hạt Gò Vấp , GP SaiGon",
+        "location": "10.82578288, 106.6859663",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 08:00 15:00 16:30 18:30",
+            "Normal": "05:00 18:00",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Thanh Đa",
+        "Name_new": "Nhà Thờ Giáo Xứ Thanh Đa",
+        "Address": "801/67 Xô Viết Nghệ Tĩnh, phường 26, quận Bình Thạnh",
+        "Address_new": "801/67 Xô Viết Nghệ Tĩnh , P.26 , Q. Bình Thạnh .\n    \n    * Giáo Xứ đã được Mẹ Theresa Cacutta ghé thăm 2 lần ( năm 1993 &amp; 1994 )",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.8159164, 106.7149573",
+        "useful_info": "St. Giuse .;   Được thiết lập năm 1963 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 18:00",
+            "Normal": "17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Bình Hoà",
+        "Name_new": "Nhà thờ Bình Hòa",
+        "Address": "93/9 Nơ Trang Long, phường 11, quận Bình Thạnh",
+        "Address_new": "93/9 Nơ Trang Long , P.11 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.8100311, 106.6943904",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1949 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:45 08:30 15:30 17:45",
+            "Normal": "04:45 17:45"
+        },
+        "Name": "Mân Côi",
+        "Name_new": "Nhà Thờ Giáo Xứ Mân Côi",
+        "Address": "90 Nguyễn Thái Sơn, phường 3, quận Gò Vấp",
+        "Address_new": "90 Nguyễn Thái Sơn , P.3 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "hạt Gò Vấp , GP SaiGon",
+        "location": "10.8167268, 106.6809643",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập năm 1967 .;   * Do các cha dòng Đa Minh ( OP ) mục vụ .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"05:00 06:30 08:15 17:45\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Hòa Bình (Gò Vấp)",
+        "Address": "95/645 Nguyễn Kiệm, phường 3, quận Gò Vấp",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "",
+        "location": "10.8214453, 106.6777557",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 15:30 17:00 18:30",
+            "Normal": "04:45 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "An Nhơn",
+        "Name_new": "Nhà Thờ Giáo Xứ An Nhơn",
+        "Address": "15/173 Lê Hoàng Phái, phường 17, quận Gò Vấp",
+        "Address_new": "153 Lê Hoàng Phái , P.17 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.8412111, 106.6753766",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1970 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"05:00 07:30 18:00\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Bác Ái",
+        "Address": "144 Nguyễn Thượng Hiền, phường 1, quận Gò Vấp",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "",
+        "location": "10.81030641, 106.6839682",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 16:30 18:00",
+            "Normal": "05:00 17:45",
+            "Saturday": "17:45(Lễ CN)"
+        },
+        "Name": "Xóm Thuốc",
+        "Name_new": "Nhà thờ Xóm Thuốc",
+        "Address": "213 Quang Trung, phường 10, quận Gò Vấp",
+        "Address_new": "213 Quang Trung , P.10 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "hạt Gò Vấp , GP SaiGon",
+        "location": "10.8290789, 106.6726567",
+        "useful_info": "Kitô Vua .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:15 07:30 15:00 16:30 18:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Hàng Xanh\n (Hàng Sanh)",
+        "Name_new": "Nhà Thờ Hàng Xanh\n (Hàng Sanh)",
+        "Address": "76 Bạch Đằng, phường 24, quận Bình Thạnh",
+        "Address_new": "76 Bạch Đằng , P.24 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.8030956, 106.7067035",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1960 .;   ;   * tên nhà thờ đúng là Hàng Sanh , vì trước đây , hai bên đường rợp bóng cây Sanh ( một thứ cây thuộc họ cây Si ) . Mọi người nhìn vào hàng cây mà gọi nơi này là Hàng Sanh , dần dần phát âm chệch đi thành tên \" Hàng Xanh \" 😏",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 16:30",
+            "Normal": "17:00",
+            "Saturday": "18:30(Lễ CN)"
+        },
+        "Name": "Thánh Tịnh",
+        "Name_new": "Nhà Thờ Giáo Xứ Thánh Tịnh",
+        "Address": "47/57 Nguyễn Văn Đậu, phường 6, quận Bình Thạnh",
+        "Address_new": "47/57 Nguyễn Văn Đậu , P.6 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.80797424, 106.6858042",
+        "useful_info": "St. Paul Lê Bảo Tịnh .;   Được thiết lập năm 1962 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:15 07:30 08:45 15:30 16:45 18:00",
+            "Normal": "04:45 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Gia Định",
+        "Name_new": "Nhà Thờ Giáo Xứ Gia Định",
+        "Address": "280 Bùi Hữu Nghĩa, phường 2, quận Bình Thạnh",
+        "Address_new": "280 Bùi Hữu Nghĩa , P.2 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "GP SaiGon",
+        "location": "10.80000075, 106.7000638",
+        "useful_info": "Thánh Tâm Chúa .;   Được thiết lập từ những năm 1897 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:15 17:00",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Đức Tin",
+        "Address": "112/11 Phan Văn Trị, phường 10, quận Gò Vấp",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "",
+        "location": "10.8334601, 106.6687779",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 10:00 15:30 17:00 18:30 20:00",
+            "Normal": "05:00 06:00 18:00",
+            "Saturday": "18:30(Lễ CN) 14:00 16:00"
+        },
+        "Name": "Đức Mẹ Hằng Cứu Giúp (Kỳ Đồng)",
+        "Name_new": "Nhà thờ Dòng Chúa Cứu Thế Đức Mẹ Hằng Cứu Giúp (Kỳ Đồng)",
+        "Address": "38 Kỳ Đồng, phường 9, quận 3",
+        "Address_new": "số 38 Kỳ Đồng , P.9 , Q.3 .",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "",
+        "location": "10.8495083, 106.6717399",
+        "useful_info": "Đức Mẹ Hằng Cứu Giúp .;   được thiết lập năm 1963 .;   * do các cha Dòng Chúa Cứu Thế ( CSsR ) mục vụ . Với châm ngôn: ƠN CỨU CHUỘC NƠI NGƯỜI CHAN CHỨA.",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 17:30 19:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Đức Mẹ Hằng Cứu Giúp (Xóm Mới)",
+        "Name_new": "Giáo xứ Đức Mẹ Hằng Cứu Giúp (Xóm Mới)",
+        "Address": "5/82 Lê Đức Thọ, phường 15, quận Gò Vấp",
+        "Address_new": "730/29 Lê Đức Thọ , P.15 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.8495083, 106.6717399",
+        "useful_info": "Đức Mẹ Hằng Cứu Giúp .;   Được thiết lập năm 1971 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 15:00 16:30 17:45",
+            "Normal": "05:00 17:45"
+        },
+        "Name": "Thánh Nguyễn Duy Khang (Bình Thạnh)",
+        "Name_new": "Nhà Thờ Giáo Xứ Thánh Nguyễn Duy Khang (Bình Thạnh)",
+        "Address": "195/29 Xô Viết Nghệ Tĩnh, phường 17, quận Bình Thạnh",
+        "Address_new": "195/29 Xô Viết Nghệ Tĩnh , P.17 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.79940376, 106.7099951",
+        "useful_info": "Bổn Mạng : Thánh Gia Thất .;   Được thiết lập năm 1968 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 15:30 17:00 18:30",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Phú Hạnh",
+        "Name_new": "Giáo Xứ Phú Hạnh",
+        "Address": "121 Phan Đăng Lưu, phường 7, quận Phú Nhuận",
+        "Address_new": "121 Phan Đăng Lưu , P.7 , Q. Phú Nhuận .",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "giáo hạt_new": "hạt Phú Nhuận , GP SaiGon",
+        "location": "10.8033028, 106.6849668",
+        "useful_info": "Chúa Ba Ngôi .;   Được thiết lập năm 1975 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Chính Lộ",
+        "Name_new": "Nhà Thờ Giáo Xứ Chính Lộ",
+        "Address": "45/4N Điện Biên Phủ, phường 15, quận Bình Thạnh",
+        "Address_new": "45/4N Điện Biên Phủ , P.15 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.7970526, 106.701594",
+        "useful_info": "St. Giuse Thợ .;   Được thiết lập năm 1970 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:00 18:00",
+            "Normal": "18:00"
+        },
+        "Name": "Mông Triệu (Quận 8)",
+        "Name_new": "Nhà Thờ Mông Triệu (Quận 8)",
+        "Address": "11E Phạm Thế Hiển, phường 3, quận 8",
+        "Address_new": "11E Phạm Thế Hiển , P.3 , Q.8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.79687185, 106.7057979",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1994 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00, 07:30 & 15:30, 17:30",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Mông Triệu, Quận Bình Thạnh",
+        "Address": "78 Nguyễn Cửu Vân, phường 17, quận Bình Thạnh",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "",
+        "location": "10.79687185, 106.7057979",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Phú Hiền",
+        "Name_new": "Nhà Thờ Giáo Xứ Phú Hiền",
+        "Address": "214/57bis Vạn Kiếp, phường 3, quận Bình Thạnh",
+        "Address_new": "214/57 Vạn Kiếp , P.3 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.7982098, 106.6929665",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập năm 1957 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 07:00 09:30 15:30 17:00 19:00",
+            "Normal": "04:30 16:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Hoàng Mai",
+        "Name_new": "Nhà Thờ Giáo Xứ Hoàng Mai",
+        "Address": "18/368 Lê Đức Thọ, phường 15, quận Gò Vấp",
+        "Address_new": "796/41 Lê Đức Thọ , P.15 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.8490079, 106.6678272",
+        "useful_info": "Chúa Kitô Vua .;   Được thiết lập năm 1956 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00 19:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Thánh Martin de Porres",
+        "Name_new": "Nhà Thờ Giáo Xứ Thánh Martin de Porres",
+        "Address": "153 Xô Viết Nghệ Tĩnh, phường 17, quận Bình Thạnh",
+        "Address_new": "153 Xô Viết Nghệ Tĩnh , P.17 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.79622269, 106.7098727",
+        "useful_info": "St. Martin De Porres .;   Được thiết lập từ những năm 1876 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:45 08:30 10:00 14:30 16:00 17:30 19:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "16:00(Lễ CN) 17:30(Lễ CN)"
+        },
+        "Name": "Tân Hưng (Quận 12)",
+        "Name_new": "Giáo xứ Tân Hưng (Quận 12)",
+        "Address": "1C Khu phố I, phường Tân Thới Hiệp, quận 12",
+        "Address_new": "1C KP.1 , P. Tân Thới Hiệp , Q.12 ( QL 1A )",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.849244, 106.6672039",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:00 06:00 16:30",
+            "Normal": "04:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Tân Hưng (Gò Vấp)",
+        "Name_new": "Nhà Thờ Giáo Xứ Tân Hưng (Gò Vấp)",
+        "Address": "2/43 Lê Đức Thọ, phường 15, quận Gò Vấp",
+        "Address_new": "862/42 Lê Đức Thọ , P.15 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.849244, 106.6672039",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 15:00 17:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Phát Diệm",
+        "Name_new": "Nhà Thờ Phát Diệm",
+        "Address": "485 Nguyễn Kiệm, phường 9, quận Phú Nhuận",
+        "Address_new": "485 Nguyễn Kiệm , P.9 , Q. Phú Nhuận .",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "giáo hạt_new": "hạt Phú Nhuận , GP SaiGon",
+        "location": "10.80312607, 106.6787238",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00",
+            "Normal": "05:00 17:00"
+        },
+        "Name": "Trung Bắc",
+        "Name_new": "Nhà Thờ Giáo Xứ Trung Bắc",
+        "Address": "20/358 Lê Đức Thọ, phường 15, quận Gò Vấp",
+        "Address_new": "884/1 Lê Đức Thọ , P.15 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.8491315, 106.666056",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 15:00 16:30 18:00 19:30",
+            "Normal": "05:00 15:00 18:00"
+        },
+        "Name": "Thị Nghè",
+        "Name_new": "Nhà Thờ Giáo Xứ Thị Nghè",
+        "Address": "22B Xô Viết Nghệ Tĩnh, phường 19, quận Bình Thạnh",
+        "Address_new": "22B Xô Viết Nghệ Tĩnh , P.19 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.7937049, 106.7081372",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập từ những năm 1888 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00 19:00",
+            "Normal": "05:00 17:00",
+            "Saturday": "17:00(Lễ CN)"
+        },
+        "Name": "Hà Đông",
+        "Name_new": "Nhà Thờ Giáo Xứ Hà Đông",
+        "Address": "530 Thống Nhất, phường 16, quận Gò Vấp",
+        "Address_new": "564 Thống Nhất , P. 16 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.84859905, 106.6649254",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 16:00",
+            "Normal": "05:00 17:00",
+            "Saturday": "17:00(Lễ CN)"
+        },
+        "Name": "Bắc Dũng",
+        "Name_new": "Nhà Thờ Giáo Xứ Bắc Dũng",
+        "Address": "31/330 Thống Nhất, phường 15, quận Gò Vấp",
+        "Address_new": "748/2 Thống Nhất , P. 15 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.85220825, 106.6660515",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 16:30 18:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Hà Nội",
+        "Name_new": "Nhà Thờ Giáo Xứ Hà Nội",
+        "Address": "49/7 Thống Nhất, phường 13, quận Gò Vấp",
+        "Address_new": "685 Thống Nhất , P.13 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.8510612, 106.665124",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 15:00 17:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:00(Lễ CN)"
+        },
+        "Name": "Thái Bình",
+        "Name_new": "Nhà Thờ Giáo Xứ Thái Bình",
+        "Address": "48/16 Thống Nhất, phường 13, quận Gò Vấp",
+        "Address_new": "751 Thống Nhất , P.13 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.852738, 106.6649747",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 16:00 18:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN) 19:00(Lễ CN)"
+        },
+        "Name": "Tam Hà",
+        "Name_new": "Nhà Thờ Giáo Xứ Tam Hà",
+        "Address": "66 Tam Hà, phường Tam Phú, thành phố Thủ Đức",
+        "Address_new": "66 Tam Hà , P. Tam Phú, Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.8547691, 106.6656908",
+        "useful_info": "Thánh Tâm Chúa .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Phú Hải",
+        "Name_new": "Nhà Thờ Phú Hải",
+        "Address": "69 Cô Giang, phường 1, quận Phú Nhuận",
+        "Address_new": "69 Cô Giang , P.1 , Q. Phú Nhuận .",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "giáo hạt_new": "hạt Phú Nhuận , GP SaiGon",
+        "location": "10.7964653, 106.683623",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1969 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:30 17:00",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Thánh Gia",
+        "Address": "18/2 Trần Quý Khoách, phường Tân Định, quận 1",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "",
+        "location": "10.79345877, 106.6884264",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"05:00 07:00 17:00\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Hiển Linh (Bình Thạnh)",
+        "Address": "5GH Ngô Tất Tố, phường 22, quận Bình Thạnh",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "",
+        "location": "10.79182225, 106.7137035",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 08:00 16:30",
+            "Normal": "17:00"
+        },
+        "Name": "Chúa Hiển Linh (Quận 6)",
+        "Name_new": "Nhà thờ Chúa Hiển Linh (Quận 6)",
+        "Address": "38 Kinh Dương Vương, phường 13, quận 6",
+        "Address_new": "38 Kinh Dương Vương , P.13 , Q.6 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.79182225, 106.7137035",
+        "useful_info": "Chúa Hiển Linh .;   Được thiết lập năm 1963 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:00 09:30 15:00 18:00",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Hiển Linh (Thủ Đức)",
+        "Name_new": "Nhà Thờ Giáo Xứ Hiển Linh (Thủ Đức)",
+        "Address": "19 đường 5, khu phố 2, phường Linh Trung, thành phố Thủ Đức",
+        "Address_new": "19 đường số 5 , KP.2 , P. Linh Trung , Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.8613604, 106.7633679",
+        "useful_info": "Chúa Hiển Linh .;   Được thiết lập năm 1976 .;   Do các cha Dòng Tên ( SJ ) mục vụ .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 17:00 19:00",
+            "Normal": "05:00 17:00",
+            "Saturday": "17:00(Lễ CN) 19:00(Lễ CN)"
+        },
+        "Name": "Tử Đình",
+        "Name_new": "Nhà Thờ Giáo Xứ Tử Đình",
+        "Address": "20/233A Thống Nhất, phường 15, quận Gò Vấp",
+        "Address_new": "20/233A Thống Nhất , P.15 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.8537943, 106.6643199",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 16:00 18:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Hợp An",
+        "Name_new": "Nhà Thờ Giáo Xứ Hợp An",
+        "Address": "41/1 Phạm Văn Chiêu, phường 13, quận Gò Vấp",
+        "Address_new": "679/11 Phạm Văn Chiêu , P.15 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.79904265, 106.6773523",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 16:00 18:00",
+            "Normal": "05:00 17:00"
+        },
+        "Name": "Phú Nhuận",
+        "Name_new": "Nhà Thờ Giáo Xứ Phú Nhuận",
+        "Address": "91 Hoàng Văn Thụ, phường 8, quận Phú Nhuận",
+        "Address_new": "91 Hoàng Văn Thụ , P.8 , Q. Phú Nhuận .",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "hạt Phú Nhuận , GP SaiGon",
+        "location": "10.7991413, 106.6773982",
+        "useful_info": "Đức Mẹ Lên Trời.;   Được thiết lập năm 1947 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 17:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Phanxicô Đa Kao",
+        "Name_new": "Nhà Thờ Giáo Xứ Phanxicô Đa Kao",
+        "Address": "50 Nguyễn Đình Chiểu, phường Đa Kao, quận 1",
+        "Address_new": "50 Nguyễn Đình Chiểu , P.Đakao , Q.1 .\n    \n    * là một trong 21 Cộng Đoàn của Tỉnh Dòng hiện diện tại VN . Với châm ngôn: PHỤNG SỰ THIÊN CHÚA TRONG ANH EM NGHÈO KHỔ &amp; NƠI THIÊN NHIÊN VẠN VẬT , theo gương Thánh Phanxicô Assisi .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.7895713, 106.7003064",
+        "useful_info": "St .Phanxicô Assisi .;   được thiết lập năm 1950 .;   Do các cha Dòng Phanxicô - OFM ( Dòng Anh Em Hèn Mọn ) mục vụ .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 07:45 16:00 17:30",
+            "Normal": "05:00 17:00",
+            "Saturday": "17:00(Lễ CN)"
+        },
+        "Name": "Lạng Sơn",
+        "Name_new": "Nhà Thờ Giáo Xứ Lạng Sơn",
+        "Address": "25/1 Lê Đức Thọ, phường 16, quận Gò Vấp",
+        "Address_new": "1075 Lê Đức Thọ , P.16 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.8518637, 106.6607961",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 08:00 15:00 17:00 19:00",
+            "Normal": "04:30 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Thánh Nguyễn Duy Khang (Thủ Đức)",
+        "Name_new": "Giáo Xứ Thánh Nguyễn Duy Khang (Thủ Đức)",
+        "Address": "32 đường 25, khu phố 1, phường Linh Đông, thành phố Thủ Đức",
+        "Address_new": "32 đường số 25 , P. Linh Đông , Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.85783265, 106.7454417",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"05:00 07:00 17:30\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Phú Lộc",
+        "Address": "109-111-113 Duy Tân, phường 15, quận Phú Nhuận",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "giáo hạt_new": "",
+        "location": "10.7946388, 106.6788969",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:30 08:00 17:30",
+            "Normal": "17:30"
+        },
+        "Name": "Công Lý",
+        "Name_new": "Giáo xứ Công Lý",
+        "Address": "489 Hoàng Sa, Phường Võ thị Sáu, Quận 3, TP HCM (số cũ 62/147A Lý Chính Thắng, phường Võ Thị Sáu, quận 3)",
+        "Address_new": "489 Hoàng Sa , P.8 , Q.3 .",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "hạt Tân Định , GP SaiGon",
+        "location": "10.79200152, 106.6834109",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1999 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"05:00 06:45 17:30\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Phú Quý",
+        "Address": "130 Cao Thắng, phường 17, quận Phú Nhuận",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "giáo hạt_new": "",
+        "location": "10.79279772, 106.6815402",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 09:30 16:00 17:30 19:00",
+            "Normal": "04:45 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Hạnh Thông Tây",
+        "Name_new": "Nhà Thờ Hạnh Thông Tây",
+        "Address": "53/7 Quang Trung, phường 11, quận Gò Vấp",
+        "Address_new": "688 Quang Trung , P.11 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "hạt Gò Vấp , GP SaiGon",
+        "location": "10.7884052, 106.690677",
+        "useful_info": "St. Jos .;   Được thiết lập từ những năm 1861 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "07:00 08:30 17:30",
+            "Normal": "17:30"
+        },
+        "Name": "Mạc Ty Nho",
+        "Name_new": "Nhà Thờ Giáo Xứ Mạc Ty Nho",
+        "Address": "16A Nguyễn Thị Minh Khai, phường Đa Kao, quận 1",
+        "Address_new": "16 Nguyễn Thị Minh Khai , Q.1 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.78623145, 106.7010351",
+        "useful_info": "St .Martino .;   được thiết lập năm 1961 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"05:00 07:00 17:00\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Lam Sơn",
+        "Address": "106/1124 Lê Đức Thọ, phường 13, quận Gò Vấp",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "",
+        "location": "10.8539958, 106.6586342",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 16:30 18:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN) 19:00(Lễ CN)"
+        },
+        "Name": "Châu Bình",
+        "Name_new": "Nhà Thờ Giáo Xứ Châu Bình",
+        "Address": "470/17 Tỉnh lộ 43, phường Tam Phú, thành phố Thủ Đức",
+        "Address_new": "470/17 Tô Ngọc Vân ,  P. Tam Phú , Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.86344685, 106.7451868",
+        "useful_info": "Mẫu Tâm .;   Được thiết lập năm 1956 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "07:00 09:00 17:00",
+            "Normal": "05:30 17:30"
+        },
+        "Name": "Xóm Lách",
+        "Name_new": "Nhà Thờ Giáo Xứ Xóm Lách",
+        "Address": "619 Hoàng Sa, phường Võ Thị Sáu, quận 3",
+        "Address_new": "619 Hoàng Sa , P.7 , Q.3 .",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "hạt Tân Định , GP SaiGon",
+        "location": "10.789051, 106.6833409",
+        "useful_info": "St. Giuse .;   Được thiết lập năm 1999 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:15 07:30 09:00 16:00 17:30 19:00",
+            "Normal": "05:00 06:15 17:30 19:00",
+            "Saturday": "17:30(Lễ CN) 19:00(Lễ CN)"
+        },
+        "Name": "Tân Định",
+        "Name_new": "Nhà Thờ Giáo Xứ Tân Định",
+        "Address": "289 Hai Bà Trưng, phường Võ Thị Sáu, quận 3",
+        "Address_new": "289 Hai Bà Trưng , P.8 , Q.3 .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "GP SaiGon",
+        "location": "10.86193555, 106.747153",
+        "useful_info": "Thánh Tâm Chúa .;   Được thiết lập từ những năm 1861 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 09:00 16:00 17:45 19:30",
+            "Normal": "05:00 18:15",
+            "Saturday": "18:15(Lễ CN)"
+        },
+        "Name": "Ba Thôn",
+        "Name_new": "Giáo Xứ Ba Thôn",
+        "Address": "5/6 Hà Huy Giáp, phường Thạnh Lộc, quận 12",
+        "Address_new": "5/6 Hà Huy Giáp , P. Thạnh Lộc , Q. 12 .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.8787538, 106.6787811",
+        "useful_info": "Bổn mạng: St. Gioan Bosco ( 31/1 );   Được thiết lập năm 1975 .;   * do các cha Dòng SDB mục vụ .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "5:00 7:30 17:30",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Thánh Phaolô 3",
+        "Address": "262/14 Lê Văn Sỹ, phường 14, quận 3",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "",
+        "location": "10.78825274, 106.6814724",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 06:00 07:30 16:00 17:30 19:00",
+            "Normal": "04:30 17:15 18:30",
+            "Saturday": "17:30(Lễ CN) 19:00(Lễ CN)"
+        },
+        "Name": "Thạch Đà",
+        "Name_new": "Nhà Thờ Giáo Xứ Thạch Đà",
+        "Address": "1/1 Phạm Văn Chiêu, phường 9, quận Gò Vấp",
+        "Address_new": "384 Phạm Văn Chiêu , P.9 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "hạt Xóm Mới , GP SaiGon",
+        "location": "10.8507683, 106.6543077",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1956 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "07:00",
+            "Normal": "05:30"
+        },
+        "Name": "Regina Mundi",
+        "Name_new": "Dòng Đức Bà Regina Mundi",
+        "Address": "228 Nam Kỳ Khởi Nghĩa, phường Võ Thị Sáu, quận 3",
+        "Address_new": "288 Nam Kỳ Khởi Nghĩa , P.6 , Q.3 ( trụ sở Giám Tỉnh )",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "C.N.D - C.S.A",
+        "location": "10.78417587, 106.6900264",
+        "useful_info": "Bổn mạng: Đức Bà Maria ( 15/8 );   ;   * là Hội Dòng thuộc quyền Giáo Hoàng. Được thiết lập năm 1597 tại Lorraaine ( Pháp) do St. Pierre Fourier &amp; St. Alix Le Clerc đồng sáng lập .;   * hoạt động của Dòng là giáo dục đức tin, văn hóa, nhân bản, xã hội... với châm ngôn: LÀM TẤT CẢ NHỮNG VIỆC TỐT LÀNH CÓ THỂ LÀM ĐƯỢC ĐỂ TÔN VINH DANH CHÚA.;   ;   🕍 Giáo xứ Regina Mudi ( là một trong 6 Cộng Đoàn của Dòng hiện diện tại VN );   Được thiết lập năm 1950 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:15 07:30 09:00 10:30 16:00 17:30 19:00",
+            "Normal": "05:00 05:45 17:30"
+        },
+        "Name": "Đa Minh - Ba Chuông",
+        "Name_new": "Nhà Thờ Giáo Xứ Đa Minh - Ba Chuông",
+        "Address": "190 Lê Văn Sỹ, phường 10, quận Phú Nhuận",
+        "Address_new": "190 Lê Văn Sỹ , P.10 , Q. Phú Nhuận .",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "giáo hạt_new": "hạt Phú Nhuận , GP SaiGon",
+        "location": "10.7938295, 106.6694209",
+        "useful_info": "St. Dominique .;   Được thiết lập năm 1962 .;   Do các cha Dòng Đa Minh ( OP ) mục vụ .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 16:00 17:30 19:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Tam Hải",
+        "Name_new": "Nhà Thờ Giáo Xứ Tam Hải",
+        "Address": "180 Tam Châu, khu phố 2, phường Tam Bình, thành phố Thủ Đức",
+        "Address_new": "180 Tam Châu, P. Tam Bình, Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức, GP SaiGon",
+        "location": "10.87196069, 106.742592",
+        "useful_info": "các Thánh TĐVN .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 16:00 17:30 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Vườn Xoài",
+        "Name_new": "Nhà Thờ Vườn Xoài",
+        "Address": "413 Lê Văn Sỹ, phường 12, quận 3",
+        "Address_new": "413 Lê Văn Sỹ , P.12 , Q.3 .",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "hạt Tân Định , GP SaiGon",
+        "location": "10.7891775, 106.6755345",
+        "useful_info": "Các Thánh TĐVN .;   Được thiết lập năm 1947 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00 19:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "17:30(Lễ CN) 19:00(Lễ CN)"
+        },
+        "Name": "Bình Chiểu",
+        "Name_new": "Giáo xứ Bình Chiểu",
+        "Address": "50/6 khu phố 1, phường Bình Chiểu, thành phố Thủ Đức",
+        "Address_new": "TL 43 , P. Bình Chiểu , Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.8813978, 106.7305429",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập năm 1969 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 09:30 17:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Gò Vấp (hạt Gò Vấp)",
+        "Name_new": "Giáo Xứ Gò Vấp (hạt Gò Vấp)",
+        "Address": "45 Nguyễn Văn Bảo, phường 4, quận Gò Vấp",
+        "Address_new": "45 Nguyễn Văn Bảo , P.4 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "hạt Gò Vấp , GP Sài Gòn",
+        "location": "10.8572166, 106.6543567",
+        "useful_info": "St. Anna .;   Được thiết lập từ những năm 1888 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"04:45 06:15 17:15 19:00\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Nữ Vương Hòa Bình",
+        "Address": "63/2 Lê Đức Thọ, phường 13, quận Gò Vấp",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Xóm Mới",
+        "giáo hạt_new": "",
+        "location": "10.8572166, 106.6543567",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:30 15:00 17:00 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Giáo xứ Thủ Đức",
+        "Name_new": "Nhà Thờ Giáo Xứ Thủ Đức",
+        "Address": "51 Võ Văn Ngân, phường Linh Chiểu, thành phố Thủ Đức",
+        "Address_new": "51 Võ Văn Ngân , P. Linh Chiểu , Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.8516927, 106.7567478",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập từ những năm 1879 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 10:00 16:30 18:00",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Tân Sa Châu",
+        "Name_new": "Nhà Thờ Tân Sa Châu",
+        "Address": "387 Lê Văn Sỹ, phường 2, quận Tân Bình",
+        "Address_new": "387 Lê Văn Sỹ , P.2 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "hạt Chí Hòa , GP SaiGon",
+        "location": "10.797108, 106.6638816",
+        "useful_info": "St. Giuse .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 08:00 09:30 16:00 17:30 19:00",
+            "Normal": "05:30 17:30"
+        },
+        "Name": "Đức Bà Sài Gòn\n Giáo xứ chính tòa",
+        "Name_new": "Nhà Thờ Đức Bà Sài Gòn\n Giáo xứ chính tòa",
+        "Address": "1 Công xã Paris, phường Bến Nghé, quận 1",
+        "Address_new": "1 Công Xã Paris , P. Bến Nghé , Q.1.\n    \n    ⛔️ Hiện nay Nhà Thờ đang trong giai đoạn đại trùng tu , nên hạn chế việc tham quan , check in các kiểu .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "",
+        "location": "10.77974385, 106.6990119",
+        "useful_info": "( Vương Cung Thánh Đường Đức Bà );   Bổn mạng: Đức Mẹ Vô Nhiễm .;   * được thiết lập từ những năm 1863 .;   ;   * ngày 7/10/1877 , Đức Cha Colombert cử hành nghi thức đặt viên đá đầu tiên xây dựng Vương Cung Thánh Đường Đức Bà , do KTS M. Bourrard thiết kế , với kiến trúc Châu Âu mô phỏng Nhà thờ Notre Dame của Paris .;   ;   * năm 1959 , Tòa Thánh nâng nhà thờ lên thành Vương Cung Thánh Đường .;   * Là một trong 4 Vương Cung Thánh Đuòng tại VN.",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:00 16:00",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Thánh Gioan Phaolô II",
+        "Address": "91/10-12 Trần Quang Diệu, phường 13, quận 3",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "",
+        "location": "10.78502389, 106.6789153",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"05:30 07:30 17:00 18:30\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Mẫu Tâm (Tân Bình)",
+        "Address": "389 Hoàng Văn Thụ, phường 2, quận Tân Bình",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "",
+        "location": "10.79928375, 106.6605484",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"05:00 07:00\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Thiên Thần",
+        "Address": "600 Xa lộ Hà Nội, phường An Phú, thành phố Thủ Đức",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "",
+        "location": "10.8072071, 106.7536959",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": " 05:00, 06:30, 08:00, 16:00, 18:00",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Bùi Phát",
+        "Address": "453/105KC Lê Văn Sỹ, phường 12, quận 3",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "",
+        "location": "10.788354, 106.672222",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 16:30 18:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Tân Hòa",
+        "Name_new": "Nhà Thờ Tân Hòa",
+        "Address": "525/92 Huỳnh Văn Bánh, phường 14, quận Phú Nhuận",
+        "Address_new": "525/92 Huỳnh Văn Bánh , P.14 , Q. Phú Nhuận .",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "giáo hạt_new": "hạt Phú Nhuận , GP SaiGon",
+        "location": "10.7900225, 106.668286",
+        "useful_info": "Trái Tim Đức Mẹ .;   Được thiết lập năm 1960 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:00 17:30",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "An Phú (Quận 3)",
+        "Name_new": "Nhà Thờ An Phú (Quận 3)",
+        "Address": "205/45 Trần Văn Đang, phường 11, quận 3",
+        "Address_new": "205/45 Trần Văn Đang , P.11 , Q.3 .",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "hạt Tân Định , GP SaiGon",
+        "location": "10.78605765, 106.6726687",
+        "useful_info": "Chúa Chiên Lành .;   Được thiết lập năm 1962 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "07:00 18:00",
+            "Normal": "18:00"
+        },
+        "Name": "An Phú (Quận 7)",
+        "Name_new": "Giáo Xứ An Phú (Quận 7)",
+        "Address": "58/7 Trần Xuân Soạn, khu phố 3, phường Tân Hưng, quận 7",
+        "Address_new": "62 , đường số 5 , P. Tân Hưng , Q.7\n    ( khu dân cư Him Lam )",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "hạt Xóm Chiếu , GP SaiGon",
+        "location": "10.78605765, 106.6726687",
+        "useful_info": "St. Phanxico Xavier .;   Được thiết lập năm 1973 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 16:00 17:30",
+            "Normal": "05:00 17:00"
+        },
+        "Name": "Tân Chí Linh",
+        "Name_new": "Nhà thờ Tân Chí Linh",
+        "Address": "6/25 Phạm Văn Hai, phường 3, quận Tân Bình",
+        "Address_new": "số 6/25 đường Phạm Văn Hai , P.3 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "hạt Chí Hòa , GP SaiGon",
+        "location": "10.7921293, 106.663681",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 17:00 18:30",
+            "Normal": "05:00 17:00"
+        },
+        "Name": "Vinh Sơn, Ông Tạ",
+        "Name_new": "Nhà thờ Vinh Sơn, Ông Tạ ( hạt Chí Hòa , GP SaiGon .",
+        "Address": "154/333 Phạm Văn Hai, phường 3, quận Tân Bình",
+        "Address_new": "154/333 Phạm Văn Hai , P.3 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "",
+        "location": "10.79343391, 106.6610112",
+        "useful_info": "St. Vincente .;   Được thiết lập năm 1973 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"04:30 05:45 07:15 16:00 17:00 18:15\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "An Lạc",
+        "Address": "15/2 Cách mạng Tháng Tám, phường 5, quận Tân Bình",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "",
+        "location": "10.78961178, 106.6639625",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 18:00",
+            "Normal": "17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Thánh Giuse Thợ",
+        "Name_new": "Nhà Thờ Giáo Xứ Thánh Giuse Thợ",
+        "Address": "452 Xa lộ Hà Nội, phường Phước Long A, thành phố Thủ Đức",
+        "Address_new": "146/1 Nam Hòa , P. Phước Long A , Q.9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.8289264, 106.7649269",
+        "useful_info": "St. Giuse Thợ .;   Được thiết lập năm 1971",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 16:00 17:30 19:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Vĩnh Hiệp",
+        "Name_new": "Nhà Thờ Giáo Xứ Vĩnh Hiệp",
+        "Address": "52/382E Quang Trung, phường 12, quận Gò Vấp",
+        "Address_new": "3 Đỗ Thúc Tịnh ( số cũ : 382 Quang Trung ) , P.12 , Q. Gò Vấp .",
+        "giáo hạt": "Giáo hạt Gò Vấp",
+        "giáo hạt_new": "hạt Gò Vấp , GP SaiGon",
+        "location": "10.8413788, 106.6435409",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 2007 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:00 17:00",
+            "Normal": "17:30"
+        },
+        "Name": "Mai Khôi (Quận 5)",
+        "Name_new": "Nhà thờ Mai Khôi (Quận 5)",
+        "Address": "666/66  Võ Văn Kiệt , P.1 , Q.5 (số cũ 48/39 Bến Hàm Tử)",
+        "Address_new": "666/66  Võ Văn Kiệt , P.1 , Q.5 ( số cũ 48/39 Bến Hàm Tử )",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.7777234, 106.6836447",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập năm 1976 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:00 08:30 10:30 14:30 17:30 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Mai Khôi (Quận 3)",
+        "Name_new": "Nhà Thờ Mai Khôi (Quận 3)",
+        "Address": "44 Tú Xương, phưòng Võ Thị Sáu, quận 3",
+        "Address_new": "44 Tú Xương , P.7 , Q.3 .",
+        "giáo hạt": "Giáo hạt Tân Định",
+        "giáo hạt_new": "hạt Tân Định , GP SaiGon",
+        "location": "10.7777234, 106.6836447",
+        "useful_info": "Đức Mẹ Mai Khôi .;   Được thiết lập năm 1975 .;   * Do các cha Dòng Đa Minh mục vụ.;   ;   * Dòng Đa Minh ( OP ) thuộc quyền Giáo Hoàng , với danh xưng chính thức là dòng Anh Em Thuyết Giáo, do Thánh Đa Minh sáng lập năm 1216 tại Toulouse, Pháp &amp; được Đức Giáo Hoàng Honorius III châu phê ngày 21/1/1217 .;   ;   * Dòng Đa Minh đến VN năm 1550 &amp; đã có nhiều tu sỹ lấy máu đào tuyên xưng đức tin ( trong số 118 Thánh Tử Đạo tại VN, Dòng Đa Minh có 38 vị );   ;   * năm 1967 , tỉnh Dòng được thiết lập tại VN , với các hoạt động: giảng dạy tại các Chủng viện , Học viện, giảng thuyết lưu động &amp; coi sóc Giáo xứ . Với châm ngôn: CHIÊM NIỆM &amp; TRUYỀN THÔNG CHÂN LÝ.",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:00 17:30",
+            "Normal": "05:30 17:30"
+        },
+        "Name": "Bình Thọ",
+        "Name_new": "Nhà Thờ Bình Thọ",
+        "Address": "356/20 Võ Văn Ngân, khu phố 3, phường Bình Thọ, thành phố Thủ Đức",
+        "Address_new": "356/20 Võ Văn Ngân , KP.3 , P. Bình Thọ , Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.8475094, 106.7641104",
+        "useful_info": "St. Ignatio Loyola ( 31/7 );   Được thiết lập năm 1970",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 07:00 16:00 18:00",
+            "Normal": "04:30 17:30",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Từ Đức",
+        "Name_new": "Nhà Thờ Giáo Xứ Từ Đức",
+        "Address": "42 đường 4, khu phố 2, phường Bình Thọ, thành phố Thủ Đức",
+        "Address_new": "42 , đường số 4 , KP.2 , P. Bình Thọ , Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.8475094, 106.7641104",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 15:00 17:45",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Đức Mẹ Vô Nhiễm",
+        "Name_new": "Giáo xứ Đức Mẹ Vô Nhiễm",
+        "Address": "4bis Hoàng Hoa Thám, phường 7, quận Bình Thạnh",
+        "Address_new": "4bis Hoàng Hoa Thám , P.7 , Q. Bình Thạnh .",
+        "giáo hạt": "Giáo hạt Gia Định",
+        "giáo hạt_new": "hạt Gia Định , GP SaiGon",
+        "location": "10.7736031, 106.7031442",
+        "useful_info": "Bổn Mạng : Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1975 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Tân Dân",
+        "Name_new": "Nhà thờ Tân Dân",
+        "Address": "8/23 Nguyễn Đình Khơi, phường 4, quận Tân Bình",
+        "Address_new": "8/23 Nguyễn Đình Khơi , P.4 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "hạt Chí Hòa , GP SaiGon",
+        "location": "10.7945263, 106.6564617",
+        "useful_info": "Mẹ Thiên Chúa .;   Được thiết lập năm 1972 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Nam Thái",
+        "Name_new": "Giáo xứ Nam Thái SG",
+        "Address": "168/50 Cách mạng Tháng Tám, phường 5, quận Tân Bình",
+        "Address_new": "168/50 Cách Mạng Tháng 8 , P.5 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "hạt Chí Hòa , GP SaiGon",
+        "location": "10.7891574, 106.661176",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1956 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"06:00 07:30 17:30 19:00\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Thái Hòa",
+        "Address": "986/55 Cách mạng Tháng Tám, phường 5, quận Tân Bình",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "",
+        "location": "10.7909458, 106.6592041",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:00 15:30 17:30",
+            "Normal": "17:30"
+        },
+        "Name": "Vườn Chuối",
+        "Name_new": "Nhà Thờ Giáo Xứ Vườn Chuối",
+        "Address": "199/40/6 Cách mạng Tháng Tám, phường 4, quận 3",
+        "Address_new": "số 199/40/6 Cách Mạng Tháng Tám , P.4 , Q.3 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.7752582, 106.6848223",
+        "useful_info": "Đức Mẹ Hòa Bình .;   Được thiết lập năm 1956 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 17:30 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Hòa Hưng",
+        "Name_new": "Nhà Thờ Giáo Xứ Hòa Hưng",
+        "Address": "104 Tô Hiến Thành, phường 15, quận 10",
+        "Address_new": "104 Tô Hiến Thành , P.15 , Q.10 .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.78168815, 106.6700564",
+        "useful_info": "Mẹ Thiên Chúa .;   Được thiết lập năm 1946 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 07:30 17:30",
+            "Normal": "04:30 17:30"
+        },
+        "Name": "Xây dựng",
+        "Name_new": "Giáo Xứ Xây Dựng",
+        "Address": "5/27 Bành Văn Trân, phường 6, quận Tân Bình",
+        "Address_new": "27 Bành Văn Trân , P.6 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "hạt Chí Hòa , GP SaiGon",
+        "location": "10.7881828, 106.6610786",
+        "useful_info": "St. Giuse Thợ;   Được thiết lập năm 1972 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 17:00",
+            "Normal": "17:30"
+        },
+        "Name": "Thủ Thiêm",
+        "Name_new": "Nhà Thờ Giáo Xứ  Thủ Thiêm",
+        "Address": "58 khu phố 1, phường Thủ Thiêm, thành phố Thủ Đức",
+        "Address_new": "58 Nguyễn Thiện Thành , P. Thủ Thiêm , Q.2 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.7714609, 106.7099509",
+        "useful_info": "St. Peter &amp; Paul .;   Được thiết lập từ những năm 1859 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "07:00 17:00",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Thánh Antôn (Tân Bình)",
+        "Address": "947/13/3 Cách mạng Tháng Tám, phường 7, quận Tân Bình",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "",
+        "location": "10.78990761, 106.6581175",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:30 08:15 18:00",
+            "Normal": "18:00"
+        },
+        "Name": "Đức Bà Hòa Bình",
+        "Name_new": "Nhà Thờ Giáo Xứ Đức Bà Hòa Bình",
+        "Address": "26A Nguyễn Thái Bình, phường Nguyễn Thái Bình, quận 1",
+        "Address_new": "26A Nguyễn Thái Bình , P. Nguyễn Thái Bình , Q.1 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.77006645, 106.7003624",
+        "useful_info": "Mẹ Thiên Chúa .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00, 07:00, 16:00, 17:30",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Lộc Hưng",
+        "Address": "58/6 Chấn Hưng, phường 6, quận Tân Bình",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "",
+        "location": "10.7852111, 106.6608732",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "! 05:30, 08:00 16:30, 18:30",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Thánh Mẫu",
+        "Address": "3-5 Chử Đồng Tử, Phường 7, Tân Bình, Hồ Chí Minh, Vietnam",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "",
+        "location": "10.78802744, 106.6576303",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 17:00",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Đức Mẹ Lên Trời",
+        "Name_new": "Nhà Thờ Giáo Xứ Đức Mẹ Lên Trời",
+        "Address": "129 Nguyễn Công Hoan , P.7 , Q. Phú Nhuận .",
+        "Address_new": "129 Nguyễn Công Hoan , P.7 , Q. Phú Nhuận .",
+        "giáo hạt": "Giáo hạt Phú Nhuận",
+        "giáo hạt_new": "hạt Phú Nhuận , GP SaiGon",
+        "location": "10.79817554, 106.6906196",
+        "useful_info": "Giáo Xứ Thánh Mẫu - Đức Mẹ Lên Trời;   Được thiết lập năm 2005 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 06:00 07:30 16:30",
+            "Normal": "04:30 17:00"
+        },
+        "Name": "Nghĩa Hòa",
+        "Name_new": "Giáo xứ Nghĩa Hòa",
+        "Address": "25/18 Nghĩa Hòa, phường 6, quận Tân Bình",
+        "Address_new": "25/18 Nghĩa Hòa , P.6 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "hạt Chí Hòa , GP SaiGon",
+        "location": "10.78662935, 106.65904",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 15:00 17:00",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Tân Châu",
+        "Name_new": "Nhà thờ Tân Châu",
+        "Address": "98/1 Trường Chinh, phường 12, quận Tân Bình",
+        "Address_new": "98/1 Trường Chinh , P.12 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7945813, 106.6515099",
+        "useful_info": "St. Antôn .;   Được thiết lập năm 1973 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00 18:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Sao Mai",
+        "Name_new": "Nhà thờ Sao Mai",
+        "Address": "130/54 Nghĩa Phát, phường 7, quận Tân Bình",
+        "Address_new": "130/54 Nghĩa Phát , P.7 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "hạt Chí Hòa , GP SaiGon",
+        "location": "10.7870449, 106.6581965",
+        "useful_info": "Đức Mẹ Lên Trời ( 15/8 );   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:00 17:00",
+            "Normal": "05:30 17:30"
+        },
+        "Name": "Tống Viết Bường",
+        "Name_new": "Nhà Thờ Thánh Tống Viết Bường",
+        "Address": "30 Nguyễn Giản Thanh ( cư xá Bắc Hải ) P.15, Q.10",
+        "Address_new": "30 Nguyễn Giản Thanh ( cư xá Bắc Hải ) P.15, Q.10 .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.78282165, 106.6629838",
+        "useful_info": "St. Paul Tống Viết Bường.;   Được thiết lập năm 1968 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 09:30 15:00 16:30 18:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Chí Hòa",
+        "Name_new": "Nhà Thờ Chí Hòa",
+        "Address": "149 Bành Văn Trân, phường 7, quận Tân Bình",
+        "Address_new": "149 Bành Văn Trân , P.7 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "hạt Chí Hòa , GP Sài Gòn",
+        "location": "10.7883519, 106.6554828",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập từ những năm 1771 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 14:30 17:00",
+            "Normal": "04:30 05:00 17:00"
+        },
+        "Name": "Đắc Lộ",
+        "Name_new": "Nhà Thờ  Đắc Lộ",
+        "Address": "97 Trường Chinh, phường 12, quận Tân Bình",
+        "Address_new": "97 Trường Chinh  , P.12 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7949985, 106.6495844",
+        "useful_info": "St. Gioan Baotixita .;   Được thiết lập năm 1957 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 07:30 15:30 17:30",
+            "Normal": "04:30 17:30"
+        },
+        "Name": "Nam Hòa",
+        "Name_new": "Giáo xứ Nam Hòa",
+        "Address": "35/40/9 Đất Thánh, phường 6, quận Tân Bình",
+        "Address_new": "35/40/9 Đất Thánh , P.6 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "hạt Chí Hòa , GP SaiGon",
+        "location": "10.7835007, 106.6599578",
+        "useful_info": "St. Giuse .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 16:00 18:00",
+            "Normal": "05:00 17:45",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Chợ Cầu",
+        "Name_new": "Nhà Thờ Giáo Xứ Chợ Cầu",
+        "Address": "30/7 Nguyễn Văn Quá, phường Đông Hưng Thuận, quận 12",
+        "Address_new": "30/7 Nguyễn Văn Quá , P. Đông Hưng Thuận , Q. 12 .\n    \n    +",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.853581, 106.6386549",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập từ những năm 1869 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"05:00 07:00 17:00\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Vinh Sơn, Nghĩa Hòa",
+        "Address": "1/10/2 Nghĩa Phát, phường 6, quận Tân Bình",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "",
+        "location": "10.7853532, 106.6573705",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00",
+            "Normal": "05:00 17:00"
+        },
+        "Name": "Văn Côi",
+        "Name_new": "Nhà thờ Văn Côi",
+        "Address": "97/41 Nguyễn Tử Nha, phường 12, quận Tân Bình",
+        "Address_new": "97/41 Nguyễn Tử Nha , P.12 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7943372, 106.6489992",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập năm 1972 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Khiết Tâm (Tan Binh District)",
+        "Name_new": "Nhà Thờ Khiết Tâm (Tan Binh District)",
+        "Address": "28 Long Hưng, phường 7, quận Tân Bình",
+        "Address_new": "28 Long Hưng , P.7 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Chí Hòa",
+        "giáo hạt_new": "hạt Chí Hòa , GP SaiGon",
+        "location": "10.7853342, 106.6556972",
+        "useful_info": "Trái Tim Vẹn Sạch Đức Mẹ .;   Được thiết lập năm 1968 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:15 09:00 16:30 18:00 19:45",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Khiết Tâm",
+        "Name_new": "Nhà Thờ Giáo Xứ Khiết Tâm",
+        "Address": "15 đường 4, khu phố 4, phường Bình Chiểu, thành phố Thủ Đức",
+        "Address_new": "15 đường số 4 , KP.4 , P. Bình Chiểu , Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.7853342, 106.6556972",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1965 .;   Do các cha Dòng Thánh Thể ( SSS ) mục vụ .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:00 17:00",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Thánh Antôn, Cầu Ông Lãnh",
+        "Name_new": "Nhà Thờ Thánh Antôn, Cầu Ông Lãnh",
+        "Address": "18 Phan Văn Trường, phường Cầu Ông Lãnh, quận 1",
+        "Address_new": "18 Phan Văn Trường , P. Cầu Ông Lãnh , Q.1 .\n    \n    * là một trong 21 Cộng Đoàn của Tỉnh Dòng hiện diện tại VN . Với châm ngôn: PHỤNG SỰ THIÊN CHÚA TRONG ANH EM NGHÈO KHỔ &amp; NƠI THIÊN NHIÊN VẠN VẬT , theo gương Thánh Phanxicô Assisi .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.7663784, 106.6968455",
+        "useful_info": "St . Antonio .;   Được thiết lập năm 1925 .;   ;   * Do các cha Dòng Phanxicô - OFM - ( hay Dòng Anh Em Hèn Mọn , Anh Em Phan Sinh ) mục vụ .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 09:30 16:30 18:00 19:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Huyện Sỹ\n Giáo xứ Chợ Đũi",
+        "Name_new": "Nhà thờ Huyện Sỹ\n Giáo xứ Chợ Đũi",
+        "Address": "1 Tôn Thất Tùng, phường Phạm Ngũ Lão, quận 1",
+        "Address_new": "1 Tôn Thất Tùng , P. Phạm Ngũ Lão , Q.1 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.767705, 106.6886561",
+        "useful_info": "St. Philipphê .;   Được thiết lập từ những năm 1859 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:15 07:30 17:00 18:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Tân Việt",
+        "Name_new": "Nhà Thờ Giáo Xứ Tân Việt",
+        "Address": "241bis Trường Chinh, phường 12m quận Tân Bình",
+        "Address_new": "241 Trường Chinh , P. 12 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7963778, 106.6460957",
+        "useful_info": "St. Teresa Hài Đồng .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 16:00 17:30",
+            "Normal": "05:00 17:45"
+        },
+        "Name": "Tân Trang",
+        "Name_new": "Nhà thờ Tân Trang",
+        "Address": "32 Tân Xuân, phường 8, quận Tân Bình",
+        "Address_new": "32 Tân Xuân , P.8 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.7876085, 106.6525375",
+        "useful_info": "St. Giuse .;   Được thiết lập năm 1974 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 16:30 18:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:00(Lễ CN)"
+        },
+        "Name": "Phú Trung",
+        "Name_new": "Giáo Xứ Phú Trung",
+        "Address": "1434 Lạc Long Quân, phường 11, quận Tân Bình",
+        "Address_new": "1434 Bảy Hiền , P.11 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.78855674, 106.6499596",
+        "useful_info": "St. Phanxicô Xaviê .;   Được thiết lập năm 1974 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 07:30 16:30 18:00",
+            "Normal": "17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Bàn Cờ",
+        "Name_new": "Nhà Thờ Bàn Cờ",
+        "Address": "48 Nguyễn Thiện Thuật, phường 2, quận 3",
+        "Address_new": "563/69 Nguyễn Đình Chiểu , P.2 , Q.3 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.76727561, 106.6813402",
+        "useful_info": "St. Giuse .;   Được thiết lập năm 1952 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 17:00 18:30",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Hy Vọng",
+        "Name_new": "Nhà Thờ Giáo Xứ Hy Vọng",
+        "Address": "69 Phan Huy Ích, phường 15, quận Tân Bình",
+        "Address_new": "69 Phan Huy Ích , P.15 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.8280818, 106.631976",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1995 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:30 08:30 17:30",
+            "Normal": "17:30"
+        },
+        "Name": "Vinh Sơn Phaolô",
+        "Name_new": "Nhà Thờ Vinh Sơn Phaolô",
+        "Address": "423-425 đường 3/2, phường 10, quận 10",
+        "Address_new": "423 đường 3/2 , P.10 , Q.10 .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.77028725, 106.6726393",
+        "useful_info": "St. Vincent Paul .;   được thiết lập năm 1963 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 15:00 17:00 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Tân Thành",
+        "Name_new": "Nhà thờ Tân Thành",
+        "Address": "371/35B Trường Chinh, phường 14, quận Tân Bình",
+        "Address_new": "54/19 Nguyễn Hồng Đào , P.14 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.796136, 106.6426725",
+        "useful_info": "St. Vincent .;   Được thiết lập năm 1973 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 08:00 15:00 17:00 19:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Tân Đức",
+        "Name_new": "Giáo Xứ Tân Đức",
+        "Address": "Đường Đỗ Xuân Hợp, phường Phước Bình, thành phố Thủ Đức",
+        "Address_new": "618 Đỗ Xuân Hợp , P. Phước Bình , Q.9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.8153538, 106.77455",
+        "useful_info": "Thánh Gia Thất .;   Được thiết lập năm 1972 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "07:30 17:30",
+            "Normal": "17:30"
+        },
+        "Name": "Đức Bà Fatima",
+        "Name_new": "Nhà Thờ Giáo Xứ Đức Bà Fatima",
+        "Address": "212B/1A Nguyễn Trãi, phường Nguyễn Cư Trinh, quận 1",
+        "Address_new": "212B/1A Nguyễn Trãi , P. Nguyễn Cư Trinh , Q.1 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.7648008, 106.6861908",
+        "useful_info": "Đức Bà Fatima .;   Được thiết lập năm 1983 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 15:00 17:00 19:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Vĩnh Hội",
+        "Name_new": "Nhà Thờ Vĩnh Hội",
+        "Address": "158 Bến Vân Đồn, phường 6, quận 4",
+        "Address_new": "156 Bến Vân Đồn , P.6 , Q. 4 .",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "hạt Xóm Chiếu , GP SaiGon",
+        "location": "10.7622813, 106.6983965",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập từ những năm 1875 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 07:30 17:00 18:30",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Đồng Tiến",
+        "Name_new": "Nhà Thờ Đồng Tiến",
+        "Address": "54 Thành Thái, phường 12, quận 10",
+        "Address_new": "54 Thành Thái , P. 12 , Q.10 .\n    \n    ✅️ Nét đặc sắc của Nhà Thờ này là không có bất kỳ cây cột nào . Đây là ngôi nhà thờ đầu tiên không cột của TGP Sài Gòn , rất thoáng mát &amp; vẫn còn hợp thời cho đến nay .\n    Xung quanh có rất nhiều cây xanh",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.77119665, 106.6661479",
+        "useful_info": "Các Thánh Tử Đạo VN .;   Được thiết lập năm 1958 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 15:00 16:30 18:00",
+            "Normal": "05:00 15:00 18:00"
+        },
+        "Name": "Bắc Hà",
+        "Name_new": "Giáo xứ Bắc Hà",
+        "Address": "419 Lý Thái Tổ, phường 9, quận 10",
+        "Address_new": "419 Lý Thái Tổ , P.9 , Q.10 .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.76794618, 106.6690479",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 08:00 17:00 18:30",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Khánh Hội",
+        "Name_new": "Giáo xứ Khánh Hội",
+        "Address": "136 Tôn Đản, phường 10, quận 4",
+        "Address_new": "136 Tôn Đản , P.10 , Q.4 .",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "hạt Xóm Chiếu , GP SaiGon",
+        "location": "10.75925785, 106.7066614",
+        "useful_info": "Đức Mẹ Bảy Sự .;   Được thiết lập năm 1967 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:45 07:45 17:45",
+            "Normal": "17:45"
+        },
+        "Name": "Công Thành",
+        "Name_new": "Thánh đường Giáo xứ Công Thành",
+        "Address": "58 đường 27, phường Bình Trưng Tây, thành phố Thủ Đức",
+        "Address_new": "58 đường số 7 , P. Bình Trưng Tây , Q.2 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.78307683, 106.7608512",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00 18:10",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Cầu Kho",
+        "Name_new": "Nhà Thờ Giáo Xứ Cầu Kho",
+        "Address": "31 Trần Đình Xu, phường Cầu Kho, quận 1",
+        "Address_new": "31 Trần Đình Xu , P. Cầu Kho , Q. 1 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.75972955, 106.6913071",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập từ những năm 1863 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:30 16:00 18:00 19:30",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Xuân Hiệp",
+        "Name_new": "Nhà thờ Xuân Hiệp",
+        "Address": "54 đường 5, khu phố 4, phường Linh Xuân, thành phố Thủ Đức",
+        "Address_new": "54 đường số 5 , KP.4 , P. Linh Xuân , Q. Thủ Đức .",
+        "giáo hạt": "Giáo hạt Thủ Đức",
+        "giáo hạt_new": "hạt Thủ Đức , GP SaiGon",
+        "location": "10.8802902, 106.7658734",
+        "useful_info": "Mẹ Thiên Chúa .;   Được thiết lập năm 1979 .;   Do các cha Dòng SDB mục vụ .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 15:00 17:00 19:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN) 19:00(Lễ CN)"
+        },
+        "Name": "Nhân Hòa",
+        "Name_new": "Nhà Thờ Giáo Xứ Nhân Hòa",
+        "Address": "45 Hồ Đắc Di, phường Tây Thạnh, quận Tân Phú",
+        "Address_new": "45 Hồ Đắc Di , P.Tây Thạnh , Q. Tân Phú .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.8057333, 106.6324806",
+        "useful_info": "St. Phaolô Trở Lại .;   Được thiết lập năm 1971 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:00 17:00 19:00",
+            "Normal": "05:30 17:30"
+        },
+        "Name": "Thánh Tâm",
+        "Name_new": "Nhà Thờ Giáo Xứ Thánh Tâm",
+        "Address": "43 Trần Hưng Đạo, khu phố 1, phường Hiệp Phú, thành phố Thủ Đức",
+        "Address_new": "43 Trần Hưng Đạo , P. Hiệp Phú , Q.9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.7582467, 106.7091912",
+        "useful_info": "Thánh Tâm Chúa .;   Được thiết lập năm 1977 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 15:00 17:00 19:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Đông Quang",
+        "Name_new": "Nhà Thờ Giáo Xứ Đông Quang",
+        "Address": "35 KP.5, phường Đông Hưng Thuận, quận 12",
+        "Address_new": "35 Đông Hưng Thuận 2 , P. Tân Hưng Thuận , Q. 12 .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.8308378, 106.626243",
+        "useful_info": "Đức Mẹ Mân Côi .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 15:00 17:00 19:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Thánh Linh",
+        "Name_new": "Nhà Thờ Giáo Xứ Thánh Linh",
+        "Address": "1/6 Đình Phong Phú, phường Tăng Nhơn Phú B, thành phố Thủ Đức",
+        "Address_new": "9 đình Phong Phú , P. Tăng Nhơn Phú B , Q. 9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.84356745, 106.7817914",
+        "useful_info": "Chúa Thánh Thần Hiện Xuống .;   Được thiết lập năm 1965 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 18:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Tân Quy",
+        "Name_new": "Nhà Thờ Tân Quy",
+        "Address": "1/1 Bùi Công Trừng, ấp 2, xã Nhị Bình, huyện Hóc Môn",
+        "Address_new": "1/1 Bùi Công Trừng , xã Nhị Bình , huyện Hóc Môn .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.9091502, 106.6840581",
+        "useful_info": "Kitô Vua;   Được thiết lập từ những năm 1880 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 18:00",
+            "Normal": "17:30"
+        },
+        "Name": "Thánh Giuse (Quận 10)",
+        "Name_new": "Nhà Thờ Giáo Xứ Thánh Giuse (Quận 10)",
+        "Address": "666/14/11 đường 3/2, phường 14, quận 10",
+        "Address_new": "666/14/11 đường 3/2 , P.14 , Q.10 .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.76880287, 106.6613795",
+        "useful_info": "St . Jos .;   Được thiết lập năm 1960 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 17:30 19:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Tân Phước",
+        "Name_new": "Nhà Thờ Giáo Xứ Tân Phước",
+        "Address": "245 Nguyễn Thị Nhỏ, phường 9, quận Tân Bình",
+        "Address_new": "245 Nguyễn Thị Nhỏ , P.9 , Q. Tân Bình .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.77427659, 106.6527148",
+        "useful_info": "Mẹ Thiên Chúa .;   Được thiết lập năm 1966 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:45 06:00 07:30 16:00 17:30 19:00",
+            "Normal": "04:45 16:00 17:30"
+        },
+        "Name": "Xóm Chiếu",
+        "Name_new": "Nhà Thờ Giáo Xứ Xóm Chiếu",
+        "Address": "92B/20 bis Tôn Thất Thuyết, phường 16, quận 4",
+        "Address_new": "92B/20bis Tôn Thất Thuyết , P.16 , Q.4 .",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "hạt Xóm Chiếu , GP SaiGon",
+        "location": "10.7548194, 106.7103588",
+        "useful_info": "St. Peter &amp; Paul .;   Được thiết lập từ những năm 1856 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:00 16:30 18:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Chợ Quán",
+        "Name_new": "Nhà Thờ Giáo Xứ Chợ Quán",
+        "Address": "120 Trần Bình Trọng, phường 2, quận 5",
+        "Address_new": "120 Trần Bình Trọng , P.2 , Q.5 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán",
+        "location": "10.7573127, 106.6815222",
+        "useful_info": "Thánh Tâm Chúa .;   Được thiết lập từ những năm 1720 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 05:30 07:30 09:30 15:00 16:00 17:30 19:00",
+            "Normal": "04:00 05:00 16:00 17:45"
+        },
+        "Name": "Tân Phú",
+        "Name_new": "Giáo Xứ Tân Phú",
+        "Address": "90 Nguyễn Hậu, phường Tân Thành, quận Tân Phú",
+        "Address_new": "90 Nguyễn Hậu , P. Tân Thành , Q. Tân Phú .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7913648, 106.6347459",
+        "useful_info": "St. Giuse Thợ .;   Được thiết lập năm 1963 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 09:30 16:30 19:00",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Phú Hòa",
+        "Name_new": "Giáo xứ Tân Phú Hòa",
+        "Address": "19/2 Hoàng Xuân Nhị, phường Phú Trung, quận Tân Phú",
+        "Address_new": "173/45/51 Khuông Việt , P. Phú Trung , Q. Tân Phú .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.7769127, 106.6453746",
+        "useful_info": "St. Giuse .;   Được thiết lập năm 1960 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 16:00 18:00",
+            "Normal": "05:30 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Môi Khôi",
+        "Name_new": "Giáo xứ Môi Khôi",
+        "Address": "295 Huỳnh Tấn Phát, phường Tân Thuận Đông, quận 7",
+        "Address_new": "295 Huỳnh Tấn Phát , P. Tân Thuận Đông , Q.7 .",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "hạt Xóm Chiếu , GP SaiGon",
+        "location": "10.7544764, 106.7279554",
+        "useful_info": "Đức Mẹ Mân Côi .;   được thiết lập năm 1967 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 17:00 19:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Thuận Phát",
+        "Name_new": "Nhà thờ Thuận Phát",
+        "Address": "253 Trần Xuân Soạn, phường Tân Kiểng, quận 7",
+        "Address_new": "253 Trần Xuân Soạn , P. Tân Kiểng , Q.7 .",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "hạt Xóm Chiếu , GP SaiGon",
+        "location": "10.7517552, 106.7157006",
+        "useful_info": "St. Antonio .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 15:30 17:00 18:30",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:00(Lễ CN) 18:30(Lễ CN)"
+        },
+        "Name": "Lạc Quang",
+        "Name_new": "Nhà thờ Lạc Quang",
+        "Address": "51/5 Lạc Quang, khu phố 2, phường Tân Thới Nhất, quận 12",
+        "Address_new": "51/5 Lạc Quang , KP.2 , P. Tân Thới Nhất , Q. 12 .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.83488435, 106.6188137",
+        "useful_info": "St. Peter .;   Được thiết lập năm 1962 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00",
+            "Normal": "05:00 17:00"
+        },
+        "Name": "Phú Bình",
+        "Name_new": "Nhà Thờ Giáo Xứ Phú Bình",
+        "Address": "423 Lạc Long Quân, phường 5, quận 11",
+        "Address_new": "423 Lạc Long Quân , P.5 , Q.11 .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.77368026, 106.6437974",
+        "useful_info": "Thánh Gia Thất .;   Được thiết lập năm 1958 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 15:00 17:00 18:30",
+            "Normal": "05:30 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Martino",
+        "Name_new": "Giáo xứ Thánh Martinô",
+        "Address": "266 Độc Lập, phường Tân Thành, quận Tân Phú",
+        "Address_new": "266 Độc Lập , P. Tân Thành , Q. Tân Phú .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7926328, 106.628831",
+        "useful_info": "St . Martin .;   Được thiết lập năm 1972 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 09:00 16:00 18:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Thánh Jeanne d'Arc",
+        "Name_new": "Nhà Thờ Thánh Jeanne d'Arc",
+        "Address": "116A Hùng Vương, phường 9, quận 5",
+        "Address_new": "116 Hùng Vương  , P.9 , Q.5 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hay còn được biết đến với tên khác là Nhà Thờ ngã 6",
+        "location": "10.75705136, 106.6671857",
+        "useful_info": "Hạt SaiGon Chợ Quán , GP Sài Gòn .;   Được thiết lập năm 1928 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 07:30 17:30",
+            "Normal": "17:30"
+        },
+        "Name": "Thăng Long",
+        "Name_new": "Nhà Thờ Giáo Xứ Thăng Long",
+        "Address": "84/80 Tôn Thất Hiệp, phường 13, quận 11",
+        "Address_new": "84/80 Tôn Thất Hiệp , P.13, Q.11 .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.7649056, 106.6533544",
+        "useful_info": "Thánh Gia Thất .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 08:00 16:30 18:00",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Mẫu Tâm",
+        "Name_new": "Nhà thờ Mẫu Tâm",
+        "Address": "16-18 Phan Huy Thực, phường Tân Kiểng, quận 7",
+        "Address_new": "102 Phan Huy Thực , P.Tân Kiểng , Q.7 .",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "hạt Xóm Chiếu , GP SaiGon",
+        "location": "10.7475503, 106.7068337",
+        "useful_info": "được thiết lập năm 1963 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 16:00 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Vĩnh Hòa",
+        "Name_new": "Nhà Thờ Giáo Xứ Vĩnh Hòa",
+        "Address": "86/75 Ông Ích Khiêm, phường 5, quận 11",
+        "Address_new": "86/75 Ông Ích Khiêm , P.5 , Q.11 .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.7687804, 106.6461346",
+        "useful_info": "St. Gioan Baotixita .;   Được thiết lập năm 1968 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00",
+            "Normal": "17:30"
+        },
+        "Name": "Bình Xuyên",
+        "Name_new": "Nhà Thờ Bình Xuyên",
+        "Address": "68 Dương Bá Trạc, phường 2, quận 8",
+        "Address_new": "68 Dương Bá Trạc , P.2 , Q.8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.74894965, 106.6877054",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1964 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 06:00 14:00 16:00 17:30 19:00",
+            "Normal": "04:30 17:30"
+        },
+        "Name": "Tân Lập",
+        "Name_new": "Nhà Thờ Giáo Xứ Tân Lập",
+        "Address": "460 đường 24, khu phố 2, phường Bình Trưng Đông, thành phố Thủ Đức",
+        "Address_new": "460 đường số 24 , P.Bình Trưng Đông , Q.2 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.7867664, 106.7788224",
+        "useful_info": "Đức Mẹ Trinh Vương .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:15, 07:30 & 17:00",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Mỹ Hoà (Hóc Môn)",
+        "Address": "14/4A Ấp Trung Chánh 2, xã Trung Chánh, huyện Hóc Môn",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "",
+        "location": "10.8610178, 106.6059976",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00, 06:45 & 17:30",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Mỹ Hòa (Thủ Thiêm)",
+        "Address": "136 khu phố 1, phường Bình Trưng Đông, thành phố Thủ Đức",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "",
+        "location": "10.7848332, 106.7775575",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 06:00 08:00 15:30 17:00 19:00",
+            "Normal": "04:30 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Tân Đông",
+        "Name_new": "Giáo Xứ Tân Đông",
+        "Address": "8/10A Ấp 4, xã Đông Thạnh, huyện Hóc Môn",
+        "Address_new": "8/10A Trịnh Thị Dối , xã Đông Thạnh , huyện Hóc Môn .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.904309, 106.6495349",
+        "useful_info": "Thánh Tâm Chúa;   Được thiết lập từ những năm 1864 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 09:30 16:30 19:00",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Tân Phú Hòa",
+        "Name_new": "Giáo xứ Tân Phú Hòa",
+        "Address": "173/45/51 Khuông Việt, phường Phú Trung, quận Tân Phú",
+        "Address_new": "173/45/51 Khuông Việt , P. Phú Trung , Q. Tân Phú .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.7725389, 106.6403993",
+        "useful_info": "St. Giuse .;   Được thiết lập năm 1960 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 16:00 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Tân Hương",
+        "Name_new": "Nhà Thờ Giáo Xứ Tân Hương",
+        "Address": "162 Tân Hương, phường Tân Quý, quận Tân Phú",
+        "Address_new": "162 Tân Hương , P. Tân Quý , Q. Tân Phú .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.78994454, 106.6246887",
+        "useful_info": "các Thánh TĐVN .;   Được thiết lập năm 1972 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"06:30 18:30\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Đồng Hòa",
+        "Address": "Ấp Đồng Hòa, xã Long Hòa, huyện Cần Giờ",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "",
+        "location": "10.88754305, 106.7780882",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 07:30(tiếng Hoa) 09:00 17:30",
+            "Normal": "05:30 18:00"
+        },
+        "Name": "Giáo xứ An Bình",
+        "Name_new": "Giáo Xứ An Bình",
+        "Address": "4 An Bình, phường 5, quận 5",
+        "Address_new": "4 An Bình , P.5 , Q.5 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.74963635, 106.6736094",
+        "useful_info": "St . Giuse Thợ .;   được thiết lập năm 1969 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Phú Thọ Hòa",
+        "Name_new": "Nhà Thờ Giáo Xứ Phú Thọ Hòa",
+        "Address": "39 Lương Trúc Đàm, phường Hiệp Tân, quận Tân Phú",
+        "Address_new": "39 Lương Trúc Đàm , P. Phú Thạnh , Q. Tân Phú .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7829437, 106.6271809",
+        "useful_info": "Kitô Vua .;   Được thiết lập năm 1965 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 08:00 16:00 18:00 19:30",
+            "Normal": "05:00 16:00 17:30",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Tân Thái Sơn",
+        "Name_new": "Nhà Thờ Giáo Xứ Tân Thái Sơn",
+        "Address": "1 Hoàng Văn Hoè, phường Tân Quý, quận Tân Phú",
+        "Address_new": "1 Hoàng Văn Hòe , P. Tân Quý , Q. Tân Phú .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7931597, 106.6196402",
+        "useful_info": "Thánh Gia Thất .;   Được thiết lập năm 1956 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 18:00",
+            "Normal": "05:30 18:00"
+        },
+        "Name": "Hưng Phú",
+        "Name_new": "Nhà thờ Thánh Giuse _ Giáo xứ Hưng Phú",
+        "Address": "100-102 Bến Nguyễn Duy, phường 9, quận 8",
+        "Address_new": "100_102 bến Nguyễn Duy , P.9, Q.8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.7456874, 106.6720644",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1968 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 16:00 18:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Bạch Đằng",
+        "Name_new": "Giáo Xứ Bạch Đằng",
+        "Address": "591A Nguyễn Ảnh Thủ, phường Trung Mỹ Tây, quận 12",
+        "Address_new": "591A Hà Thị Khéo , P. Trung Mỹ Tây , Q. 12.",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.857961, 106.6104468",
+        "useful_info": "Thánh Gia Thất .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 06:30 08:15 15:30 17:00 19:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN) 19:00(Lễ CN)"
+        },
+        "Name": "Thiên Ân",
+        "Name_new": "Nhà thờ Thiên Ân",
+        "Address": "179 Lê Niệm, phường Phú Thạnh, quận Tân Phú",
+        "Address_new": "179 Lê Niệm , P. Phú Thạnh , Q. Tân Phú .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7806818, 106.6236448",
+        "useful_info": "St. Giuse Thợ .;   Được thiết lập năm 1969 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30(tiếng Việt) 07:00 08:45(tiếng Việt) 17:00",
+            "Normal": "05:30(tiếng Việt) 17:30",
+            "Saturday": "18:30(tiếng Việt)(Lễ CN) 19:30(tiếng Hoa)(Lễ CN)"
+        },
+        "Name": "Cha Tam\n Giáo xứ Thánh Phanxicô Xaviê",
+        "Name_new": "Nhà Thờ Cha Tam\n Giáo xứ Thánh Phanxicô Xaviê",
+        "Address": "25 Học Lạc, phường 14, quận 5",
+        "Address_new": "25 Học Lạc , P.14 , Q.5 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hay còn được biết đến với tên khác là nhà thờ Cha Tam",
+        "location": "10.7519741, 106.6536927",
+        "useful_info": "St. FX .;   Được thiết lập từ những năm 1865 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 06:00 07:30 16:00 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Trung Chánh",
+        "Name_new": "Thánh đường Giáo xứ Trung Chánh",
+        "Address": "103/5 Ấp Trung Chánh 1, xã Trung Chánh, huyện Hóc Môn",
+        "Address_new": "103/5 Nguyễn Ảnh Thủ , xã Trung Chánh , huyện Hóc Môn .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.8612577, 106.6097376",
+        "useful_info": "Mình Máu Thánh Chúa .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:00 18:00",
+            "Normal": "18:00"
+        },
+        "Name": "Bình Thới",
+        "Name_new": "Giáo Xứ Bình Thới",
+        "Address": "161D/106/10 Lạc Long Quân, phường 3, quận 11",
+        "Address_new": "161D/106/10 Lạc Long Quân , P.3 , Q.10 .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.76224488, 106.6383588",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập năm 1970 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 15:00 16:30 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Trung Mỹ Tây",
+        "Name_new": "Giáo Xứ Trung Mỹ Tây",
+        "Address": "40/4 Trung Mỹ Tây, xã Trung Chánh, huyện Hóc Môn",
+        "Address_new": "số 40/4 đường Nguyễn Ảnh Thủ , xã Trung Chánh , huyện Hóc Môn .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.8659908, 106.610414",
+        "useful_info": "Thánh Gia Thất .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 18:00",
+            "Normal": "05:00 18:00"
+        },
+        "Name": "Bình Sơn",
+        "Name_new": "Giáo Xứ Bình Sơn",
+        "Address": "3012 Phạm Thế Hiển, phường 7, quận 8",
+        "Address_new": "3012 Phạm Thế Hiển , P.7 , Q.8.",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.92932748, 106.6811462",
+        "useful_info": "Truyền Tin .;   Được thiết lập năm 1956 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:30 19:00",
+            "Normal": "18:00(trừ thứ 2)",
+            "Saturday": "19:00(Lễ CN)"
+        },
+        "Name": "Tắc Rỗi",
+        "Name_new": "Nhà Thờ Tắc Rỗi",
+        "Address": "Số 1 đường số 1, khu dân cư Tân Mỹ, phường Tân Phú, quận 7",
+        "Address_new": "1 đường số 1 , P. Tân Phú , Q. 7 ( khu dân cư Tân Mỹ )",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "hạt Xóm Chiếu , GP SaiGon",
+        "location": "10.7369528, 106.7152242",
+        "useful_info": "St .Peter .;   Được thiết lập từ những năm 1880 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:00 18:00",
+            "Normal": "18:00"
+        },
+        "Name": "Chánh Hưng",
+        "Name_new": "Nhà thờ Chánh Hưng",
+        "Address": "45 Hồ Biểu Chánh, phường 4, quận 8",
+        "Address_new": "45 đường số 15 , P.4 , Q.8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.74090245, 106.6717174",
+        "useful_info": "St. FX .;   Được thiết lập năm 1966 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 15:30 18:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Tân Mỹ",
+        "Name_new": "Giáo Xứ  Tân Mỹ",
+        "Address": "Khóm 18, ấp Mỹ Hòa 2, xã Xuân Thới Đông, huyện Hóc Môn",
+        "Address_new": "đường số 4 , ấp Mỹ Hòa 2 , xã Xuân Thới Đông , huyện Hóc Môn ( QL 22 )",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.8574587, 106.6042149",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1970 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 08:00 16:00 18:00 19:30",
+            "Normal": "05:00 17:30",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Nam Hải",
+        "Name_new": "Nhà thờ Nam Hải",
+        "Address": "277 Phạm Hùng, phường 4, quận 8",
+        "Address_new": "277 Phạm Hùng , P.4 , Q.8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.73732185, 106.671756",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1965 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 15:00 16:30 18:00 19:30",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Gò Mây",
+        "Name_new": "Nhà Thờ Giáo Xứ Gò Mây",
+        "Address": "791/2 Lê Trọng Tấn, phường Bình Hưng Hòa, quận Bình Tân",
+        "Address_new": "791/2 Lê Trọng Tấn , P. Bình Hưng Hòa , Q. Bình Tân .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.8156721, 106.601697",
+        "useful_info": "St. Phaolô Trở Lại ( 25/1 );   Được thiết lập năm 1973 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 08:00 16:30",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Bà Điểm",
+        "Name_new": "Giáo Xứ Bà Điểm",
+        "Address": "10/8 Ấp Trung Lân, xã Bà Điểm, huyện Hóc Môn",
+        "Address_new": "15/6D Bắc Lân 2 , ấp Bắc Lân , xã Bà Điểm , huyện Hóc Môn .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.8409708, 106.5999842",
+        "useful_info": "St. Jos .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 16:00 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Phú Hữu",
+        "Name_new": "Nhà Thờ Giáo Xứ Phú Hữu",
+        "Address": "951 Nguyễn Duy Trinh, phường Phú Hữu, thành phố Thủ Đức",
+        "Address_new": "951 Nguyễn Duy Trinh , P. Phú Hữu , Q.9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.7918429, 106.8012589",
+        "useful_info": "St. Giuse .;   Được thiết lập năm 1975 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:45 07:30 17:00 19:00",
+            "Normal": "04:45 17:45",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Minh Đức",
+        "Name_new": "Nhà Thờ Giáo Xứ Minh Đức",
+        "Address": "10 đường 154, ấp Cây Dầu, phường Tân Phú, thành phố Thủ Đức",
+        "Address_new": "10 đường số 154 , P. Tân Phú , Q.9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.86725085, 106.8070223",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1970 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 17:00 18:30",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Bình Thuận (Quận 8)",
+        "Name_new": "Nhà Thờ Giáo Xứ Bình Thuận (Quận 8)",
+        "Address": "3131 Phạm Thế Hiển, phường 7, quận 8",
+        "Address_new": "3131 Phạm Thế Hiển , P.7 ,Q.8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.79147425, 106.6041017",
+        "useful_info": "Đức Mẹ Hằng Cứu Giúp .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 08:00 17:30",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Thánh Cẩm",
+        "Name_new": "Nhà thờ Thánh Cẩm",
+        "Address": "12 đường 11, ấp Chân Phúc Cẩm, phường Long Thạnh Mỹ, thành phố Thủ Đức",
+        "Address_new": "12 đường số 11 , P. Long Thạnh Mỹ , Q.9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.84545965, 106.8157012",
+        "useful_info": "St. Giuse .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:30 06:00 07:30 16:30 18:00",
+            "Normal": "04:30 17:45"
+        },
+        "Name": "Bình Thái",
+        "Name_new": "Nhà Thờ Bình Thái",
+        "Address": "1755 Phạm Thế Hiển, phường 6, quận 8",
+        "Address_new": "1755 Phạm Thế Hiển , P.6 , Q.8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.7372387, 106.6508691",
+        "useful_info": "St. Peter .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 16:00 17:30 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Bùi Môn",
+        "Name_new": "Nhà Thờ Giáo Xứ Bùi Môn",
+        "Address": "4/2 Ấp Tân Tiến, xã Xuân Thới Đông, huyện Hóc Môn",
+        "Address_new": "ấp Tân Tiến , xã Xuân Thới Đông , huyện Hóc Môn .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.8679325, 106.5963804",
+        "useful_info": "Kitô Vua .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "07:30 17:30",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Bình Minh",
+        "Name_new": "Giáo Xứ Bình Minh",
+        "Address": "132/69B Bến Bình Đông, phường 14, quận 8",
+        "Address_new": "132/69B bến Bình Đông , P.14 , Q.8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.7388217, 106.6453012",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1975 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 15:00(lễ LTXC) 18:00",
+            "Normal": "15:00(lễ LTXC) 18:00"
+        },
+        "Name": "Bình Phước",
+        "Name_new": "Nhà thờ Bình Phước",
+        "Address": "634 Phạm Văn Chi, phường 8, quận 6",
+        "Address_new": "634 Phạm Văn Chí , P.8 , Q.6 .",
+        "giáo hạt": "Giáo hạt Sài Gòn - Chợ Quán",
+        "giáo hạt_new": "hạt Sài Gòn Chợ Quán , GP SaiGon",
+        "location": "10.74076015, 106.6389071",
+        "useful_info": "St. Giuse Thợ .;   Được thiết lập năm 1956 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 08:00 15:00 16:30 18:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Bình Hưng",
+        "Name_new": "Nhà thờ Bình Hưng",
+        "Address": "A24/09 Quốc lộ 50, ấp 1, xã Bình Hưng, huyện Bình Chánh",
+        "Address_new": "581 QL50 , xã Bình Hưng , huyện Bình Chánh .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.72771454, 106.6560776",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1963 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:30 , 08:30 & 16:30",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Thánh Matthêu Gẫm",
+        "Address": "Đường 16, khu phố Gò Công, phường Long Thạnh Mỹ, thành phố Thủ Đức",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "",
+        "location": "10.8395182, 106.8231609",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:45 07:00 16:00 18:00",
+            "Normal": "04:45 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Bình An",
+        "Name_new": "Nhà Thờ Giáo Xứ Bình An Thượng",
+        "Address": "2287 Phạm Thế Hiển, phường 6, quận 8",
+        "Address_new": "2903 Phạm Thế Hiển , P.7 , Q. 8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.733537, 106.6437955",
+        "useful_info": "St. Paul Trở Lại .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"05:30 07:30 17:30 19:30\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Hóc Môn",
+        "Address": "5/15C tổ 68, khu phố 8, thị trấn Hóc Môn, huyện Hóc Môn",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "",
+        "location": "10.8875642, 106.5977047",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 08:00 17:30",
+            "Normal": "17:30"
+        },
+        "Name": "Thánh Phaolô (Quận 10)",
+        "Name_new": "Nhà Thờ Thánh Phaolô (Quận 10)",
+        "Address": "352 Lê Hồng Phong, phường 1, quận 10",
+        "Address_new": "352 Lê Hồng Phong , P.1 , Q.10 .",
+        "giáo hạt": "Giáo hạt Phú Thọ",
+        "giáo hạt_new": "hạt Phú Thọ , GP SaiGon",
+        "location": "10.75239405, 106.6161107",
+        "useful_info": "St . Phaolô Trở Lại .;   Được thiết lập năm 1970 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 08:00 16:00 17:30 19:00",
+            "Normal": "05:00 17:30"
+        },
+        "Name": "Thánh Phaolô (Tên Lửa)",
+        "Name_new": "Nhà thờ Thánh Phaolô (Tên Lửa)",
+        "Address": "280 Vành Đai Trong, phường Bình Trị Đông B, quận Bình Tân",
+        "Address_new": "280 Vành Đai Trong , P. Bình Trị Đông , Q. Bình Tân .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.75239405, 106.6161107",
+        "useful_info": "St .Phaolô Trở Lại .;   Được thiết lập năm 1961 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:45 07:30 15:30 17:00 19:00",
+            "Normal": "04:30 18:00"
+        },
+        "Name": "Long Thạnh Mỹ",
+        "Name_new": "Nhà Thờ Giáo Xứ Long Thạnh Mỹ",
+        "Address": "67 Phan Đạt Đức, Ấp 1, phường Long Thạnh Mỹ, thành phố Thủ Đức",
+        "Address_new": "67 Phan Đạt Đức , P. Long Thạnh Mỹ , Q.9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.8444324, 106.8263581",
+        "useful_info": "Chúa Giáng Sinh .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:45 07:00 17:00",
+            "Normal": "04:30 17:45",
+            "Saturday": "17:45(Lễ CN)"
+        },
+        "Name": "Cao Thái",
+        "Name_new": "Nhà thờ Cao Thái",
+        "Address": "34/17 Vĩnh Thuận, phường Long Bình, thành phố Thủ Đức",
+        "Address_new": "34/17 đường số 16 , P.Long Bình , Q.9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.88353501, 106.8214556",
+        "useful_info": "Kitô Vua .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 17:30",
+            "Normal": "05:00 17:30",
+            "Saturday": "17:30(Lễ CN) 19:00(Lễ CN)"
+        },
+        "Name": "Bình Đông",
+        "Name_new": "Nhà Thờ Bình Đông",
+        "Address": "119 Bến Mễ Cốc, phường 15, quận 8",
+        "Address_new": "119 bến Mễ Cốc , P.15 , Q.8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.72357049, 106.6304959",
+        "useful_info": "Thánh Tâm Chúa .;   Được thiết lập năm 1958 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:45 07:00 16:00 18:00",
+            "Normal": "04:45 17:30",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Bình An Thượng",
+        "Name_new": "Nhà Thờ Giáo Xứ Bình An Thượng",
+        "Address": "2903 Phạm Thế Hiển, phường 7, quận 8",
+        "Address_new": "2903 Phạm Thế Hiển , P.7 , Q. 8 .",
+        "giáo hạt": "Giáo hạt Bình An",
+        "giáo hạt_new": "hạt Bình An , GP SaiGon",
+        "location": "10.71901356, 106.6337044",
+        "useful_info": "St. Paul Trở Lại .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 17:45",
+            "Normal": "05:00 17:45"
+        },
+        "Name": "Châu Nam",
+        "Name_new": "Nhà Thờ Giáo Xứ Châu Nam",
+        "Address": "76/8 Thống Nhất 2, xã Tân Thới Nhì, huyện Hóc Môn",
+        "Address_new": "ấp Thống Nhất 2 , xã Tân Thới Nhì , huyện Hóc Môn .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.89297585, 106.5785978",
+        "useful_info": "Kitô Vua .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "04:45 07:15 16:45",
+            "Normal": "04:45 17:45"
+        },
+        "Name": "Long Bình",
+        "Name_new": "Nhà Thờ Giáo Xứ Long Bình",
+        "Address": "1259 Nguyễn Xiển, phường Long Bình, thành phố Thủ Đức",
+        "Address_new": "1259 Nguyễn Xiển , P. Long Bình , Q.9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.88819561, 106.8336603",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập năm 1958 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 16:45 19:00",
+            "Normal": "05:00 17:45",
+            "Saturday": "17:30(Lễ CN)"
+        },
+        "Name": "Nam Hưng",
+        "Name_new": "Giáo xứ Nam Hưng",
+        "Address": "53/7 Thống Nhất 2, xã Tân Thới Nhì, huyện Hóc Môn",
+        "Address_new": "ấp Thống Nhất 2 , P. Tân Thới Nhì , huyện Hóc Môn ( QL 22 )",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.8952781, 106.5772785",
+        "useful_info": "Đức Mẹ Vô Nhiễm .;   Được thiết lập năm 1955 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:30 16:00 17:30 19:00",
+            "Normal": "05:00 17:30",
+            "Saturday": "18:30(Lễ CN)"
+        },
+        "Name": "Tân Hiệp",
+        "Name_new": "Nhà Thờ Tân Hiệp",
+        "Address": "2/1 Ấp Tân Thới 3, xã Tân Hiệp, huyện Hóc Môn",
+        "Address_new": "1 Lê Lợi , ấp Tân Thới 3 , xã Tân Hiệp , huyện Hóc Môn .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.8992337, 106.5780624",
+        "useful_info": "St. Jos .;   Được thiết lập năm 1954 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 09:30 15:30 17:00 18:30",
+            "Normal": "05:30 17:30",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Bình Thuận (Bình Tân)",
+        "Name_new": "Nhà thờ Bình Thuận (Bình Tân)",
+        "Address": "722 Tân Kỳ Tân Quý, phường Bình Hưng Hòa, quận Bình Tân",
+        "Address_new": "722 Tân Kỳ Tân Quý , P. Bình Hưng Hòa , Q. Bình Tân .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7138637, 106.6303915",
+        "useful_info": "Đức Mẹ Mân Côi .;   Được thiết lập năm 1966 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "07:00 09:00 16:00 17:30",
+            "Normal": "04:45 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Phú Xuân",
+        "Name_new": "Nhà thờ Phú Xuân",
+        "Address": "6 khu phố 2, khu phố 6, đường Huỳnh Tấn Phát, huyện Nhà Bè",
+        "Address_new": "2093 Huỳnh Tấn Phát , huyện Nhà Bè ( cách bến phà Bình Khánh đi Cần Giờ 4 Km ) .",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "hạt Xóm Chiếu , GP SaiGon",
+        "location": "10.6940652, 106.7406817",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1932 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00",
+            "Normal": "17:30",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Long Đại",
+        "Name_new": "Nhà Thờ Giáo Xứ Long Đại",
+        "Address": "282P Long Đại (282 đường số 2), phường Long Phước, thành phố Thủ Đức",
+        "Address_new": "282 đường số 2 , P. Long Phước , Q.9 .",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "hạt Thủ Thiêm , GP SaiGon",
+        "location": "10.8347241, 106.8582815",
+        "useful_info": "Đức Mẹ Trinh Vương .;   Được thiết lập năm 1990 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 17:00",
+            "Normal": "05:00 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Tân Thịnh",
+        "Name_new": "Nhà Thờ Giáo Xứ Tân Thịnh",
+        "Address": "4/33A Ấp Nhị Tân 2, xã Tân Thới Nhì, huyện Hóc Môn",
+        "Address_new": "ấp Nhị Tân 2 , xã Tân Thới Nhì , huyện Hóc Môn .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.9157585, 106.5639239",
+        "useful_info": "Sinh Nhật Đức Mẹ .;   Được thiết lập năm 1959 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 07:30 17:30",
+            "Normal": "05:30 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Cầu Lớn",
+        "Name_new": "Giáo xứ Cầu Lớn",
+        "Address": "1E Đặng Công Bỉnh, xã Xuân Thới Sơn, huyện Hóc Môn",
+        "Address_new": "1E Đặng Công Bỉnh , xã Xuân Thới Sơn , huyện Hóc Môn .",
+        "giáo hạt": "Giáo hạt Hóc Môn",
+        "giáo hạt_new": "hạt Hóc Môn , GP SaiGon",
+        "location": "10.8730123, 106.5364388",
+        "useful_info": "Đức Mẹ Phù Hộ Các Giáo Hữu .;   Được thiết lập năm 1979 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:00 07:00 15:30 17:00",
+            "Normal": "18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Ninh Phát",
+        "Name_new": "Nhà Thờ Giáo Xứ Ninh Phát",
+        "Address": "3A 62 Ấp 3, xã Phạm Văn Hai, huyện Bình Chánh",
+        "Address_new": "ĐT 10 , ấp 3 , xã Phạm Văn Hai , huyện Bình Chánh .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "hạt Tân Sơn Nhì , GP SaiGon",
+        "location": "10.7882747, 106.5173951",
+        "useful_info": "Đức Mẹ Lên Trời .;   Được thiết lập năm 1956 .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:00 07:30 16:00 18:00 19:30",
+            "Normal": "05:30 18:00",
+            "Saturday": "18:00(Lễ CN)"
+        },
+        "Name": "Bình Chánh",
+        "Name_new": "Nhà Thờ Giáo Xứ Bình Chánh",
+        "Address": "C5/1 Ấp 3, Trịnh Như Khuê, xã Bình Chánh, huyện Bình Chánh",
+        "Address_new": "C5/1 Trịnh Như Khuê , huyện Bình Chánh .",
+        "giáo hạt": "Giáo hạt Tân Sơn Nhì",
+        "giáo hạt_new": "GP SaiGon",
+        "location": "10.66089249, 106.5661811",
+        "useful_info": "St. Martin .;   Được thiết lập từ những năm 1884 .;   Do các cha Dòng SDB mục vụ .",
+        "check": "true"
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"07:00 17:00\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "An Thới Đông",
+        "Address": "Ấp An Hoà, xã An Thới Đông, huyện Cần Giờ",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "",
+        "location": "10.5914434, 106.7922045",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"06:00 18:00\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Thánh Giuse (Xóm Chiếu)",
+        "Address": "114B Ấp Trần Hưng Đạo, xã Tam Thôn Hiệp, huyện Cần Giờ",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "",
+        "location": "10.61736957, 106.8557442",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"04:30 08:00 16:30\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Thanh Bình",
+        "Address": "Ấp Bình Khánh, phường Bình Khánh, thành phố Thủ Đức",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Thủ Thiêm",
+        "giáo hạt_new": "",
+        "location": "10.95169764, 107.0757922",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "\"6:00 17:30\"",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Cần Giờ",
+        "Address": "183/2 khu phố Miễu Nhì, thị trấn Cần Thạnh, huyện Cần Giờ",
+        "Address_new": "",
+        "giáo hạt": "Giáo hạt Xóm Chiếu",
+        "giáo hạt_new": "",
+        "location": "10.4143788, 106.9716664",
+        "check": "false",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "05:30 17:00",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "La San Mai Thôn",
+        "Address": "Hẻm 352 Bình Quới, Phường 28, Bình Thạnh, Hồ Chí Minh, Vietnam",
+        "Address_new": "",
+        "giáo hạt": "???",
+        "giáo hạt_new": "",
+        "location": "10.82251337, 106.7317125",
+        "check": "true",
+        "useful_info": ""
+    },
+    {
+        "MassTime": {
+            "Sunday": "06:30",
+            "Normal": "",
+            "Saturday": ""
+        },
+        "Name": "Nhà nguyện Đức Mẹ Mân Côi",
+        "Address": "294/134, Xô Viết Nghệ Tĩnh, Phường 19, Bình Thạnh, Hồ Chí Minh, Vietnam",
+        "Address_new": "",
+        "giáo hạt": "",
+        "giáo hạt_new": "",
+        "location": "10.79986706, 106.7141384",
+        "check": "true",
+        "useful_info": ""
+    }
+]

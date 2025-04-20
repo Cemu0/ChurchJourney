@@ -83,7 +83,9 @@
                 <tr>
                     <th>Name</th>
                     <th>Address</th>
-                    <th>Mass Times</th>
+                    <th>Sunday Mass Times</th>
+                    <th>Normal Day Mass Times</th>
+                    <th>Saturday Mass Times</th>
                     <th class="auth-only">Visited</th>
                     <th class="auth-only">Note</th>
                     <th class="auth-only">Actions</th>
@@ -102,10 +104,19 @@
         let userLocation = null;
 
         // Fetch data from Church_list_HCM.json
-        fetch('Church_list_HCM.json')
+        fetch('Church_list_HCM_V2.json')
             .then(response => response.json())
             .then(data => {
-                churches = data;
+                churches = data.map(church => ({
+                    Name: church.Name,
+                    Address: church.Address,
+                    Time: church.MassTime.Sunday,
+                    NormalTime: church.MassTime.Normal || "",
+                    SaturdayTime: church.MassTime.Saturday || "",
+                    location: church.location,
+                    check: church.check.toLowerCase()  // Convert "true"/"false" to match old format
+                }));;
+                console.log(churches);
                 userLocation = [10.8231, 106.6297]; // Default to Ho Chi Minh City
                 findClosestChurches(); // Automatically show closest churches on page load
             })
@@ -238,14 +249,14 @@
                 const [lat, lon] = church.location.split(',').map(Number);
                 const distance = calculateDistance(userLat, userLon, lat, lon);
                 const travelTime = (distance / 10) * 60; // Travel time in minutes (7 km/h because we are flying)
-                const massTimes = church.Time.split(' ').map(massTime => sanitizeMassTime(massTime)); // Sanitize mass times
+                const massTimes = church.Time.split(' ').map(massTime => massTime); // Sanitize mass times
         
                 // Check if the church has reachable mass times
                 const hasReachableMassTime = massTimes.some(massTime => isReachable(startTime, travelTime, massTime));
         
                 // Format mass times: bold potential mass times
                 const formattedMassTimes = massTimes.map(massTime => {
-                    if (isReachable(startTime, travelTime, massTime)) {
+                    if (isReachable(startTime, travelTime, massTime.replace(/[^0-9:]/g, '').trim())) {
                         return `<b>${massTime}</b>`; // Bold the potential mass time
                     }
                     return massTime; // Keep other times normal
@@ -254,7 +265,7 @@
                 const rowClass = hasReachableMassTime ? 'highlight' : '';
         
                 // Add "Not Check" if the "check" field is "FALSE"
-                if (church.check === "FALSE") {
+                if (church.check === "false") {
                     formattedMassTimes.push("Not Check");
                 }
         
@@ -278,7 +289,9 @@
                 row.innerHTML = `
                     <td><a href="#" onclick="selectChurchOnMap(${church.lat}, ${church.lon}, '${church.Name}')">${church.Name}</a></td>
                     <td>${church.Address}</td>
-                    <td>${church.formattedMassTimes.join(', ') || 'None'}</td>
+                    <td>${church.formattedMassTimes.join(', ').replace(/\(tiếng,\s*([^)]+)\)/g, '(tiếng $1)').replace(/\(Tiếng,\s*([^)]+)\)/g, '(Tiếng $1)') || 'None'}</td>
+                    <td>${church.NormalTime || 'None'}</td>
+                    <td>${church.SaturdayTime || 'None'}</td>
                     <td class="auth-only">
                         <button onclick="toggleVisited(this, '${church.Name}')">No</button>
                     </td>
@@ -459,11 +472,6 @@
         
             // Update the total visited count in the UI
             document.getElementById('visited-total').textContent = visitedCount;
-        }
-
-        // Sanitize mass time strings
-        function sanitizeMassTime(massTime) {
-            return massTime.replace(/[^0-9:]/g, '').trim(); // Remove non-time characters and trim whitespace
         }
         
         // Check if the church is reachable within the selected time
